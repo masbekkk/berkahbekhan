@@ -31,38 +31,38 @@
   <main class="slides-viewport carousel-mode" id="viewport">
 
     <!-- ====================================================================
-         SLIDE 1: COVER
+         SLIDE 1: COVER / WEB PORTAL PROTOTYPE
          ==================================================================== -->
     <article class="slide-card active" id="slide-1">
       <div class="slide-content">
         <header class="slide-header">
           <div class="eyebrow-row">
-            <span class="category-badge">Case Study / Full-Stack</span>
+            <span class="category-badge">Case Study</span>
             <span class="project-tag">BKMTsNGresik v2</span>
           </div>
-          <h1 class="slide-title">Building a Positive Discipline & Counseling Engine</h1>
-          <p class="slide-subtitle">How we built a production web portal with Laravel 12 & Inertia React to replace paper tracking with continuous behavioral scoring and automated bulk report generation.</p>
-          <div class="tech-pills">
-            <span class="tech-pill primary">PHP 8.4</span>
-            <span class="tech-pill primary">Laravel 12</span>
-            <span class="tech-pill">Inertia.js v2</span>
-            <span class="tech-pill">React 19</span>
-            <span class="tech-pill">TypeScript</span>
-            <span class="tech-pill">Tailwind v4</span>
+          <h1 class="slide-title">Building a Modern School Counseling Portal</h1>
+          <p class="slide-subtitle">Continuous behavioral scoring, 180-indicator digital assessments, and automated bulk PDF reports.</p>
+          <div class="feature-pills">
+            <span class="feature-pill primary">PHP 8.4</span>
+            <span class="feature-pill primary">Laravel 12</span>
+            <span class="feature-pill">Inertia React 19</span>
+            <span class="feature-pill">Tailwind v4</span>
           </div>
         </header>
 
-        <div class="window-frame" style="margin-top: 10px; flex: 1; max-height: 640px;">
+        <div class="window-frame">
           <div class="window-titlebar">
             <div class="window-dots">
               <span class="window-dot active"></span>
               <span class="window-dot"></span>
               <span class="window-dot"></span>
             </div>
-            <div class="window-title">bk.mtsngresik.sch.id — Landing Page</div>
+            <div class="window-title">bk.mtsngresik.sch.id — Student &amp; Staff Portal</div>
             <div style="width: 40px;"></div>
           </div>
-          <img src="assets/01_landing_page.png" alt="BKMTsNGresik Landing Page" class="screenshot-img" style="height: 100%; object-position: top;">
+          <div class="screenshot-viewport">
+            <img src="assets/01_landing_page.png" alt="BKMTsNGresik Landing Page" class="screenshot-img">
+          </div>
         </div>
       </div>
 
@@ -73,48 +73,36 @@
     </article>
 
     <!-- ====================================================================
-         SLIDE 2: THE PROBLEM
+         SLIDE 2: FEATURE 01 — 180-QUESTION NEEDS ASSESSMENT
          ==================================================================== -->
     <article class="slide-card" id="slide-2">
       <div class="slide-content">
         <header class="slide-header">
           <div class="eyebrow-row">
-            <span class="category-badge">The Problem</span>
-            <span class="project-tag">Context & Constraints</span>
+            <span class="category-badge">01 / Student Portal</span>
+            <span class="project-tag">Needs Assessment Engine</span>
           </div>
-          <h1 class="slide-title">Paper Friction & The Limits of Punitive Discipline</h1>
-          <p class="slide-subtitle">Managing guidance counseling for thousands of students with physical paperwork created compounding administrative bottlenecks.</p>
+          <h1 class="slide-title">Digitalizing 180 Psychological Need Indicators</h1>
+          <p class="slide-subtitle">Passwordless NISN onboarding with 4 domain filters and immutable annual state lock.</p>
+          <div class="feature-pills">
+            <span class="feature-pill emerald">Pribadi • Sosial • Belajar • Karir</span>
+            <span class="feature-pill primary">Passwordless NISN</span>
+            <span class="feature-pill amber">Locked After Submit</span>
+          </div>
         </header>
 
-        <div class="problem-stack" style="margin-top: 10px;">
-          <div class="problem-card">
-            <div class="problem-num">01</div>
-            <div class="problem-content">
-              <h3>The Physical Binder Trap</h3>
-              <p>Student counseling logs and infraction records lived scattered across physical binders. Identifying multi-year behavioral patterns across grades 7, 8, and 9 took hours of manual record searches.</p>
+        <div class="window-frame">
+          <div class="window-titlebar">
+            <div class="window-dots">
+              <span class="window-dot active"></span>
+              <span class="window-dot"></span>
+              <span class="window-dot"></span>
             </div>
+            <div class="window-title">Student Assessment — 180 Questions Instrument</div>
+            <div style="width: 40px;"></div>
           </div>
-
-          <div class="problem-card">
-            <div class="problem-num">02</div>
-            <div class="problem-content">
-              <h3>180-Question Tabulation Bottleneck</h3>
-              <p>The standard psychological assessment (<em>Angket Kebutuhan Peserta Didik</em>) required manually distributing, collecting, and calculating 180 questions per student on paper sheets.</p>
-            </div>
-          </div>
-
-          <div class="problem-card">
-            <div class="problem-num">03</div>
-            <div class="problem-content">
-              <h3>End-of-Term Reporting Scramble</h3>
-              <p>Compiling semester discipline report cards for hundreds of students across dozens of classes overwhelmed homeroom teachers with manual data entry and transcription errors.</p>
-            </div>
-          </div>
-
-          <div class="card-surface" style="padding: 22px 28px; background: rgba(59, 130, 246, 0.08); border-color: rgba(59, 130, 246, 0.3);">
-            <p style="font-family: var(--font-mono); font-size: 20px; color: var(--accent-secondary); text-align: center; letter-spacing: 0.04em;">
-              CORE SHIFT: PUNITIVE RETRIBUTION &nbsp;➔&nbsp; POSITIVE DISCIPLINE &amp; PROACTIVE TRIAGE
-            </p>
+          <div class="screenshot-viewport">
+            <img src="assets/04_angket_form.png" alt="Student Assessment Form" class="screenshot-img">
           </div>
         </div>
       </div>
@@ -126,48 +114,38 @@
     </article>
 
     <!-- ====================================================================
-         SLIDE 3: ARCHITECTURE & TECH STACK
+         SLIDE 3: FEATURE 02 — DISCIPLINE & BEHAVIORAL ANALYTICS
          ==================================================================== -->
     <article class="slide-card" id="slide-3">
       <div class="slide-content">
         <header class="slide-header">
           <div class="eyebrow-row">
-            <span class="category-badge">System Architecture</span>
-            <span class="project-tag">Full-Stack Monolith</span>
+            <span class="category-badge">02 / Analytics Engine</span>
+            <span class="project-tag">Continuous Scoring</span>
           </div>
-          <h1 class="slide-title">Single Monolith, Modern Developer Ergonomics</h1>
-          <p class="slide-subtitle">Combining Laravel 12's backend power with Inertia React 19's SPA responsiveness without REST API overhead.</p>
+          <h1 class="slide-title">Continuous Positive Scoring &amp; Live Triage</h1>
+          <p class="slide-subtitle">Dynamic formula: Total Poin = 100 Baseline - Infractions + Achievements.</p>
+          <div class="feature-pills">
+            <span class="feature-pill emerald">🟢 Teladan (86–100+)</span>
+            <span class="feature-pill primary">🔵 Standar (76–85)</span>
+            <span class="feature-pill amber">🟠 Perhatian (66–75)</span>
+            <span class="feature-pill rose">🔴 Pembinaan (&le;65)</span>
+          </div>
         </header>
 
-        <div class="arch-grid" style="margin-top: 10px;">
-          <div class="arch-layer">
-            <div class="arch-layer-title">01. Access &amp; Identity</div>
-            <div class="arch-layer-desc">Students via NISN • Teachers via Google OAuth SSO • Counselors &amp; Admins via 2FA</div>
+        <div class="window-frame">
+          <div class="window-titlebar">
+            <div class="window-dots">
+              <span class="window-dot active"></span>
+              <span class="window-dot"></span>
+              <span class="window-dot"></span>
+            </div>
+            <div class="window-title">Counselor Analytics — Score Distribution &amp; Tier Ratios</div>
+            <div style="width: 40px;"></div>
           </div>
-
-          <div class="arch-layer" style="border-color: rgba(59, 130, 246, 0.4); background: rgba(21, 27, 35, 0.8);">
-            <div class="arch-layer-title" style="color: #FFFFFF;">02. Modern Bridge</div>
-            <div class="arch-layer-desc">Inertia.js v2 + React 19 + TypeScript + Tailwind CSS v4 + Radix UI</div>
+          <div class="screenshot-viewport">
+            <img src="assets/10_admin_dashboard_charts.png" alt="Admin Dashboard Analytics" class="screenshot-img">
           </div>
-
-          <div class="arch-layer">
-            <div class="arch-layer-title">03. Core Engine</div>
-            <div class="arch-layer-desc">Laravel 12 (PHP 8.4) • Larastan Level 8 Static Analysis • Pest v4 Feature Tests</div>
-          </div>
-
-          <div class="arch-layer">
-            <div class="arch-layer-title">04. Data &amp; Export</div>
-            <div class="arch-layer-desc">Academic Year Scoped Tables • Recharts Visualizations • Bulk Merged PDF Synthesis</div>
-          </div>
-        </div>
-
-        <div class="card-surface" style="margin-top: 28px; padding: 26px 30px;">
-          <h4 style="font-family: var(--font-mono); font-size: 20px; color: var(--accent-secondary); margin-bottom: 8px;">
-            KEY ARCHITECTURAL DECISION:
-          </h4>
-          <p style="font-size: 22px; color: var(--text-primary); line-height: 1.45;">
-            By choosing Inertia.js v2 over a decoupled frontend/backend, controllers pass typed Eloquent models directly to React components. Zero API endpoints, zero schema drift, maximum delivery velocity.
-          </p>
         </div>
       </div>
 
@@ -178,41 +156,37 @@
     </article>
 
     <!-- ====================================================================
-         SLIDE 4: STUDENT WORKFLOW (ANGKET)
+         SLIDE 4: FEATURE 03 — TEACHER DIRECT INCIDENT & MERIT LOGGING
          ==================================================================== -->
     <article class="slide-card" id="slide-4">
       <div class="slide-content">
         <header class="slide-header">
           <div class="eyebrow-row">
-            <span class="category-badge">Student Workflow</span>
-            <span class="project-tag">Needs Assessment</span>
+            <span class="category-badge">03 / Teacher Workflow</span>
+            <span class="project-tag">Direct Incident Entry</span>
           </div>
-          <h1 class="slide-title">Digitalizing 180 Psychological Need Indicators</h1>
-          <p class="slide-subtitle">Passwordless onboarding via NISN, responsive domain filtering, and annual submission locking.</p>
-          <div class="tech-pills">
-            <span class="tech-pill primary">180 Questions</span>
-            <span class="tech-pill">0 Password Friction</span>
-            <span class="tech-pill">1 Submission / Academic Year</span>
+          <h1 class="slide-title">Direct Infraction &amp; Positive Merit Entry</h1>
+          <p class="slide-subtitle">Teachers log positive merits and infractions in seconds with rule autocomplete.</p>
+          <div class="feature-pills">
+            <span class="feature-pill primary">Instant Student Search</span>
+            <span class="feature-pill emerald">+ Positive Points (Prestasi)</span>
+            <span class="feature-pill">Zero Paper Binders</span>
           </div>
         </header>
 
-        <div class="window-frame" style="flex: 1; max-height: 600px;">
+        <div class="window-frame">
           <div class="window-titlebar">
             <div class="window-dots">
               <span class="window-dot active"></span>
               <span class="window-dot"></span>
               <span class="window-dot"></span>
             </div>
-            <div class="window-title">Student Assessment — 180 Indicators Form</div>
+            <div class="window-title">Teacher Portal — Disciplinary Action &amp; Merit Modal</div>
             <div style="width: 40px;"></div>
           </div>
-          <img src="assets/04_angket_form.png" alt="Student Assessment Form" class="screenshot-img" style="height: 100%; object-position: top;">
-        </div>
-
-        <div class="card-surface" style="margin-top: 24px; padding: 20px 28px;">
-          <p style="font-size: 22px; color: var(--text-muted); line-height: 1.4;">
-            Questions are categorized into <strong style="color: var(--text-primary);">Personal, Social, Study, and Career</strong> domains. An instant confirmation dialog and immutable state lock prevent accidental resubmission.
-          </p>
+          <div class="screenshot-viewport">
+            <img src="assets/09_guru_input_tatib_form.png" alt="Teacher Incident Entry Form" class="screenshot-img">
+          </div>
         </div>
       </div>
 
@@ -223,49 +197,37 @@
     </article>
 
     <!-- ====================================================================
-         SLIDE 5: DISCIPLINE SCORING & TRIAGE
+         SLIDE 5: FEATURE 04 — EARLY WARNING COUNSELOR TRIAGE
          ==================================================================== -->
     <article class="slide-card" id="slide-5">
       <div class="slide-content">
         <header class="slide-header">
           <div class="eyebrow-row">
-            <span class="category-badge">Discipline Engine</span>
-            <span class="project-tag">Continuous Scoring</span>
+            <span class="category-badge">04 / Counselor Triage</span>
+            <span class="project-tag">Proactive Intervention</span>
           </div>
-          <h1 class="slide-title">Continuous Positive Scoring &amp; Real-Time Triage</h1>
-          <p class="slide-subtitle">Formula: <code style="font-family: var(--font-mono); color: var(--accent-secondary); background: #151B23; padding: 2px 8px; border-radius: 4px;">Score = 100 - Infractions + Achievements</code></p>
+          <h1 class="slide-title">Early Warning: Top 15 Lowest Score Triage</h1>
+          <p class="slide-subtitle">Surfaces at-risk students immediately so counselors intervene before issues escalate.</p>
+          <div class="feature-pills">
+            <span class="feature-pill rose">Priority Score Ordering</span>
+            <span class="feature-pill">Multi-Year Incident Logs</span>
+            <span class="feature-pill amber">Proactive Counselor Check-In</span>
+          </div>
         </header>
 
-        <div class="tier-grid">
-          <div class="tier-card green">
-            <div class="tier-header"><span>86 – 100+</span> <span>TELADAN</span></div>
-            <div class="tier-body">Model behavior &amp; achievement rewards</div>
-          </div>
-          <div class="tier-card blue">
-            <div class="tier-header"><span>76 – 85</span> <span>STANDAR</span></div>
-            <div class="tier-body">Compliant with madrasah guidelines</div>
-          </div>
-          <div class="tier-card orange">
-            <div class="tier-header"><span>66 – 75</span> <span>PERHATIAN</span></div>
-            <div class="tier-body">Proactive check-in by Homeroom Teacher</div>
-          </div>
-          <div class="tier-card red">
-            <div class="tier-header"><span>≤ 65</span> <span>PEMBINAAN</span></div>
-            <div class="tier-body">Intensive counseling &amp; parent conference</div>
-          </div>
-        </div>
-
-        <div class="window-frame" style="flex: 1; max-height: 480px;">
+        <div class="window-frame">
           <div class="window-titlebar">
             <div class="window-dots">
               <span class="window-dot active"></span>
               <span class="window-dot"></span>
               <span class="window-dot"></span>
             </div>
-            <div class="window-title">Counselor Dashboard — Top 15 Lowest Score Triage</div>
+            <div class="window-title">Counselor Dashboard — Top 15 Lowest Scoring Students</div>
             <div style="width: 40px;"></div>
           </div>
-          <img src="assets/10_admin_dashboard_charts.png" alt="Admin Dashboard Analytics" class="screenshot-img" style="height: 100%; object-position: top;">
+          <div class="screenshot-viewport">
+            <img src="assets/17_admin_rekap_15_terkecil.png" alt="Top 15 Lowest Scores Table" class="screenshot-img">
+          </div>
         </div>
       </div>
 
@@ -276,47 +238,37 @@
     </article>
 
     <!-- ====================================================================
-         SLIDE 6: TECHNICAL CHALLENGE (PDF GENERATION)
+         SLIDE 6: FEATURE 05 — IN-BROWSER VECTOR REPORT CARDS
          ==================================================================== -->
     <article class="slide-card" id="slide-6">
       <div class="slide-content">
         <header class="slide-header">
           <div class="eyebrow-row">
-            <span class="category-badge">Technical Challenge</span>
-            <span class="project-tag">Document Synthesis</span>
+            <span class="category-badge">05 / Document Engine</span>
+            <span class="project-tag">Official Publishing</span>
           </div>
-          <h1 class="slide-title">Automated Bulk PDF Generation at Scale</h1>
-          <p class="slide-subtitle">Producing individual and class-wide printable discipline reports without server memory exhaustion.</p>
+          <h1 class="slide-title">Vector-Crisp Discipline Report Cards</h1>
+          <p class="slide-subtitle">Instant in-browser rendering with official madrasah letterhead and counselor signatures.</p>
+          <div class="feature-pills">
+            <span class="feature-pill emerald">Official Madrasah Letterhead</span>
+            <span class="feature-pill primary">Dynamic Titimangsa Signatures</span>
+            <span class="feature-pill">Vector-Crisp Export</span>
+          </div>
         </header>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; flex: 1; max-height: 570px;">
-          <div class="window-frame">
-            <div class="window-titlebar">
-              <div class="window-dots">
-                <span class="window-dot active"></span>
-                <span class="window-dot"></span>
-              </div>
-              <div class="window-title">Vector Preview</div>
+        <div class="window-frame">
+          <div class="window-titlebar">
+            <div class="window-dots">
+              <span class="window-dot active"></span>
+              <span class="window-dot"></span>
+              <span class="window-dot"></span>
             </div>
-            <img src="assets/19_admin_rapor_pdf_preview.png" alt="Individual Report Preview" class="screenshot-img" style="height: 100%; object-fit: contain; background: #151B23;">
+            <div class="window-title">Print Preview — Student Counseling Report Card</div>
+            <div style="width: 40px;"></div>
           </div>
-
-          <div class="window-frame">
-            <div class="window-titlebar">
-              <div class="window-dots">
-                <span class="window-dot active"></span>
-                <span class="window-dot"></span>
-              </div>
-              <div class="window-title">Merged Class PDF</div>
-            </div>
-            <img src="assets/20_admin_bulk_download_merged_pdf.png" alt="Merged Class PDF Download" class="screenshot-img" style="height: 100%; object-fit: contain; background: #151B23;">
+          <div class="screenshot-viewport">
+            <img src="assets/19_admin_rapor_pdf_preview.png" alt="Individual Report Preview" class="screenshot-img contain">
           </div>
-        </div>
-
-        <div class="card-surface" style="margin-top: 24px; padding: 22px 28px;">
-          <p style="font-size: 22px; color: var(--text-primary); line-height: 1.45;">
-            <strong style="color: var(--accent-secondary);">Dual Export Architecture:</strong> Instant browser-side vector preview with madrasah titimangsa signatures, paired with asynchronous class-wide PDF merger for one-click administrative printing.
-          </p>
         </div>
       </div>
 
@@ -327,49 +279,37 @@
     </article>
 
     <!-- ====================================================================
-         SLIDE 7: ENGINEERING TAKEAWAYS
+         SLIDE 7: FEATURE 06 — BULK MERGED CLASS PDF SYNTHESIS
          ==================================================================== -->
     <article class="slide-card" id="slide-7">
       <div class="slide-content">
         <header class="slide-header">
           <div class="eyebrow-row">
-            <span class="category-badge">Lessons Learned</span>
-            <span class="project-tag">Production Insights</span>
+            <span class="category-badge">06 / Batch Processing</span>
+            <span class="project-tag">Production Scale</span>
           </div>
-          <h1 class="slide-title">Production Takeaways from Building School Systems</h1>
-          <p class="slide-subtitle">Three foundational principles discovered while taking this platform to production.</p>
+          <h1 class="slide-title">One-Click Merged Class PDF Synthesis</h1>
+          <p class="slide-subtitle">Asynchronous class-wide PDF bundling for single-click school administration printing.</p>
+          <div class="feature-pills">
+            <span class="feature-pill primary">Single Merged Class PDF</span>
+            <span class="feature-pill">Class ZIP Bundles</span>
+            <span class="feature-pill emerald">PHP 8.4 • Laravel 12 • Inertia React 19</span>
+          </div>
         </header>
 
-        <div class="problem-stack" style="margin-top: 10px;">
-          <div class="problem-card">
-            <div class="problem-num">01</div>
-            <div class="problem-content">
-              <h3>Scope by Academic Year Early</h3>
-              <p>Treating <code style="font-family: var(--font-mono); color: var(--accent-secondary);">academic_year_id</code> as a first-class tenant on every transactional model made semester resets and historical student archiving effortless.</p>
+        <div class="window-frame">
+          <div class="window-titlebar">
+            <div class="window-dots">
+              <span class="window-dot active"></span>
+              <span class="window-dot"></span>
+              <span class="window-dot"></span>
             </div>
+            <div class="window-title">Export Manager — Bulk Class PDF Synthesis Dialog</div>
+            <div style="width: 40px;"></div>
           </div>
-
-          <div class="problem-card">
-            <div class="problem-num">02</div>
-            <div class="problem-content">
-              <h3>Inertia.js v2 Velocity</h3>
-              <p>Full-stack type safety with Wayfinder and Larastan allowed rapid feature shipping without the overhead of maintaining and synchronizing a decoupled API layer.</p>
-            </div>
+          <div class="screenshot-viewport">
+            <img src="assets/20_admin_bulk_download_merged_pdf.png" alt="Merged Class PDF Download" class="screenshot-img contain">
           </div>
-
-          <div class="problem-card">
-            <div class="problem-num">03</div>
-            <div class="problem-content">
-              <h3>Positive Behavioral UX</h3>
-              <p>Gamified, color-coded status badges shifted student and teacher mindsets from avoiding punishment to actively logging positive achievement commendations.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-surface" style="margin-top: 28px; padding: 24px 30px; text-align: center; border-color: rgba(59, 130, 246, 0.4);">
-          <p style="font-family: var(--font-mono); font-size: 22px; color: var(--accent-secondary);">
-            Follow <strong>@berkahbekhan.inc</strong> for software architecture case studies and developer lessons.
-          </p>
         </div>
       </div>
 

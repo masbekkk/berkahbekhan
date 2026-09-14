@@ -18,127 +18,95 @@
 
 ## Slide-by-Slide Visual & Editorial Specification
 
-### Slide 1: Cover Slide
+### Slide 1: Cover / Web Portal Hook
 - **Slide Index**: `01 / 07`
-- **Category Badge**: `[ CASE STUDY / FULL-STACK ]` (JetBrains Mono, `#60A5FA`, uppercase)
-- **Headline**: Building a Positive Discipline & Counseling Engine for MTsN Gresik
-- **Subtitle**: How we built a production web portal with Laravel 12 & Inertia React to replace paper tracking with continuous behavioral scoring and automated bulk report generation.
+- **Category Badge**: `[ CASE STUDY ]` • `BKMTsNGresik v2` (JetBrains Mono, `#60A5FA`, uppercase)
+- **Headline**: Building a Modern School Counseling Portal
+- **Subtitle**: Continuous behavioral scoring, 180-indicator digital assessments, and automated bulk PDF reports.
+- **Feature Pills**: `PHP 8.4` • `Laravel 12` • `Inertia React 19` • `Tailwind v4`
 - **Hero Visual Asset**:
-  - File: `../bk-mtsngresik-v2/screenshots/01_landing_page.png`
-  - Framing: Orthographic container, `#151B23` surface, `1px solid #263241`, `16px` border-radius.
-  - Coverage: Occupies 55% of the slide canvas height.
-- **Footer**:
-  - Left: `@berkahbekhan.inc`
-  - Right: `01 / 07`
+  - File: `output/carousel/bk-mtsngresik-v2/assets/01_landing_page.png`
+  - Framing: Orthographic browser window, `#151B23` surface, `1px solid #263241`, `20px` border-radius.
+  - Coverage: Occupies 70%+ of the slide canvas.
+- **Footer**: `@berkahbekhan.inc` (Left) | `01 / 07` (Right)
 
 ---
 
-### Slide 2: Context & The Problem
+### Slide 2: Feature 01 — 180-Question Needs Assessment
 - **Slide Index**: `02 / 07`
-- **Category Badge**: `[ THE PROBLEM ]`
-- **Headline**: Paper Friction & The Limits of Punitive Discipline
-- **Key Points**:
-  - **Manual Paper Tracking**: Student counseling records and infraction logs lived in physical binders, making longitudinal tracking across academic years virtually impossible.
-  - **180-Question Bottleneck**: The standard psychological needs assessment (*Angket Kebutuhan Peserta Didik*) required distributing, collecting, and manually tabulating 180 questions per student.
-  - **End-of-Term Scramble**: Publishing printed discipline report cards for hundreds of students across grades 7, 8, and 9 took weeks of manual data entry.
-- **Visual Asset / Layout**:
-  - Comparison Card (`#151B23` surface):
-    - Left side: *Before* (Physical binders, slow tabulation, reactive punishment)
-    - Right side: *Target* (Centralized dashboard, instant assessment analytics, positive discipline model)
-- **Footer**:
-  - Left: `@berkahbekhan.inc`
-  - Right: `02 / 07`
-
----
-
-### Slide 3: Architecture & Tech Stack
-- **Slide Index**: `03 / 07`
-- **Category Badge**: `[ ARCHITECTURE ]`
-- **Headline**: Single Monolith, Modern Developer Ergonomics
-- **Technical Architecture Highlights**:
-  - **Backend Core**: PHP 8.4 + Laravel 12 (Robust Eloquent ORM, background jobs, Laravel Fortify auth, Google OAuth SSO).
-  - **Frontend Bridge**: Inertia.js v2 + React 19 + TypeScript (Full SPA feel without building a decoupled REST API).
-  - **Design System**: Tailwind CSS v4 + Radix UI primitives + Lucide Icons.
-  - **Data Visualization**: Recharts + TanStack Table v8 for real-time analytics.
-  - **Document Generation**: jsPDF + server-side PDF synthesis supporting bulk ZIP downloads and merged class-wide PDFs.
-  - **Static Analysis & Testing**: Larastan Level 8 (Strict typing) + Pest v4.
-- **Visual Asset**:
-  - Clean modular architecture card (`#151B23`, `#263241` border) showing data flow:
-    `[Student NISN Auth / Teacher Google SSO]` → `[Laravel 12 / Inertia v2]` → `[Academic Year Scoped Database]` → `[Recharts Dashboard / Bulk Merged PDF]`
-- **Footer**:
-  - Left: `@berkahbekhan.inc`
-  - Right: `03 / 07`
-
----
-
-### Slide 4: Student Assessment Workflow
-- **Slide Index**: `04 / 07`
-- **Category Badge**: `[ STUDENT WORKFLOW ]`
+- **Category Badge**: `[ 01 / STUDENT PORTAL ]` • `Needs Assessment Engine`
 - **Headline**: Digitalizing 180 Psychological Need Indicators
-- **Implementation Detail**:
-  - **Zero-Friction Access**: Junior high students authenticate using their National Student ID (NISN) without password friction.
-  - **Categorized Instrument**: 180 questions mapped to Personal, Social, Study, and Career domains with live filter tabs.
-  - **Submission Lock**: Once submitted with confirmation, the assessment automatically locks for the current academic year, preventing duplicate submissions.
+- **Subtitle**: Passwordless NISN onboarding with 4 domain filters and immutable annual state lock.
+- **Feature Pills**: `Pribadi • Sosial • Belajar • Karir` • `Passwordless NISN` • `Locked After Submit`
 - **Hero Visual Asset**:
-  - File: `../bk-mtsngresik-v2/screenshots/04_angket_form.png`
-  - Framing: Clean screenshot card with 1px border `#263241`, showing category pills and clean yes/no options.
-- **Footer**:
-  - Left: `@berkahbekhan.inc`
-  - Right: `04 / 07`
+  - File: `output/carousel/bk-mtsngresik-v2/assets/04_angket_form.png`
+  - Framing: Interactive student assessment instrument with domain tabs and question radio cards.
+- **Footer**: `@berkahbekhan.inc` (Left) | `02 / 07` (Right)
 
 ---
 
-### Slide 5: Positive Discipline Scoring & Triage
+### Slide 3: Feature 02 — Discipline & Behavioral Analytics
+- **Slide Index**: `03 / 07`
+- **Category Badge**: `[ 02 / ANALYTICS ENGINE ]` • `Continuous Scoring`
+- **Headline**: Continuous Positive Scoring & Live Triage
+- **Subtitle**: Dynamic formula: Total Poin = 100 Baseline - Infractions + Achievements.
+- **Feature Pills**: `🟢 Teladan (86–100+)` • `🔵 Standar (76–85)` • `🟠 Perhatian (66–75)` • `🔴 Pembinaan (≤65)`
+- **Hero Visual Asset**:
+  - File: `output/carousel/bk-mtsngresik-v2/assets/10_admin_dashboard_charts.png`
+  - Framing: Real-time Recharts score distribution charts, bar graphs, and counselor analytics.
+- **Footer**: `@berkahbekhan.inc` (Left) | `03 / 07` (Right)
+
+---
+
+### Slide 4: Feature 03 — Teacher Direct Incident & Merit Logging
+- **Slide Index**: `04 / 07`
+- **Category Badge**: `[ 03 / TEACHER WORKFLOW ]` • `Direct Incident Entry`
+- **Headline**: Direct Infraction & Positive Merit Entry
+- **Subtitle**: Teachers log positive merits and infractions in seconds with rule autocomplete.
+- **Feature Pills**: `Instant Student Search` • `+ Positive Points (Prestasi)` • `Zero Paper Binders`
+- **Hero Visual Asset**:
+  - File: `output/carousel/bk-mtsngresik-v2/assets/09_guru_input_tatib_form.png`
+  - Framing: Modal form for instant violation or merit entry with fast student selector.
+- **Footer**: `@berkahbekhan.inc` (Left) | `04 / 07` (Right)
+
+---
+
+### Slide 5: Feature 04 — Early Warning Counselor Triage
 - **Slide Index**: `05 / 07`
-- **Category Badge**: `[ DISCIPLINE ENGINE ]`
-- **Headline**: From Punitive Detention to Continuous Positive Scoring
-- **Scoring Formula & Triage**:
-  - `Total Poin = Saldo Awal (100) - Total Pelanggaran + Total Prestasi`
-  - **Automated Tier Badges**:
-    - 🟢 `86 – 100+`: Sangat Baik / Teladan (Certificate & commendation eligible)
-    - 🔵 `76 – 85`: Baik / Standar
-    - 🟠 `66 – 75`: Perhatian (Counselor check-in)
-    - 🔴 `≤ 65`: Pembinaan Khusus (Direct parent conference & intensive counseling)
-  - **Counselor Priority Dashboard**: Dedicated rankings for the top 15 lowest-scoring students to enable early, proactive intervention before issues escalate.
+- **Category Badge**: `[ 04 / COUNSELOR TRIAGE ]` • `Proactive Intervention`
+- **Headline**: Early Warning: Top 15 Lowest Score Triage
+- **Subtitle**: Surfaces at-risk students immediately so counselors intervene before issues escalate.
+- **Feature Pills**: `Lowest-Score Priority Order` • `Multi-Year Incident Logs` • `Proactive Counselor Check-In`
 - **Hero Visual Asset**:
-  - File: `../bk-mtsngresik-v2/screenshots/10_admin_dashboard_charts.png` (or `17_admin_rekap_15_terkecil.png`)
-  - Framing: Highlighting the analytical bar charts and tier breakdown.
-- **Footer**:
-  - Left: `@berkahbekhan.inc`
-  - Right: `05 / 07`
+  - File: `output/carousel/bk-mtsngresik-v2/assets/17_admin_rekap_15_terkecil.png`
+  - Framing: Prioritized triage table displaying students requiring immediate guidance.
+- **Footer**: `@berkahbekhan.inc` (Left) | `05 / 07` (Right)
 
 ---
 
-### Slide 6: Automated Bulk PDF Publishing
+### Slide 6: Feature 05 — In-Browser Vector Report Cards
 - **Slide Index**: `06 / 07`
-- **Category Badge**: `[ TECHNICAL CHALLENGE ]`
-- **Headline**: Bulk PDF Generation & Document Merging at Scale
-- **The Challenge**:
-  - Rendering individual, printable PDF report cards with official madrasah letterheads, student point tables, and dynamic counselor signatures for hundreds of students created serious memory bottlenecks.
-- **The Solution**:
-  - Dual-mode export architecture:
-    1. **Individual Preview & Print**: Instant vector-crisp preview directly in the browser (`19_admin_rapor_pdf_preview.png`).
-    2. **Class Bulk ZIP**: Asynchronous bundling of individual student PDFs into class ZIP archives.
-    3. **Consolidated Merged PDF**: A single, continuous multi-page PDF containing all students in a class, formatted for single-click printing by school administration (`20_admin_bulk_download_merged_pdf.png`).
+- **Category Badge**: `[ 05 / DOCUMENT ENGINE ]` • `Official Publishing`
+- **Headline**: Vector-Crisp Discipline Report Cards
+- **Subtitle**: Instant in-browser rendering with official madrasah letterhead and counselor signatures.
+- **Feature Pills**: `Official Madrasah Letterhead` • `Dynamic Titimangsa Signatures` • `Vector-Crisp Export`
 - **Hero Visual Asset**:
-  - Files: Combined split preview of `../bk-mtsngresik-v2/screenshots/19_admin_rapor_pdf_preview.png` and `20_admin_bulk_download_merged_pdf.png`.
-- **Footer**:
-  - Left: `@berkahbekhan.inc`
-  - Right: `06 / 07`
+  - File: `output/carousel/bk-mtsngresik-v2/assets/19_admin_rapor_pdf_preview.png`
+  - Framing: Vector print preview showing official Kemenag letterhead and student disciplinary tally.
+- **Footer**: `@berkahbekhan.inc` (Left) | `06 / 07` (Right)
 
 ---
 
-### Slide 7: Outcomes & Engineering Takeaways
+### Slide 7: Feature 06 — Bulk Merged Class PDF Synthesis
 - **Slide Index**: `07 / 07`
-- **Category Badge**: `[ LESSONS LEARNED ]`
-- **Headline**: Production Takeaways from Building School Systems
-- **Core Engineering Takeaways**:
-  - **1. Scope by Academic Year Early**: Treating the academic year as a first-class tenant (`academic_year_id` on all operational tables) made semester resets and historical student archiving seamless.
-  - **2. The Power of Inertia.js v2**: Building complex interactive forms and data tables with React while writing zero REST API boilerplate allowed us to ship production features in days.
-  - **3. Positive UX Shapes Behavior**: Shifting from a "violation log" to a "positive discipline score with achievement rewards" fundamentally changed how teachers and students interact with the software.
-- **Footer**:
-  - Left: `@berkahbekhan.inc`
-  - Right: `07 / 07`
+- **Category Badge**: `[ 06 / BATCH PROCESSING ]` • `Production Scale`
+- **Headline**: One-Click Merged Class PDF Synthesis
+- **Subtitle**: Asynchronous class-wide PDF bundling for single-click school administration printing.
+- **Feature Pills**: `Single Merged Class PDF` • `Class ZIP Bundles` • `PHP 8.4 • Laravel 12 • Inertia React 19`
+- **Hero Visual Asset**:
+  - File: `output/carousel/bk-mtsngresik-v2/assets/20_admin_bulk_download_merged_pdf.png`
+  - Framing: Batch export dialog compiling hundreds of student reports into a single printable document.
+- **Footer**: `@berkahbekhan.inc` (Left) | `07 / 07` (Right)
 
 ---
 
