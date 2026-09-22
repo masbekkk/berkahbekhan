@@ -1,95 +1,95 @@
 ---
 name: instagram-portfolio
-description: >-
-  Transforms real software projects, codebases, and case studies into high-credibility Instagram
-  portfolio carousels and posts for berkahbekhan.inc. Anchored strictly in verified project artifacts.
+description: Transforms real software projects into high-credibility Instagram portfolio posts and focused micro-carousels anchored strictly in verified project artifacts.
+when_to_use: Use when structuring portfolio showcases, feature spotlights, or product UI posts from verified projects in projects/<project-name>/.
+allowed-tools: Read, Grep, Glob
+version: 2.0.0
+priority: HIGH
 ---
 
 # Instagram Portfolio Case Study Skill
 
-This skill converts **real, documented software projects** into technical case studies and portfolio showcases for **berkahbekhan.inc**. It highlights real engineering decisions, actual software interfaces, architecture choices, and developer workflows.
+> **Core Philosophy**: **THE WORK IS THE DESIGN.**  
+> Transforms **real, documented software projects** into technical portfolio posts and focused visual breakdowns for **@berkahbekhan.inc**. Highlights real engineering decisions, actual software interfaces, architecture choices, and developer workflows.
 
 ---
 
-## 1. Input Grounding & Verification Mandate
+## 1. Input Grounding & Absolute Anti-Fabrication Mandate
 
-> **CRITICAL RULE**: You must NEVER invent or hallucinate project information. The project itself must remain the hero.
+> **CRITICAL RULE**: Never invent, hallucinate, or extrapolate project facts. The project itself must remain the hero.
 
-### Expected Input Artifacts (in `projects/<project-name>/`)
-- `project.md` or `README.md` (Project overview, purpose, architecture)
-- `screenshots/` (Genuine application screenshots, dashboards, mobile views)
-- Source code / migrations / configs (Actual technical implementation)
-- `documentation/` (API specs, technical constraints, deployment notes)
+### Expected Input Artifacts (in `projects/<project-name>/`):
+- `project.md` or `README.md` (Overview, problem domain, actual architecture, genuine constraints)
+- `screenshots/` (Genuine application screenshots, dashboards, mobile views, export previews)
+- Source code / migrations / configs (Actual technical implementation files)
+- `documentation/` (API notes, user manuals, deployment configs)
 
-### Initial Analysis Procedure
-Before drafting any content:
-1. Scan all provided files in `projects/<project-name>/`.
-2. Extract verified facts:
+### Strict Fact Verification:
+Before proposing any post copy:
+1. Scan provided project files in `projects/<project-name>/`.
+2. Extract only documented facts:
    - Primary problem being solved.
-   - Exact technology stack (e.g., Laravel 11, Inertia.js, React, Tailwind, PostgreSQL).
-   - Available UI screenshots and what flows they demonstrate.
-   - Genuine technical challenges mentioned in the docs/code.
-3. If specific details (such as client metrics, user counts, or performance gains) are not documented, **DO NOT fabricate them**. Either state `"Information not provided"` or omit the claim entirely.
+   - Exact technology stack (e.g., PHP 8.4, Laravel 12, Inertia React 19, Tailwind v4).
+   - Real interface screenshots available on disk.
+   - Genuine technical challenges mentioned in docs or git history.
+3. If specific details (such as client metrics, user counts, performance numbers) are not documented, **DO NOT fabricate them**. Omit the claim or mark it `"Information not provided"`.
 
 ---
 
-## 2. Portfolio Carousel Architecture (1080 × 1350)
+## 2. Rejecting the Mandatory 7-Slide Deck
 
-Use the following slide blueprint as a guide. **Do not force all 9 slides if the project does not warrant them.** Prefer 5–7 compelling, evidence-backed slides over filler content.
+> ❌ **STOP forcing every project into `CASE STUDY / 01 / 07` decks.**  
+> Do not assume every project needs a multi-slide carousel.
 
-### Conceptual Slide Structure
+### Flexible Post Types:
+1. **Single Feed Post (`1080 × 1350 px`)**:
+   - Ideal for **Product Screenshot**, **Feature Spotlight**, or **Project Hero**.
+   - 1 dominant visual + 1 powerful headline + concise technical context.
+   - High impact, scannable, and clean.
 
-```
-Slide 1: Project Cover
-  - Clean title + category eyebrow [ CASE STUDY ]
-  - Subtitle: One-sentence genuine summary of what the system does
-  - Hero visual: Real UI screenshot framed cleanly in #151B23 window
+2. **Focused Micro-Carousel (2–4 Slides)**:
+   - Slide 1: One primary idea / hook + hero UI.
+   - Slide 2–3: Direct workflow walkthrough or comparison (e.g., "From student assessment to PDF compilation").
+   - Slide 3–4: Verified technical architecture or takeaway.
 
-Slide 2: Context & Problem
-  - The specific operational or developer bottleneck
-  - Why standard off-the-shelf solutions were insufficient
-
-Slide 3: System Solution & Architecture
-  - High-level architecture overview or tech stack badges
-  - Concrete breakdown of key technical components
-
-Slide 4: Core Features in Action
-  - Real UI screenshot spotlighting a critical workflow
-  - Short annotations explaining the user flow
-
-Slide 5: Technical Implementation Detail
-  - Deep-dive into a key mechanism (e.g., state machine, queue worker, database query)
-  - Clean code block or schema diagram
-
-Slide 6: Hardest Technical Challenge
-  - An actual engineering hurdle encountered during development
-  - How it was diagnosed and resolved
-
-Slide 7: Outcome & Engineering Takeaways
-  - Concrete result (e.g., "Full sync runs in under 200ms", "Zero-downtime deployment achieved")
-  - What was learned or key architectural trade-off
-
-Slide 8 (Optional): Source / Next Steps / Discussion
-  - Repository link (if open source), demo link, or thoughtful discussion question
-  - Subtle brand watermark @berkahbekhan.inc
-```
+3. **In-Depth Case Study (5–7 Slides — Only When Justified)**:
+   - Reserved strictly for complex multi-tier systems with extensive verified architectural documentation.
+   - Every slide must present new, high-signal evidence. Never pad slides with filler text.
 
 ---
 
-## 3. Visual & Layout Rules for Portfolio Content
+## 3. One Dominant Message Per Post
 
-- **Screenshots are Hero Assets**:
-  - Always allocate at least 50–65% of the slide canvas to the real screenshot or code panel.
-  - Frame with `1px solid #263241`, `#151B23` surface, and `16px` border-radius.
-  - No 3D perspectives, no mockups on skewed devices.
-- **Palette**: `#0B0F14` background, `#F8FAFC` headline, `#94A3B8` body, `#3B82F6` primary badge.
-- **Typography**: Inter for editorial narrative, JetBrains Mono for stack tags and code references.
+Each portfolio post must tackle exactly **one primary idea**:
+
+- ✅ *"180 indicators. One digital assessment."*
+- ✅ *"From student assessment to PDF report."*
+- ✅ *"A counseling portal for teachers and students."*
+- ✅ *"Built with Laravel + React."*
+- ❌ *"A complete 7-part overview of our database, all 12 features, our client feedback, and full frontend setup."*
 
 ---
 
-## 4. Quality Checklist
+## 4. Visual & Layout Rules for Portfolio Content
 
-- [ ] Is every feature and capability backed by the actual project files?
-- [ ] Are the screenshots genuine captures of the application?
-- [ ] Are all corporate buzzwords removed?
-- [ ] Does the carousel read like a developer sharing genuine work with fellow builders?
+1. **Orthographic Screenshot Dominance**:
+   - Allocate 60%–85% of the slide canvas to the real screenshot or UI panel.
+   - Present screenshots flat and orthographic. No 3D perspectives, no fake laptop bezels, no device hands.
+   - Frame with a subtle `1px solid` border (e.g., `#263241` for dark canvas, `#E2E8F0` for light canvas).
+2. **Contextual Canvas Backgrounds**:
+   - Use deep obsidian (`#0B0F14`), light clean canvas (`#F8FAFC`), or a subtle project-derived background tone that complements the screenshot's primary palette.
+   - Avoid enclosing every screenshot inside an extra dark card container.
+3. **Typography Standards**:
+   - Sans: Inter or Geist Sans for title and body.
+   - Mono: JetBrains Mono or Geist Mono for stack badges, file paths, and metrics.
+
+---
+
+## 5. Pre-Publication Portfolio Checklist
+
+Before approving any portfolio post:
+- [ ] Is every feature, workflow, and metric supported by actual files in `projects/<project-name>/`?
+- [ ] Are all screenshots genuine captures of the application (no fake UI or generic vector graphics)?
+- [ ] Does the post communicate one clear, dominant message?
+- [ ] Is the presentation free of forced `CASE STUDY / 01 / 07` templates?
+- [ ] Does it make the viewer understand that this developer actually builds real software?

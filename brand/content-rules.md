@@ -1,69 +1,82 @@
 # Content & Anti-AI-Slop Rules — berkahbekhan.inc
 
-This document establishes the mandatory editorial standard for **berkahbekhan.inc**. All agent skills, post copywriters, caption generators, and reviewers must strictly adhere to these principles.
-
-The guiding mandate:
-> **The content must feel like an experienced, thoughtful software engineer documenting real work, sharing practical lessons, and breaking down real architecture.**
+This document establishes the mandatory editorial rules for **@berkahbekhan.inc**.  
+Guiding philosophy: **THE WORK IS THE DESIGN.**
 
 ---
 
-## 1. Absolute Prohibitions (Zero Tolerance)
+## 1. Portfolio-First Content Hierarchy
 
-Never generate or approve content containing:
+The `@berkahbekhan.inc` account is a developer's visual archive. Maintain this strict content priority:
 
-### A. Fabricated Data & Hallucinations
-- **NO Fake Statistics**: Never write "boosted efficiency by 300%", "99.9% customer satisfaction", or "used by 10,000+ users" unless supported by real project documentation.
-- **NO Fabricated Testimonials / Clients**: Never invent client quotes, company names, or fictional user praises.
-- **NO Fabricated Features / Tech Stacks**: If a project uses MySQL, never say it uses Redis or Kafka unless documented in the project files.
-- **NO Fake UI / Mockups**: Never substitute real application screenshots with fake generic SaaS landing pages or vector mockups.
-- **NO AI-Generated People**: Never use Midjourney/DALL-E headshots of fake founders or developers.
+1. **Portfolio / Projects (Primary)**: Showcases of real software systems actually built and deployed.
+2. **Feature / Product Details (Secondary)**: Specific workflows, interfaces, dashboards, and export features.
+3. **Technical Breakdowns (Secondary)**: Architecture diagrams, database schemas, and performance optimizations.
+4. **Developer Tips & Insights (Supporting)**: Hard-won lessons and bug fixes discovered while building.
+5. **Achievements / Proof (Supporting)**: Verified test suites, deployment logs, and real project milestones.
 
-### B. Marketing Clichés & Corporate Buzzwords
-Never use corporate fluff or hollow hype phrases, including but not limited to:
-- ❌ *"Revolutionize your business"*
+> **DO NOT** turn the account into a generic programming-tips feed. The portfolio of real built software is our primary identity.
+
+---
+
+## 2. One Primary Idea Per Post
+
+Never pack multiple features or sprawling architectural overviews into a single piece of content. Every post must tackle **one dominant message**:
+
+- ✅ *"180 indicators. One digital assessment."*
+- ✅ *"From student assessment to PDF report."*
+- ✅ *"A counseling portal for teachers and students."*
+- ✅ *"Built with Laravel + React."*
+- ❌ *"A comprehensive review of our 12 features, database, user feedback, and tech stack."*
+
+If an idea contains multiple distinct takeaways, split them into separate posts.
+
+---
+
+## 3. Absolute Anti-Fabrication Mandate (Zero Tolerance)
+
+Never invent, exaggerate, or extrapolate information. Strictly prohibit:
+
+- ❌ **NO Fabricated Metrics**: Never claim *"boosted speed by 300%"*, *"reduced load by 80%"*, or *"10,000+ active users"* unless backed by real production logs.
+- ❌ **NO Fabricated Testimonials**: Never invent client praises, quotes, or fictional stakeholder names.
+- ❌ **NO Fabricated Stacks**: Never claim Redis, Kafka, or GraphQL are used when the codebase only runs MySQL and Laravel.
+- ❌ **NO Fabricated Features**: Only describe capabilities that actually exist in the codebase and screenshots.
+- ❌ **NO AI-Generated People / Mock UI**: Never use Midjourney headshots or fake vector UI mockups.
+
+### The Missing Information Rule
+If a project's documentation lacks specific numbers:
+1. State `"Information not provided"` or omit the metric entirely.
+2. Focus on documented architectural choices, database structures, and real interfaces.
+3. A post backed by 100% verified facts is infinitely more credible than one padded with plausible fluff.
+
+---
+
+## 4. The 3 Mandatory Pre-Flight Tests
+
+Before publishing any draft:
+
+1. **The AI-Slop Test**:  
+   *"Does this look like something an AI image generator or generic social media template tool would produce as a generic software portfolio?"*  
+   → If **YES**, **redesign immediately**.
+
+2. **The Simplification Test**:  
+   *"Can 20% of the visual or textual elements be removed without losing meaning?"*  
+   → If **YES**, **remove them immediately**.
+
+3. **The Portfolio Test**:  
+   *"Does this make the viewer immediately understand that this person actually builds software?"*  
+   → If **NO**, **redesign immediately**.
+
+---
+
+## 5. Banned AI-Slop Vocabulary
+
+Never use corporate fluff or social media hype words:
+- ❌ *"Revolutionize your workflow"*
 - ❌ *"Unlock your potential"*
 - ❌ *"In today's fast-paced digital era"*
 - ❌ *"Game changer for developers"*
-- ❌ *"Supercharge your workflow"*
-- ❌ *"Skyrocket your productivity"*
+- ❌ *"Supercharge your productivity"*
 - ❌ *"Seamless and intuitive experience"*
-- ❌ *"Empowering modern enterprises"*
-
-### C. Generic Influencer Slop & Clickbait
-- ❌ *"5 tips every developer NEEDS to know (Number 4 will shock you!)"*
-- ❌ Generic motivational quotes (e.g., *"Code is like humor. When you have to explain it, it’s bad."*)
-- ❌ Vague generalities with no technical depth (e.g., *"Clean code is important because it makes your app maintainable."*)
-- ❌ Excessive emojis (e.g., 🚀🔥💡🤯✨) scattered across headings and bullet points. Maximum 1–2 relevant emojis per post caption, 0 in slide titles.
-
----
-
-## 2. What to Prefer (The BerkahBekhan Standard)
-
-| Prefer This (Real Developer Voice) | Instead of This (AI Marketing Slop) |
-| :--- | :--- |
-| "Handling N+1 queries when loading nested comments in Laravel" | "Optimize your database for lightning-fast speeds" |
-| "Why we chose SQLite over PostgreSQL for local sync in this tool" | "Using cutting-edge database technology to revolutionize storage" |
-| "Refactoring a 400-line controller into single-action invokable classes" | "Write clean, elegant, world-class code every day" |
-| "Real screenshot of the actual dashboard showing order status transitions" | "Generic 3D render of a purple chart trending upward" |
-| "Trade-off: Inertia.js saved us from writing a separate REST API, but SSR required extra Node daemon configuration" | "Our framework provides seamless full-stack perfection" |
-
----
-
-## 3. The Missing Information Rule
-
-If a project's documentation lacks specific information (e.g., production deployment stats, user retention metrics, client name, or server benchmarks):
-
-1. **DO NOT invent or extrapolate fake numbers.**
-2. **State honestly**: `"Information not provided"` or focus entirely on the architectural and code details that **are** present.
-3. It is always better to publish a tight 5-slide carousel backed by 100% verified facts than a 9-slide carousel padded with fluff.
-
----
-
-## 4. Editorial Voice Checklist
-
-Before any content is finalized, verify:
-- [ ] Could an actual engineer read this without cringing?
-- [ ] Is every technical term used accurately in context?
-- [ ] Are code snippets syntactically valid and idiomatically written?
-- [ ] Is the tone confident yet humble and realistic about trade-offs?
-- [ ] Does the hook pose a concrete technical problem rather than hype?
+- ❌ *"Empowering modern teams"*
+- ❌ Emojis in slide titles (keep slide headings clean and typographic; maximum 1–2 relevant emojis in captions).

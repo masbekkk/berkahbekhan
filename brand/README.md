@@ -1,35 +1,39 @@
 # berkahbekhan.inc — Brand Identity System
 
-Welcome to the brand identity guide for **berkahbekhan.inc**. This repository contains the visual and editorial guidelines governing all content generated for Instagram and other public developer channels.
+Welcome to the brand identity guide for **@berkahbekhan.inc**. This repository contains the visual and editorial guidelines governing all content generated for Instagram and public developer channels.
 
 ---
 
 ## 1. Brand Essence & Positioning
 
-- **Brand Name**: `berkahbekhan.inc` / `@berkahbekhan.inc`
-- **Positioning**: Modern developer / Software builder / Technical educator
-- **Core Focus**: Real software engineering, production architectures, system implementation, developer tooling, and genuine case studies.
-- **Tone of Voice**: Understated, precise, confident, human, pragmatic, and developer-first.
+- **Brand Handle**: `@berkahbekhan.inc`
+- **Positioning**: A developer's visual archive of real software that has actually been built.
+- **Core Message**: *"This developer actually builds software."* (Never: *"This account generates AI portfolio graphics."*)
+- **Core Philosophy**: **THE WORK IS THE DESIGN.**
+- **Tone of Voice**: Pragmatic, understated, confident, human, and developer-first.
 
 ---
 
-## 2. Core Visual & Editorial Philosophy
+## 2. Core Visual & Editorial Principles
 
 ```
 REAL PROJECT INFORMATION
           ↓
- CONTENT UNDERSTANDING
+  PROJECT ANALYSIS
           ↓
-  INSTAGRAM FORMAT
+   ART DIRECTION (1 Idea, Composition Family, Feed Rhythm)
           ↓
-BERKAHBEKHAN BRAND DESIGN
+    FIGMA DESIGN (Auto Layout, Tokens, Real Screenshots)
           ↓
-    FINAL CONTENT
+    CONTENT REVIEW (AI-Slop, Simplification, Portfolio Tests)
+          ↓
+   PUBLISHED ASSET
 ```
 
-1. **Real Evidence Over Marketing Fluff**: We document real code, real architecture, real bugs, and real solutions. We do not invent features, metrics, or client acclaim.
-2. **The Software is the Hero**: Visual hierarchy always places the real application screenshot or code snippet at the center. Backgrounds and framing are minimal and dark to let product interfaces stand out.
-3. **Restraint & Precision**: Avoid visual clutter, decorative gradients, 3D clay graphics, floating emojis, and generic corporate slogans.
+1. **The Software Is the Hero**: Real application screenshots and authentic UI remain the primary visual element. Screenshots sit flat and orthographic, never enclosed in fake laptop or phone mockups.
+2. **Flexible Canvas, Restrained Identity**: The BerkahBekhan brand provides consistency through typography, spacing, labeling, and visual rhythm. The project provides actual UI, colors, personality, and technical depth. Dark mode is not mandatory; backgrounds adapt to the software.
+3. **Portfolio-First**: The feed is a showcase of working software. Developer tips and technical insights serve as supporting evidence of engineering craftsmanship.
+4. **Zero Fabrication**: We document real code, real architecture, and real workflows. We never invent features, metrics, user counts, or testimonials.
 
 ---
 
@@ -37,13 +41,13 @@ BERKAHBEKHAN BRAND DESIGN
 
 | Document | Purpose |
 | :--- | :--- |
-| [`colors.md`](./colors.md) | Single source of truth for color palette tokens, contrast, and usage rules. |
-| [`typography.md`](./typography.md) | Font hierarchy, font pairings, line heights, and typographic rhythm. |
-| [`visual-rules.md`](./visual-rules.md) | Layout grids, margins, card styling, screenshot framing, and UI chrome rules. |
-| [`content-rules.md`](./content-rules.md) | Anti-AI-slop manifesto, tone of voice, editorial standards, and veracity rules. |
+| [`colors.md`](./colors.md) | Canvas options (dark, light, neutral, project-derived), token roles, and palette discipline. |
+| [`typography.md`](./typography.md) | Font hierarchy (Inter/Geist Sans + JetBrains/Geist Mono) and mobile scales. |
+| [`visual-rules.md`](./visual-rules.md) | Layout grids, margins, orthographic screenshot framing, 7 composition families, and anti-AI-slop rules. |
+| [`content-rules.md`](./content-rules.md) | Anti-AI-slop manifesto, tone of voice, veracity guidelines, and the 3 mandatory pre-flight tests. |
 
 ---
 
 ## 4. Brand Rule of Thumb
 
-> **If a post looks like a generic Canva marketing template or sounds like a corporate LinkedIn influencer, it violates the berkahbekhan.inc brand.** Keep it grounded, technical, and clean.
+> **If a post looks like a generic Canva template, a presentation deck, or an AI-generated SaaS concept, it violates the brand.** Keep the focus on the real built software.

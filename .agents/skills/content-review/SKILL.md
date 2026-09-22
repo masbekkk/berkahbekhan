@@ -1,103 +1,92 @@
 ---
 name: content-review
-description: >-
-  Pre-publication audit and quality assurance skill for berkahbekhan.inc.
-  Evaluates drafts for authenticity, specificity, brand compliance, factual accuracy, and AI-slop elimination.
+description: Pre-publication audit and quality assurance skill for @berkahbekhan.inc. Evaluates drafts with the AI-Slop Test, Simplification Test, and Portfolio Test.
+when_to_use: Use before approving or publishing any Instagram post, carousel, story, caption, or Figma design spec for @berkahbekhan.inc.
+allowed-tools: Read, Grep, Glob
+version: 2.0.0
+priority: CRITICAL
 ---
 
 # Content Review & Quality Audit Skill
 
-Use this skill to perform a rigorous editorial and design audit on any proposed Instagram post, carousel slide, story, caption, or visual spec before it is approved or published.
+> **Core Mandate**: Strict pre-publication quality gate for **@berkahbekhan.inc**.  
+> Guarantees that every post adheres to **THE WORK IS THE DESIGN**, eliminates AI slop, enforces strict factual grounding, and ensures designs communicate authentic developer craftsmanship.
 
 ---
 
-## 1. The 7-Dimension Audit Matrix
+## 1. The 3 Mandatory Pre-Flight Tests
 
-Evaluate every piece of content against the following criteria:
+Every proposed post (copy, layout, and visual framing) must pass all three tests before approval:
 
-### A. Authenticity
-- Does this sound like a practicing developer who has solved this in production?
-- Is the tone grounded, measured, and free of artificial corporate cheerleading?
-- **Pass**: Uses realistic terminology, admits engineering trade-offs, speaks peer-to-peer.
-- **Fail**: Sounds like an AI marketer, motivational influencer, or sales pitch.
+### Test 1: The AI-Slop Test
+> *"Does this look like something an AI image generator or generic marketing template tool would automatically produce as a software portfolio?"*
+- **Check For**: Excessive dark cards inside dark cards, rounded container bubbles, pill badge clusters, floating 3D spheres, neon glow halos, gradient meshes, fake browser chrome with colored dots, stock corporate buzzwords (*"supercharge"*, *"revolutionize"*, *"unlock your potential"*), or generic `CASE STUDY / 01 / 07` presentation decks.
+- **Action**: If **YES** → **IMMEDIATELY REJECT & REDESIGN**.
 
-### B. Specificity
-- Does the content reference concrete files, commands, schemas, or architectural components?
-- Are code snippets idiomatic and practical rather than abstract pseudo-code?
-- **Pass**: Mentions exact configurations, database indexes, or state transitions.
-- **Fail**: Uses vague generalities ("improve your app speed", "write cleaner code").
+### Test 2: The Simplification Test
+> *"Can 20% of the visual or textual elements be removed without losing meaning?"*
+- **Check For**: Redundant borders, decorative divider lines, extra tag pills, superfluous subheads, unnecessary mockup frames, decorative background shapes.
+- **Action**: If **YES** → **REMOVE THEM IMMEDIATELY**.
 
-### C. Originality
-- Could this exact post have been copy-pasted onto any generic social media tech account?
-- Does it reflect the distinct engineering perspective of **berkahbekhan.inc**?
-- **Pass**: Distinct architectural angle or real case study breakdown.
-- **Fail**: Generic regurgitation of standard documentation basics.
-
-### D. Visual Consistency
-- Does the layout strictly adhere to `.agents/skills/berkahbekhan-brand/SKILL.md`?
-  - Background: `#0B0F14`
-  - Card Surface: `#151B23` with `#263241` border
-  - Accents: `#3B82F6` / `#60A5FA`
-  - Typography: Inter / JetBrains Mono
-- Are screenshot safe zones (margins, header, footer) respected?
-- Is the real software screenshot the dominant element?
-
-### E. Information Accuracy
-- Are all facts, metrics, features, and stack details supported by the actual files in `projects/<project-name>/`?
-- **Pass**: All claims are cross-checked against project code or documentation.
-- **Fail**: Fictionalized client results, invented user counts, or hallucinated frameworks.
-
-### F. AI-Slop Detection & Elimination
-Inspect and remove:
-- ❌ Hype buzzwords (*"revolutionize"*, *"supercharge"*, *"game changer"*, *"unleash"*)
-- ❌ Exaggerated claims (*"100x faster"*, *"effortless scaling"*)
-- ❌ Generic clickbait hooks (*"Stop doing X immediately!"*)
-- ❌ Gratuitous emoji clusters (e.g., 🔥🚀💡🤯)
-- ❌ Decorative visual noise (3D shapes, neon gradients, glassmorphism)
-
-### G. Portfolio Credibility
-- Does the post clearly demonstrate genuine software craftsmanship?
-- Does it respect the viewer's technical intelligence?
+### Test 3: The Portfolio Test
+> *"Does this make the viewer immediately understand that this person actually builds software?"*
+- **Check For**: Real product UI dominance, genuine technical naming (exact libraries, models, schemas), concrete operational problems, and credible engineering workflows.
+- **Action**: If **NO** → **REJECT & RESTRUCTURE**.
 
 ---
 
-## 2. Review Decision Flow
+## 2. Comprehensive Audit Matrix
 
-```
-DRAFT CONTENT
-      ↓
-EVALUATE 7 DIMENSIONS
-      ↓
-[ ANY CRITICAL FAILS? ]
-      ├── YES ──→ REJECT & REVISE
-      │             - Identify specific failing dimensions
-      │             - Provide line-by-line redline edits
-      │             - Strip buzzwords / replace with verified facts
-      │             - Re-run review
-      └── NO  ──→ APPROVE FOR OUTPUT
-                    - Save final copy to content/ or output/
-```
+### A. Content & Veracity Audit
+- [ ] **Factually Supported**: Is every claim, tech stack mention, and metric backed by actual files in `projects/<project-name>/`?
+- [ ] **Real Project & Screens**: Are the screenshots genuine captures of a running or built application?
+- [ ] **Real Features**: Does the post describe functional software capabilities rather than hypothetical roadmap items?
+- [ ] **Concise Wording**: Is the copy tight, direct, and free of sales padding?
+- [ ] **One Dominant Message**: Does the post tackle exactly one primary idea?
+
+### B. Design & Visual Audit
+- [ ] **Actual Work Visible**: Is the real software interface clearly visible and prominent?
+- [ ] **Screenshot Scale**: Does the screenshot occupy at least 60%–85% of the canvas?
+- [ ] **Clear Hierarchy**: Is the reading order obvious at a glance on mobile?
+- [ ] **Intentional Whitespace**: Does the layout have generous breathing room without cramped containers?
+- [ ] **Strong Typography**: Are font pairings disciplined (Inter/Geist Sans + JetBrains/Geist Mono)?
+- [ ] **Zero Unnecessary Decoration**: Are decorative grids, 3D shapes, and neon gradients completely absent?
+- [ ] **Non-Repetitive Composition**: Does this post avoid repeating the exact layout of the preceding post?
+- [ ] **Mockup Elimination**: Is the screenshot presented raw and orthographic without fake laptop/phone bezels?
 
 ---
 
-## 3. Output Format for Review Reports
+## 3. Strict Anti-Fabrication Mandate
 
-When auditing a post, output the review summary in this format:
+Never approve content containing:
+- ❌ Fabricated user counts or performance metrics (e.g., *"300% faster"*, *"used by 10,000+ users"*) unless verified by project logs.
+- ❌ Fictional client names, quotes, or testimonials.
+- ❌ Hallucinated technologies (e.g., claiming Redis or Kafka when only PostgreSQL is used).
+- ❌ Generic vector illustrations standing in place of real software UI.
+
+If information is missing:
+- State `"Information not provided"` or focus strictly on documented code and UI.
+- Never fill missing gaps with plausible-sounding fictional claims.
+
+---
+
+## 4. Review Report Format
+
+When reviewing a draft post or Figma spec, output this standardized report:
 
 ```markdown
-### Content Review Report: [Post Title / Project Name]
+### Content Review Report: [Post Title / Project Slug]
 
-- **Authenticity**: [PASS / FAIL] — [Brief observation]
-- **Specificity**: [PASS / FAIL] — [Brief observation]
-- **Originality**: [PASS / FAIL] — [Brief observation]
-- **Visual Consistency**: [PASS / FAIL] — [Token & layout compliance]
-- **Accuracy**: [PASS / FAIL] — [Verification against source files]
-- **AI-Slop Score**: [CLEAN / NEEDS REVISION] — [Flagged phrases if any]
-- **Credibility**: [PASS / FAIL] — [Engineering substance check]
+- **The AI-Slop Test**: [PASS / FAIL] — [Notes]
+- **The Simplification Test**: [PASS / FAIL] — [Notes on 20% reduction]
+- **The Portfolio Test**: [PASS / FAIL] — [Credibility check]
+- **Factual Accuracy**: [PASS / FAIL] — [Cross-check against project files]
+- **Visual Hierarchy & Framing**: [PASS / FAIL] — [Screenshot dominance & typography]
+- **One Primary Idea**: [PASS / FAIL] — [Identified dominant message]
 
 **Verdict**: [APPROVED / REVISION REQUIRED]
 
-**Required Edits (if revision required)**:
+**Required Modifications (if revision required)**:
 1. ...
 2. ...
 ```

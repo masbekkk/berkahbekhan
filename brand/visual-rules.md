@@ -1,85 +1,103 @@
 # Visual Rules — berkahbekhan.inc
 
-This document defines the layout grids, spacing rules, card styling, screenshot framing, and visual consistency requirements for **berkahbekhan.inc**.
+This document defines layout geometry, screenshot presentation, the 7 composition families, and visual anti-slop rules for **@berkahbekhan.inc**.
 
 ---
 
-## 1. Grid & Canvas Margins
+## 1. Core Visual Hierarchy
 
-### Feed & Carousel (1080 × 1350 px — 4:5 Aspect Ratio)
-- **Outer Canvas Margins**: Minimum `80px` on all 4 sides (`80px` left/right, `80px` top, `90px` bottom).
-- **Safe Area**: Keep all core text and visuals inside the `920 × 1170 px` inner boundary.
-- **Top Header Height**: `100px - 140px` (Eyebrow tag + Slide Title or Category).
-- **Bottom Footer Height**: `80px - 100px` (Brand handle `@berkahbekhan.inc` + Slide Pagination `01 / 07`).
+All visual compositions follow this priority order:
 
-### Story & Reel Cover (1080 × 1920 px — 9:16 Aspect Ratio)
-- **Top Safe Margin**: `250px` (clears Instagram account header and story progression bars).
-- **Bottom Safe Margin**: `350px` (clears message box, reel caption, audio ticker, like/comment buttons).
-- **Side Margins**: `80px` left and right.
-- **Reel Grid Thumbnail Safe Zone**: Center `1080 × 1080 px` square (and `1080 × 1350 px` feed crop) must contain the primary title and screenshot hook.
-
----
-
-## 2. Spacing Scale
-
-Use a consistent 8px base rhythm:
-- `8px` — Micro spacing (tag padding, icon margins)
-- `16px` — Compact spacing (list item gap, subtitle margin)
-- `24px` — Card internal padding (small devices / dense snippets)
-- `32px` — Standard card internal padding / section gap
-- `48px` — Block gap (between header and screenshot / code card)
-- `64px` — Major structural separation
+```
+1. REAL PROJECT SCREENSHOTS
+2. REAL PRODUCT UI
+3. STRONG TYPOGRAPHY
+4. CLEAR HIERARCHY
+5. EDITORIAL COMPOSITION
+6. WHITESPACE
+7. CONSISTENT BRANDING
+8. SUPPORTING METADATA
+9. DECORATION (Remove if non-functional)
+```
 
 ---
 
-## 3. Cards & Containers
+## 2. Canvas Dimensions & Outer Margins
 
-- **Background Color**: `#151B23` (Surface token).
-- **Border**: `1px solid #263241`.
-- **Corner Radius (Border Radius)**:
-  - Standard cards / containers: `16px` or `20px`.
-  - Inner elements / badges: `8px` or `9999px` (pill badges).
-- **Elevation / Shadow**: Flat. Do not use blurred colored drop shadows or neon glows. A very subtle black shadow (`rgba(0, 0, 0, 0.4) 0px 8px 24px`) is permissible only to separate a floating screenshot card from the `#0B0F14` background.
-
----
-
-## 4. Screenshot & Code Treatment
-
-> **CRITICAL RULE**: The real software screenshot must remain visually dominant. Avoid shrinking screenshots to make room for decorative shapes.
-
-### Screenshot Framing
-- **No 3D Tilting**: Screenshots must be presented flat and front-facing (orthographic). No isometric perspective angles or fake phone hand mockups.
-- **Window Chrome**:
-  - Optional clean dark title bar (`#151B23`) with three subtle neutral window dots (or no dots).
-  - Outline: `1px solid #263241`.
-  - Corner Radius: `12px` to `16px`.
-- **Cropping**: Crop tightly to the relevant user flow or interface section. Do not include empty white browser tabs or irrelevant desktop clutter.
-- **Authenticity**: Never blur out entire interfaces or substitute real UI with generic vector wireframe drawings.
-
-### Code Snippets
-- Always use dark surface background `#151B23` with `#263241` border.
-- Syntax highlighting: Subtle, restrained colors matching the brand palette (e.g., `#60A5FA` for functions/types, `#F8FAFC` for code, `#94A3B8` for comments/operators).
-- Line numbers: Display in `#94A3B8` at `50%` opacity.
+| Format | Dimensions | Aspect Ratio | Outer Margins & Safe Area |
+| :--- | :--- | :--- | :--- |
+| **Feed Post** | `1080 × 1350 px` | 4:5 | `80px` padding on all four edges. Core content area: `920 × 1190 px`. |
+| **Square Post** | `1080 × 1080 px` | 1:1 | `80px` padding on all edges. Core content area: `920 × 920 px`. |
+| **Story** | `1080 × 1920 px` | 9:16 | `250px` top safe zone, `350px` bottom safe zone, `80px` side padding. |
+| **Reel Cover** | `1080 × 1920 px` | 9:16 | Center `1080 × 1080 px` square safe zone for profile grid crop; `1080 × 1350 px` feed crop. |
 
 ---
 
-## 5. Header, Footer, and Pagination Treatment
+## 3. Spacing Rhythm (8px Base Scale)
 
-### Header Structure
-- **Left**: Category / Topic Pill (e.g., `[ ARCHITECTURE ]`, `[ CASE STUDY ]`, `[ LARAVEL + VITE ]`) in `#60A5FA` JetBrains Mono.
-- **Right** (Optional): Series tag or context badge.
-
-### Footer Structure
-- **Left**: Brand watermark `@berkahbekhan.inc` in `#94A3B8` (small, clean, understated).
-- **Right**: Slide Pagination formatted as `01 / 07` or `03 / 05` in `#94A3B8` JetBrains Mono.
-- **Divider**: A subtle `1px` horizontal border (`#263241`) can sit above the footer, or the footer can rest naturally with adequate whitespace.
+Use multiples of 8px to maintain consistent vertical and horizontal rhythm:
+- `8px`: Micro spacing (tag internal padding, badge margin)
+- `16px`: Compact spacing (subtitle to body gap, list item separation)
+- `24px`: Moderate gap (between metadata pills and headline)
+- `32px`: Component gap (between header group and screenshot container)
+- `48px`: Section block gap
+- `64px`: Major layout separation
+- `80px`: Canvas outer border padding
 
 ---
 
-## 6. Prohibited Visual Patterns
+## 4. Screenshot Presentation: Real UI Over Mockups
 
-1. **NO Excessive Gradients**: No bright purple-to-yellow or rainbow neon backgrounds.
-2. **NO Heavy Glassmorphism**: No frosted glass layers with high blur and heavy white specular highlights.
-3. **NO Floating 3D Shapes**: No floating clay donuts, spheres, coins, or isometric emojis.
-4. **NO Fake Stock Device Frames**: Avoid photorealistic hands holding phones or laptops in coffee shops. Focus on the software itself.
-5. **NO Visual Decoration Without Function**: Every line, border, and badge must serve structure or legibility.
+> **THE WORK IS THE HERO**: We strictly reject presentation-deck clichés and fake 3D mockups.
+
+- **Orthographic & Flat**: Screenshots must sit directly and front-facing on the canvas. No 3D tilting, no isometric angles, no perspective warping.
+- **No Device Bezels**: Do not insert screenshots into fake laptops, smartphone cutouts, or hands holding devices unless displaying a native mobile OS interaction that requires viewport context.
+- **No Skeuomorphic Chrome**: Avoid fake browser tabs, colored dots, or simulated window title bars. If a screenshot requires separation, use a clean `1px solid` border (`#263241` or `#E2E8F0`) with a subtle `12px - 16px` corner radius.
+- **Dominance**: The real application interface should occupy between **60% and 85%** of the slide canvas. Never shrink screenshots to fit decorative background shapes.
+
+---
+
+## 5. The 7 Composition Families
+
+Do not use a single repetitive template. Every post is styled using one of these seven distinct composition families:
+
+### 1. PROJECT HERO
+- **Purpose**: Introduce a major built project or newly shipped web portal.
+- **Layout**: Top eyebrow tag + strong display headline (`64px - 76px`) + dominant UI screenshot spanning 70%+ of canvas + subtle tech stack row.
+
+### 2. FEATURE SPOTLIGHT
+- **Purpose**: Walk through a specific tool or workflow (e.g., student assessment form, export wizard).
+- **Layout**: Clear problem-solution headline + tight UI crop focusing on the active interface + short annotation callouts.
+
+### 3. PRODUCT SCREENSHOT
+- **Purpose**: Pure visual celebration of software craftsmanship.
+- **Layout**: Minimal typographic framing (small top label and quiet footer); 80%+ of canvas dedicated to a crisp, unencumbered interface screenshot.
+
+### 4. TECHNICAL BREAKDOWN
+- **Purpose**: Explain an architectural mechanism, data model, or query optimization.
+- **Layout**: Headline stating the architectural problem + clean syntax-highlighted code container in JetBrains Mono + concise explanation.
+
+### 5. DEVELOPMENT INSIGHT
+- **Purpose**: Share a concrete engineering trade-off or hard-won production lesson.
+- **Layout**: Bold editorial type headline + concise narrative + supporting code diff or terminal output.
+
+### 6. PROJECT DETAIL
+- **Purpose**: Highlight a micro-interaction, form control, modal, or custom component.
+- **Layout**: Close-up interface crop + subtle descriptive caption emphasizing UX craftsmanship.
+
+### 7. PROOF / ACHIEVEMENT
+- **Purpose**: Share verified production deployment, test suite run, or milestone.
+- **Layout**: Factual metric or terminal test output (`Pest / PHPUnit / Playwright`) + clean status badge. Strictly zero fabrication.
+
+---
+
+## 6. Prohibited Visual Slop Patterns
+
+Treat all of the following as immediate grounds for redesign:
+- ❌ Excessive dark cards nested inside dark cards
+- ❌ Bloated rounded containers (`32px`+ bubble corners)
+- ❌ Excessive pill badges and tag clusters
+- ❌ Browser mockups and device hand cutouts
+- ❌ Decorative grids, gradient meshes, and neon glow halos
+- ❌ Floating 3D objects, clay shapes, or generic SaaS vectors
+- ❌ Repetitive `CASE STUDY / 01 / 07` slide deck headers

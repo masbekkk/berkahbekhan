@@ -1,72 +1,57 @@
 ---
 name: instagram-tips
-description: >-
-  Generates practical, high-signal developer educational tips and code breakdowns for berkahbekhan.inc.
-  Extracts genuine engineering problems, bug fixes, and architectural patterns from real project workflows.
+description: Generates practical, high-signal developer insights, technical breakdowns, and code snippets for @berkahbekhan.inc based on real build workflows.
+when_to_use: Use when formatting supporting technical breakdowns, code snippets, or development insights extracted from real software projects.
+allowed-tools: Read, Grep, Glob
+version: 2.0.0
+priority: MEDIUM
 ---
 
-# Developer Tips & Technical Insights Skill
+# Developer Insights & Technical Breakdown Skill
 
-This skill generates developer tips, architecture patterns, and debugging breakdowns for **berkahbekhan.inc**. Content created by this skill stems from real problems encountered when building software, not generic regurgitated tutorials.
-
----
-
-## 1. Technical Scope & Domains
-
-Focus on pragmatic, production-grade topics commonly encountered in full-stack engineering:
-
-- **Backend & Frameworks**: Laravel, PHP 8+, Eloquent optimization, background jobs, queue workers
-- **Frontend & Bridge**: React, TypeScript, Inertia.js, state management, Vite asset pipelines
-- **Databases & Storage**: PostgreSQL, MySQL, indexing strategies, locking, migration safety
-- **Infrastructure & DevOps**: Nginx configuration, VPS deployment, Docker, SSL, Linux daemons
-- **Architecture & Tooling**: Git workflows, API design, authentication, refactoring patterns
+> **Role in Portfolio Strategy**: Supporting content.  
+> This skill operates strictly in service of the portfolio: it extracts genuine engineering trade-offs, architecture patterns, and bug fixes discovered while building real software. It aligns directly with Composition Family 4 (**TECHNICAL BREAKDOWN**) and Composition Family 5 (**DEVELOPMENT INSIGHT**).
 
 ---
 
-## 2. Core Post Structure
+## 1. Editorial Positioning
 
-All developer tips must adhere strictly to the **5-Stage Signal Chain**:
+- **Portfolio-First Guardrail**: Never let tips overshadow real project showcases. Developer insights serve to prove technical depth behind the software we build.
+- **Rooted in Real Builds**: Every tip must originate from an actual implementation hurdle in `projects/<project-name>/`, not generic syntax tutorials.
+- **Zero Beginner Tropes**: Never produce *"What is an array?"* or *"Top 5 VS Code extensions"*. Focus on production architecture, framework nuances, and real debugging.
+
+---
+
+## 2. Core Structure: The 5-Stage Engineering Signal Chain
+
+All technical breakdowns follow this disciplined sequence:
 
 ```
-1. REAL PROBLEM
-   A concrete, relatable engineering friction point or bug.
-   (e.g., "Eloquent eager loading failing on polymorphic relations")
+1. CONCRETE PROBLEM
+   Real production friction point or bug encountered during development.
+   (e.g., "Eloquent N+1 query when eager loading nested polymorphic relationships")
          ↓
-2. WHY IT HAPPENS
-   The underlying architectural or runtime reason.
-   (e.g., "How the query planner handles the two-step hydration")
+2. ROOT CAUSE
+   The architectural or runtime mechanism causing the issue.
+   (e.g., "Two-step query hydration in Laravel's query planner")
          ↓
-3. HOW TO SOLVE IT
-   The exact technique, pattern, or refactor needed.
+3. ARCHITECTURAL RESOLUTION
+   The exact technique, pattern, or refactor applied.
          ↓
-4. PRACTICAL EXAMPLE
-   Syntactically correct, highlighted code snippet or config diff.
-   Before vs. After or clean idiomatic implementation.
+4. VERIFIED CODE / SCHEMA
+   Syntactically valid, highlighted snippet or config diff from the actual repository.
          ↓
-5. TAKEAWAY
-   A concise heuristic or rule of thumb for future projects.
+5. ENGINEERING TAKEAWAY
+   A concise rule of thumb or architectural trade-off for fellow developers.
 ```
 
 ---
 
-## 3. Formatting by Post Type
+## 3. Formatting Standards
 
-### A. Carousel Breakdown (4–6 Slides, 1080 × 1350)
-- **Slide 1 (Hook / Problem)**: Category eyebrow (e.g., `[ LARAVEL + POSTGRES ]`), bold title stating the problem clearly, and a teaser snippet or terminal error output.
-- **Slide 2 (The Cause)**: Concise breakdown of the runtime behavior or edge case.
-- **Slide 3 (The Flawed / Common Approach)**: Why the intuitive naive solution causes bottlenecks or bugs.
-- **Slide 4 (The Correct Solution / Code)**: Dark code container (`#151B23`) with clean JetBrains Mono snippet.
-- **Slide 5 (Summary & Takeaway)**: Key engineering principle and invitation for technical discussion.
-
-### B. Single Feed Post (1080 × 1350)
-- Clear top header identifying the topic.
-- Central framed code card or configuration diff (`#151B23` with `#263241` border).
-- Accompanying caption carrying the full 5-stage explanation.
-
----
-
-## 4. Quality & Originality Standards
-
-- **Avoid Generic Beginner Tropes**: Never create posts like *"What is an array?"* or *"How to declare a variable in JavaScript"*, unless presenting an advanced compiler nuance or edge case.
-- **Syntactic Correctness**: Every code snippet must be valid, formatted, and strictly follow language conventions (e.g., PSR-12 for PHP, modern TS conventions for React).
-- **Zero AI Hype**: No *"5 insane productivity hacks"* or *"10x your coding speed"*. Focus on craftsmanship, reliability, and maintainability.
+- **Single Feed Post (`1080 × 1350 px`)**:
+  - Clear mono header + concise problem title.
+  - Large, high-contrast code panel in JetBrains Mono.
+  - Brief caption carrying the root cause and resolution.
+- **Figma Alignment**: Frame code containers with clean `1px solid` border (`#263241`), minimal syntax highlighting, and generous padding.
+- **Anti-Slop Guardrail**: No clickbait hooks (*"Stop doing X!"*), no fake benchmark numbers, no neon drop shadows.

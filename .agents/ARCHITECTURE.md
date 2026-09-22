@@ -9,7 +9,7 @@
 AG Kit is a modular Antigravity workspace system consisting of:
 
 - **20 Specialist Agents** — role-based AI personas and orchestration roles;
-- **47 Skills** — domain knowledge modules with progressive conditional loading;
+- **54 Skills** — domain knowledge modules with progressive conditional loading;
 - **13 Workflows** — slash-command procedures;
 - **6 Rules** — workspace routing, coding, design, safety, and quick-reference constraints;
 - **Antigravity runtime layer** — contract, native hook, MCP helper, plugin builder, Doctor, schemas, and tests.
@@ -52,7 +52,7 @@ Any managed change without registry regeneration fails validation and CI. Google
 ├── manifest.lock.json        # Generated integrity lock
 ├── DEPENDENCY_GRAPH.md       # Generated workflow → agent → skill graph
 ├── agent/                    # 20 specialist role definitions
-├── skills/                   # 47 progressive skills
+├── skills/                   # 54 progressive skills
 ├── workflows/                # 13 slash-command procedures
 ├── rules/                    # 6 workspace constraints
 ├── memory/                   # Persistent project context
@@ -238,6 +238,18 @@ Modular knowledge domains that agents can load on-demand based on task context. 
 | `systematic-debugging`    | Troubleshooting           |
 | `intelligent-routing`     | Request → agent routing   |
 
+### BerkahBekhan Instagram Content & Art Direction
+
+| Skill                     | Description                                                               |
+| ------------------------- | ------------------------------------------------------------------------- |
+| `berkahbekhan-brand`      | Brand visual identity, typography, flexible canvas, anti-slop rules       |
+| `figma-design`            | Figma workspace engineering, Auto Layout, components, tokens, MCP        |
+| `instagram-art-direction` | Decides what to post, 7 composition families, project mining, feed rhythm |
+| `instagram-portfolio`     | Portfolio showcases & micro-carousels from verified project artifacts     |
+| `instagram-content`       | Master orchestrator for 10-stage Instagram pipeline                       |
+| `content-review`          | Quality audit, AI-Slop Test, Simplification Test, Portfolio Test          |
+| `instagram-tips`          | Supporting technical breakdowns and development insights from real builds |
+
 ---
 
 ## 🔄 Workflows (13)
@@ -367,7 +379,7 @@ For command details and prerequisites, see [scripts/README.md](scripts/README.md
 | Metric              | Value                             |
 | ------------------- | --------------------------------- |
 | **Total Agents**    | 20 (1 major upgrade in 2026.5.13) |
-| **Total Skills**    | 47                                |
+| **Total Skills**    | 54                                |
 | **Total Workflows** | 13 (+2 new in 2026.5.13)          |
 | **Toolkit Utilities** | 7 user-facing + 2 internal modules |
 | **Antigravity Utilities** | 4 runtime utilities              |
