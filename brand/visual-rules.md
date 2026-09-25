@@ -52,7 +52,7 @@ Use multiples of 8px to maintain consistent vertical and horizontal rhythm:
 
 - **Orthographic & Flat**: Screenshots must sit directly and front-facing on the canvas. No 3D tilting, no isometric angles, no perspective warping.
 - **No Device Bezels**: Do not insert screenshots into fake laptops, smartphone cutouts, or hands holding devices unless displaying a native mobile OS interaction that requires viewport context.
-- **No Skeuomorphic Chrome**: Avoid fake browser tabs, colored dots, or simulated window title bars. If a screenshot requires separation, use a clean `1px solid` border (`#263241` or `#E2E8F0`) with a subtle `12px - 16px` corner radius.
+- **No Skeuomorphic Chrome**: Avoid fake browser tabs, colored dots, or simulated window title bars. If a screenshot requires separation, use a clean `1px solid` border (`#2C2C2E` on dark or `#E5E5EA` on light) with a subtle `12px - 16px` corner radius.
 - **Dominance**: The real application interface should occupy between **60% and 85%** of the slide canvas. Never shrink screenshots to fit decorative background shapes.
 
 ---

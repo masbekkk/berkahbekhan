@@ -70,26 +70,27 @@ The BerkahBekhan brand provides **systemic consistency**, while the individual p
 ### Background & Dark Mode Rules:
 - **Dark mode is NOT mandatory**.
 - Canvas backgrounds may be:
-  - Deep obsidian dark (`#0B0F14` or `#0F172A`)
-  - Clean editorial light (`#F8FAFC` or `#F1F5F9`)
-  - Warm/cool neutral (`#18181B` or `#1E293B`)
+  - Apple Studio White (`#FFFFFF`) or Signature Off-White (`#F5F5F7`)
+  - Space Black (`#000000`) or Studio Dark (`#161617` / `#1D1D1F`)
   - Project-derived background tones sampled subtly from the software interface
 - Never force every screenshot into an elevated dark card container.
 
 ---
 
-## 4. Design System Tokens
+## 4. Design System Tokens (Apple Developer Academy @ UC Reference)
 
 ### A. Core Tokens
 
 | Token | Dark Canvas | Light Canvas | Role |
 | :--- | :--- | :--- | :--- |
-| **Canvas** | `#0B0F14` | `#F8FAFC` | Primary post background. |
-| **Surface** | `#151B23` | `#FFFFFF` | Code snippet panels, callouts (when strictly needed). |
-| **Primary Text** | `#F8FAFC` | `#0F172A` | Main headlines, primary messaging. |
-| **Muted Text** | `#94A3B8` | `#64748B` | Stack tags, labels, captions, metadata. |
-| **Border** | `#263241` | `#E2E8F0` | Hairline boundaries, screenshot edge (1px solid). |
-| **Brand Accent** | `#3B82F6` | `#2563EB` | Subtle tag accents, active focal highlights. |
+| **Canvas** | `#000000` / `#161617` | `#FFFFFF` / `#F5F5F7` | Primary post background. |
+| **Surface** | `#1C1C1E` / `#2C2C2E` | `#FFFFFF` | Code snippet panels, callouts (when strictly needed). |
+| **Primary Text** | `#F5F5F7` | `#1D1D1F` | Main headlines, primary messaging. |
+| **Muted Text** | `#86868B` | `#6E6E73` / `#86868B` | Stack tags, labels, captions, metadata. |
+| **Border** | `#2C2C2E` / `#38383A` | `#E5E5EA` / `#D2D2D7` | Hairline boundaries, screenshot edge (1px solid). |
+| **Primary Accent** | `#FF9500` / `#FC8117` | `#FC8117` | **Academy Tangerine**. UC Apple Academy signature focus accent. |
+| **System Accent** | `#0A84FF` / `#0071E3` | `#0071E3` | **Apple Developer Blue**. Interactive links, technical badges. |
+| **Swift Accent** | `#F05138` | `#F05138` | **Swift Flame**. Architecture diffs and compiler callouts. |
 
 ---
 
