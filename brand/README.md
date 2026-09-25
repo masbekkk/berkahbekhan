@@ -41,10 +41,10 @@ REAL PROJECT INFORMATION
 
 | Document | Purpose |
 | :--- | :--- |
-| [`colors.md`](./colors.md) | Canvas options (dark, light, neutral, project-derived), token roles, and palette discipline. |
+| [`colors.md`](./colors.md) | Canvas options (Space Black, Studio Dark, Apple Off-White, Studio White), token roles, and palette discipline. |
 | [`typography.md`](./typography.md) | Font hierarchy (Inter/Geist Sans + JetBrains/Geist Mono) and mobile scales. |
-| [`visual-rules.md`](./visual-rules.md) | Layout grids, margins, orthographic screenshot framing, 7 composition families, and anti-AI-slop rules. |
-| [`content-rules.md`](./content-rules.md) | Anti-AI-slop manifesto, tone of voice, veracity guidelines, and the 3 mandatory pre-flight tests. |
+| [`visual-rules.md`](./visual-rules.md) | Layout grids, 80px safe margins, screenshot proportion inviolability, multi-image hierarchy, 7 composition families, and carousel structure. |
+| [`content-rules.md`](./content-rules.md) | Carousel story sequence, each slide has one job, text vs image balance, veracity guidelines, and mandatory pre-flight tests. |
 
 ---
 

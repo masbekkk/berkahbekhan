@@ -1,44 +1,160 @@
 # Visual Rules — berkahbekhan.inc
 
-This document defines layout geometry, screenshot presentation, the 7 composition families, and visual anti-slop rules for **@berkahbekhan.inc**.
+This document defines layout geometry, screenshot presentation, carousel sequence standards, composition families, and visual anti-slop rules for **@berkahbekhan.inc**.
 
 ---
 
 ## 1. Core Visual Hierarchy
 
-All visual compositions follow this priority order:
+All visual compositions strictly follow this priority order:
 
 ```
-1. REAL PROJECT SCREENSHOTS
-2. REAL PRODUCT UI
-3. STRONG TYPOGRAPHY
-4. CLEAR HIERARCHY
-5. EDITORIAL COMPOSITION
-6. WHITESPACE
-7. CONSISTENT BRANDING
-8. SUPPORTING METADATA
+1. REAL PROJECT SCREENSHOTS (Undistorted, sharp, clear, primary visual)
+2. REAL PRODUCT UI (Genuine forms, tables, workflows, components)
+3. STRONG TYPOGRAPHY (Clear headline hierarchy, high mobile legibility)
+4. CLEAR HIERARCHY (Primary visual → Primary message → Secondary info → Branding)
+5. EDITORIAL COMPOSITION (Thoughtful layout, balanced asymmetry, magazine-grade structure)
+6. WHITESPACE (Generous breathing room, consistent safe margins)
+7. CONSISTENT BRANDING (Understated watermark, consistent fonts, disciplined margins)
+8. SUPPORTING METADATA (Stack labels, file paths, dates, counters)
 9. DECORATION (Remove if non-functional)
 ```
 
 ---
 
-## 2. Canvas Dimensions & Outer Margins
+## 2. Hard Rules: Proportion & Readability Primacy
 
-| Format | Dimensions | Aspect Ratio | Outer Margins & Safe Area |
-| :--- | :--- | :--- | :--- |
-| **Feed Post** | `1080 × 1350 px` | 4:5 | `80px` padding on all four edges. Core content area: `920 × 1190 px`. |
-| **Square Post** | `1080 × 1080 px` | 1:1 | `80px` padding on all edges. Core content area: `920 × 920 px`. |
-| **Story** | `1080 × 1920 px` | 9:16 | `250px` top safe zone, `350px` bottom safe zone, `80px` side padding. |
-| **Reel Cover** | `1080 × 1920 px` | 9:16 | Center `1080 × 1080 px` square safe zone for profile grid crop; `1080 × 1350 px` feed crop. |
+> 🔴 **MANDATORY**: Optimize for **SCREENSHOT READABILITY > NUMBER OF SCREENSHOTS**.  
+> Never optimize for **NUMBER OF SCREENSHOTS > READABILITY**.
+
+### Rule A: Absolute Screenshot Proportionality (Aspect Ratio Inviolability)
+- **NEVER distort a project screenshot**. Every image MUST preserve its original, true aspect ratio.
+- Strictly forbidden:
+  - ❌ Stretching horizontally or vertically
+  - ❌ Squeezing or squashing
+  - ❌ Non-uniform scaling
+  - ❌ Forcing an image into an arbitrary rectangle
+  - ❌ Distorting UI typography, icons, charts, or tables
+- When fitting an image into a composition, ALWAYS:
+  1. Preserve original aspect ratio.
+  2. Scale proportionally.
+  3. Crop intentionally when necessary.
+  4. Use masking/clipping for focused UI sections.
+  5. Position the crop intelligently to emphasize high-value UI.
+- The screenshot MUST remain geometrically true to the running software.
+
+### Rule B: Image Fitting Mental Model
+Use this strict mental model:
+- **`CONTAIN`**: Use when the complete screenshot and all surrounding context must remain fully visible.
+- **`COVER + CROP`**: Use when the screenshot should fill a visual area, but non-essential peripheral edges can be cleanly cropped without losing context or labels.
+- **`DETAIL CROP`**: Use when a specific UI component (a form control, modal, data row, or chart element) deserves deliberate emphasis.
+- **NEVER `STRETCH TO FIT`**: If the screenshot aspect ratio and the container ratio differ, **change the composition layout**, do not deform the screenshot.
+
+### Rule C: Never Sacrifice Proportion
+When there is a conflict between:
+- **Option A**: Fitting more content into a slide
+- **Option B**: Preserving screenshot quality, proportion, and readability  
+→ **ALWAYS choose Option B**. Templates adapt to the content; content is never distorted to fit templates.
+
+### Rule D: Less Is Better
+If a slide feels crowded:
+- Do NOT shrink typography or squeeze screenshots into tiny cards.
+- **Remove secondary content**.
+- **Remove secondary screenshots**.
+- **Simplify surrounding text**.
+- **Split content into another slide**.
+- **Increase screenshot size and whitespace**.
 
 ---
 
-## 3. Spacing Rhythm (8px Base Scale)
+## 3. Canvas Dimensions & Safe Margin System
 
-Use multiples of 8px to maintain consistent vertical and horizontal rhythm:
-- `8px`: Micro spacing (tag internal padding, badge margin)
+All slides in an Instagram carousel **MUST use exactly the same dimensions**:
+
+| Format | Dimensions | Aspect Ratio | Safe Margins & Content Bounds |
+| :--- | :--- | :--- | :--- |
+| **Feed / Carousel** | `1080 × 1350 px` | 4:5 | **80px outer padding** on all four edges. Core content boundary: `920 × 1190 px`. |
+| **Square Post** | `1080 × 1080 px` | 1:1 | **80px outer padding**. Core content boundary: `920 × 920 px`. |
+| **Story** | `1080 × 1920 px` | 9:16 | `250px` top safe zone, `350px` bottom safe zone, `80px` side padding. |
+| **Reel Cover** | `1080 × 1920 px` | 9:16 | Center `1080 × 1080 px` square safe zone for profile grid crop; `1080 × 1350 px` feed crop safe. |
+
+### Safe Margin Rules:
+- Generous, consistent margins from top, bottom, left, and right.
+- Never place important headlines, UI details, or tags flush against canvas edges.
+- Maintain consistent outer margin rhythm (`80px`) across every slide in the carousel sequence.
+- Do not sacrifice margins or readability to artificially maximize content size.
+
+---
+
+## 4. One Primary Visual Per Slide & Multi-Screenshot Hierarchy
+
+### Default Rule: One Primary Screenshot Per Slide
+A slide may contain additional screenshots **ONLY** when they communicate an explicit relationship, workflow, comparison, or sequence.
+> **The Addition Gate**: Before adding a second screenshot, ask:  
+> *"Does this second image communicate something essential that the first image cannot?"*  
+> If **NO** → Do NOT add it.
+
+### Multi-Screenshot Visual Hierarchy Rules
+When multiple screenshots are justified, **DO NOT automatically place them in equal-sized side-by-side boxes** (e.g. `SCREENSHOT A | SCREENSHOT B` on wide desktop screens causes both to shrink into illegibility).
+
+Use intentional visual hierarchy:
+
+| Pattern | Layout Mechanism | Best Use Case |
+| :--- | :--- | :--- |
+| **A. Hero + Secondary** | Large primary screenshot (70% visual weight) + smaller supporting screenshot (30% weight) | Main screen context + focused action modal |
+| **B. Vertical Sequence** | Stacked full-width screenshots (Screenshot A over Screenshot B) with proportional heights | Before/After states or two-step sequential actions |
+| **C. Workflow** | Proportional sequential cards (`A → B → C`) or distinct status transitions | Step-by-step pipeline from input to output |
+| **D. Context + Detail** | Large macro interface view + zoomed detail crop highlighting a micro-interaction | Highlighting a table with a zoomed row or status badge |
+| **E. Primary + Supporting** | Clear dominant anchor image with supporting evidence element | Dashboard overview with small supporting metric card |
+
+> ⚠️ **Readability Threshold**: If shrinking screenshots makes UI labels, table cells, or buttons unreadable on mobile, **SPLIT THE SCREENSHOTS ACROSS SEPARATE SLIDES**. A large, understandable screenshot is always better than three tiny unreadable ones.
+
+---
+
+## 5. Desktop vs. Mobile Screenshot Handling
+
+### Wide Desktop & Dashboard Screenshots
+- **Prefer**:
+  - Large single screenshot spanning full content width (`920px`).
+  - Wide screenshot with proportional scaling and generous vertical breathing room.
+  - Intentional horizontal or vertical crop focusing on the active module.
+  - Context + Detail layout (macro view + micro crop).
+- **Strictly Avoid**:
+  - ❌ Tiny side-by-side desktop screens in equal columns.
+  - ❌ Narrow cards compressing an entire 1920×1080 desktop interface into 400px width.
+  - ❌ Squeezing multiple dashboards into one slide.
+
+### Mobile & Portrait Screenshots
+- **Preserve the portrait aspect ratio** (typically 9:16, 9:19.5, or 3:4).
+- Never stretch mobile screens to fill a landscape container.
+- **Prefer**:
+  - One large prominent mobile screenshot.
+  - Two proportional mobile screens side-by-side (natural 9:16 proportion fits portrait feed comfortably).
+  - Vertical or horizontal sequence with proportional scaling.
+  - Intentional detail crops on specific mobile sheet interactions.
+
+---
+
+## 6. Anti-Card Rule: Direct Editorial Image Placement
+
+- A screenshot **does NOT need to live inside a card**.
+- Prefer **direct editorial image placement**: let the interface sit cleanly directly on the canvas.
+- Apply a subtle `1px solid` hairline border (`#2C2C2E` on dark canvas, `#E5E5EA` on light canvas) and a crisp corner radius (`12px - 16px`).
+- Strictly avoid:
+  - ❌ Wrapping screenshots in extra dark container cards.
+  - ❌ Floating glassmorphism cards with thick glowing borders.
+  - ❌ Fake laptop bezels, tablet mockups, or phone cutouts.
+  - ❌ Fake browser address bars and window headers with colored dots.
+- Use a container only when strictly necessary to separate contrasting elements or group a code block.
+
+---
+
+## 7. Spacing Rhythm (8px Base Scale)
+
+Use strict multiples of 8px:
+- `8px`: Micro spacing (pill internal padding, badge margin)
 - `16px`: Compact spacing (subtitle to body gap, list item separation)
-- `24px`: Moderate gap (between metadata pills and headline)
+- `24px`: Moderate gap (between eyebrow tag and headline)
 - `32px`: Component gap (between header group and screenshot container)
 - `48px`: Section block gap
 - `64px`: Major layout separation
@@ -46,20 +162,9 @@ Use multiples of 8px to maintain consistent vertical and horizontal rhythm:
 
 ---
 
-## 4. Screenshot Presentation: Real UI Over Mockups
+## 8. The 7 Composition Families
 
-> **THE WORK IS THE HERO**: We strictly reject presentation-deck clichés and fake 3D mockups.
-
-- **Orthographic & Flat**: Screenshots must sit directly and front-facing on the canvas. No 3D tilting, no isometric angles, no perspective warping.
-- **No Device Bezels**: Do not insert screenshots into fake laptops, smartphone cutouts, or hands holding devices unless displaying a native mobile OS interaction that requires viewport context.
-- **No Skeuomorphic Chrome**: Avoid fake browser tabs, colored dots, or simulated window title bars. If a screenshot requires separation, use a clean `1px solid` border (`#2C2C2E` on dark or `#E5E5EA` on light) with a subtle `12px - 16px` corner radius.
-- **Dominance**: The real application interface should occupy between **60% and 85%** of the slide canvas. Never shrink screenshots to fit decorative background shapes.
-
----
-
-## 5. The 7 Composition Families
-
-Do not use a single repetitive template. Every post is styled using one of these seven distinct composition families:
+Every post or carousel slide is styled using one of these seven distinct composition families:
 
 ### 1. PROJECT HERO
 - **Purpose**: Introduce a major built project or newly shipped web portal.
@@ -91,9 +196,30 @@ Do not use a single repetitive template. Every post is styled using one of these
 
 ---
 
-## 6. Prohibited Visual Slop Patterns
+## 9. Carousel Frame Structure
+
+When constructing a multi-slide carousel:
+```
+CAROUSEL — [PROJECT NAME]
+├── 00 — Carousel Overview (3×3 or sequential staging board to review story flow)
+├── 01 — Cover / Project Hook
+├── 02 — Product Overview / Strong Screen
+├── 03 — Feature Spotlight
+├── 04 — Workflow Walkthrough
+├── 05 — Product Detail / Tiers
+├── 06 — Technical Implementation
+├── 07 — System Area / Permissions
+├── 08 — Development Insight
+└── 09 — Closing / Archive Proof
+```
+
+---
+
+## 10. Prohibited Visual Slop Patterns
 
 Treat all of the following as immediate grounds for redesign:
+- ❌ Distorted, squashed, or non-uniformly stretched screenshots
+- ❌ Unreadable tiny screenshots packed into equal-sized boxes
 - ❌ Excessive dark cards nested inside dark cards
 - ❌ Bloated rounded containers (`32px`+ bubble corners)
 - ❌ Excessive pill badges and tag clusters

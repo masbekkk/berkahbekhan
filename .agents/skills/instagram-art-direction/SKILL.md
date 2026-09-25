@@ -3,7 +3,7 @@ name: instagram-art-direction
 description: Decides what to post for @berkahbekhan.inc by mining real projects for multiple independent content opportunities, assigning composition families, and curating feed-level visual rhythm.
 when_to_use: Use when analyzing real projects, identifying content angles, selecting composition families, or planning 3x3 feed rhythm before designing in Figma.
 allowed-tools: Read, Grep, Glob
-version: 1.0.0
+version: 2.0.0
 priority: HIGH
 ---
 
@@ -11,9 +11,11 @@ priority: HIGH
 
 > **Core Philosophy**: **THE WORK IS THE DESIGN.**  
 > The Instagram account for **@berkahbekhan.inc** is a developer's visual archive of real software that has actually been built. Every post must communicate: *"This developer actually builds software,"* never *"This account generates AI portfolio graphics."*
+> 
+> **MANDATORY**: Optimize for **SCREENSHOT READABILITY > NUMBER OF SCREENSHOTS**.
 
-This skill answers the primary editorial question: **"What should I post?"**  
-It inspects real project repositories, identifies authentic visual materials and feature angles, assigns the appropriate composition family, and curates feed-level visual rhythm before passing specifications to `figma-design`.
+This skill answers the primary editorial and visual direction question: **"What should I post, how should the carousel unfold as a story, and what layout honors the screenshots?"**  
+It inspects real project repositories, identifies authentic visual materials, defines the narrative arc, selects layout compositions based on screenshot geometry, and curates visual rhythm.
 
 ---
 
@@ -21,6 +23,8 @@ It inspects real project repositories, identifies authentic visual materials and
 
 The generated content must NEVER feel like an AI-generated Behance case study or generic marketing pitch. We explicitly reject:
 
+- ❌ Distorted, squashed, or non-uniformly stretched screenshots
+- ❌ Unreadable microscopic screenshots crammed into equal-sized boxes
 - ❌ Generic AI portfolio graphics and presentation-deck layouts
 - ❌ Repetitive `CASE STUDY / 01 / 07` slide decks
 - ❌ Excessive dark cards inside dark cards
@@ -34,49 +38,109 @@ If an element does not improve communication, **remove it**.
 
 ---
 
-## 2. Project Mining: 1 Project = Many Independent Posts
+## 2. Carousel as a Story Sequence
 
-Never force an entire software system into a single bloated 7-slide carousel. Real software contains dozens of genuine engineering decisions, interfaces, and workflows.
+Treat every carousel as a **coherent project story**, not nine unrelated posters. Every slide must have a clear purpose in the sequence.
 
-### Independent Content Opportunities
-Analyze each project in `projects/<project-name>/` to identify multiple standalone content opportunities:
+### Recommended Story Structure:
+1. **01 — Hook / Project Introduction**: What was built, problem domain, primary architecture.
+2. **02 — Strong Product Screen**: Dominant high-resolution view of the flagship interface.
+3. **03 — Core Feature Spotlight**: Deep dive into the primary functional tool or user task.
+4. **04 — Workflow Walkthrough**: Operational pipeline (e.g. intake → triage → resolution).
+5. **05 — Feature / Product Detail**: Data tables, scoring brackets, or specialized views.
+6. **06 — Technical / Build Architecture**: Concrete backend mechanism, database logic, or PDF engine.
+7. **07 — Additional Product Area / RBAC**: Multi-role mapping, admin settings, or sub-portals.
+8. **08 — Engineering Insight**: Architectural trade-off, lesson learned, or framework heuristic.
+9. **09 — Closing / Production Archive**: Verified deliverable, production status, and sign-off.
 
-- **Project Introduction**: Purpose, problem domain, and primary architecture.
-- **Specific Feature Spotlight**: A single deep workflow (e.g., student assessment intake, billing checkout).
-- **Product UI Showcase**: High-resolution, unencumbered view of the actual dashboard or data view.
-- **Data / Workflow Pipeline**: From input to output (e.g., "From student survey to 50-page PDF compilation").
-- **Technical Implementation**: How a specific backend job, database index, or frontend state machine was built.
-- **Development Insight**: An architectural trade-off, refactor, or production bug fix discovered during build.
-- **Report / Output Generation**: Concrete artifacts produced by the app (PDFs, exports, analytics tables).
-
-*Example (MTsN Gresik Counseling Portal)*:
-Instead of one 7-slide carousel, this single project generates at least 7 independent posts:
-1. Project Introduction: School counseling & positive discipline portal
-2. Feature Spotlight: 180-question psychological needs assessment
-3. Role Workflow: Teacher merit and violation fast-logging
-4. Counselor Triage: Real-time lowest score analytics
-5. Document Engine: In-browser vector PDF report generation
-6. Batch Processing: Class-wide merged PDF synthesis
-7. Engineering Insight: Why Laravel 12 + Inertia React replaced physical paper binders
+> **Flexibility Rule**: The actual project source material determines the final sequence. Do NOT create filler slides. If a project has four strong screens, produce a 4-slide micro-carousel.
 
 ---
 
-## 3. One Primary Idea Per Post
+## 3. Each Slide Has One Job
 
-Every post must communicate **one dominant message**. Do not dilute content by cramming multiple features or technical lessons into a single piece.
+Every slide must answer **one primary question** with clarity:
+- *"What is this project?"*
+- *"What does this feature do?"*
+- *"How does this workflow operate?"*
+- *"What does the dashboard look like?"*
+- *"What technical problem was solved?"*
+- *"What makes this implementation detail interesting?"*
 
-**Examples of Strong Single Messages**:
-- *"180 indicators. One digital assessment."*
-- *"From student assessment to PDF report."*
-- *"A counseling portal for teachers and students."*
-- *"Built with Laravel + React."*
-- *"Handling bulk class PDF synthesis in memory."*
-
-If an idea requires a secondary thesis, split it into a separate post.
+Do not make every slide attempt to explain the entire project.
 
 ---
 
-## 4. The 7 Composition Families
+## 4. Visual Rhythm Across the Carousel
+
+Maintain brand consistency while varying visual density across slides:
+
+```
+Slide 1: Hero (Display title + dominant screen + stack)
+Slide 2: Screenshot-heavy (Pure product UI celebration)
+Slide 3: Typography + Screenshot (Problem-solution focus)
+Slide 4: Workflow (Sequential multi-step UI or drill-down modal)
+Slide 5: Detail (Scoring tiers or specialized table view)
+Slide 6: Technical (In-depth architecture or code snippet)
+Slide 7: Screenshot-heavy (Secondary portal / role view)
+Slide 8: Insight (Engineering heuristic diff)
+Slide 9: Closing (System summary + verified deliverable)
+```
+
+**Avoid Monotony**: Never produce nine identical slides formatted as `headline + 2 screenshots + paragraph`.
+
+---
+
+## 5. Asset-First Layout Selection Process
+
+Before designing each slide, analyze the screenshot first. **Templates must adapt to the content; content is never distorted to fit templates.**
+
+```
+1. ANALYZE SCREENSHOT:
+   - Orientation (Landscape desktop vs. Portrait mobile)
+   - Native aspect ratio
+   - Visual priority & focal point
+   - Readability threshold (will table text be legible on mobile?)
+   - Crop potential (can peripheral navigation be cropped cleanly?)
+   - Required text volume
+         ↓
+2. SELECT APPROPRIATE COMPOSITION:
+   - Full-width hero view (for rich dashboards)
+   - Vertical sequence (for two-step actions)
+   - Context + Detail crop (for complex data tables)
+   - Side-by-side (ONLY for natural portrait mobile screens)
+         ↓
+3. ENFORCE READABILITY THRESHOLD:
+   - If secondary screenshots shrink the primary visual into illegibility → SPLIT ACROSS SLIDES.
+```
+
+---
+
+## 6. Desktop vs. Mobile Screenshot Rules
+
+### Wide Desktop & Dashboard Screenshots
+- **Prefer**:
+  - Large single screenshot spanning full content width (`920px`).
+  - Wide screenshot with proportional scaling and generous vertical breathing room.
+  - Intentional horizontal or vertical crop focusing on the active module.
+  - Context + Detail layout (macro view + micro crop).
+- **Strictly Avoid**:
+  - ❌ Tiny side-by-side desktop screens in equal columns.
+  - ❌ Narrow cards compressing an entire 1920×1080 desktop interface into 400px width.
+  - ❌ Squeezing multiple dashboards into one slide.
+
+### Mobile & Portrait Screenshots
+- **Preserve the portrait aspect ratio** (typically 9:16, 9:19.5, or 3:4).
+- Never stretch mobile screens to fill a landscape container.
+- **Prefer**:
+  - One large prominent mobile screenshot.
+  - Two proportional mobile screens side-by-side (natural 9:16 proportion fits portrait feed comfortably).
+  - Vertical sequence with proportional scaling.
+  - Intentional detail crops on specific mobile sheet interactions.
+
+---
+
+## 7. The 7 Composition Families
 
 To maintain visual variety across the feed while preserving brand coherence, every post is assigned to one of seven distinct composition families:
 
@@ -92,18 +156,16 @@ To maintain visual variety across the feed while preserving brand coherence, eve
 
 ---
 
-## 5. Visual References & Art Direction Inspiration
+## 8. Intentional Cropping Rules
 
-Use these accounts solely for visual cadence, editorial culture, and social rhythm inspiration:
-
-- **Webcare IDN** (`https://www.instagram.com/webcare.idn/`): Inspires portfolio-heavy cadence, presenting numerous real software deliverables, and modern design culture.
-- **Apple Developer Academy @ UC** (`https://www.instagram.com/ucs_appledeveloperacademy/`): Inspires project-focused storytelling, clean typography, editorial composition, and understated visual dignity.
-
-> **STRICT PROHIBITION**: Do NOT copy their exact layouts, brand marks, logos, typography, color palettes, or phrasing. Use them to calibrate high editorial standards while maintaining the distinct BerkahBekhan identity.
+Cropping is encouraged when it enhances focus and composition, but it must be intentional:
+- **Preserve Essential Context**: Do not crop out active form inputs or primary status indicators if the headline refers to them.
+- **Avoid Confusing Cuts**: Do not slice through text labels, action buttons, or table columns haphazardly.
+- **Answer the Question**: *"What is the single most interesting, high-craft part of this screen?"*
 
 ---
 
-## 6. Feed-Level Art Direction & 3×3 Grid Planning
+## 9. Feed-Level Art Direction & 3×3 Grid Planning
 
 Never design a post in isolation. An Instagram feed is evaluated as a dynamic 3×3 grid.
 
@@ -113,30 +175,10 @@ Never design a post in isolation. An Instagram feed is evaluated as a dynamic 3�
 [ POST 07: Screenshot ][ POST 08: Hero ]       [ POST 09: Proof ]
 ```
 
-### Feed Rhythm Principles
-1. **Visual Balance**: Alternate between image-heavy compositions (Product Screenshot, Project Hero) and typography/code-heavy compositions (Technical Breakdown, Development Insight).
-2. **Color Rhythm**: Vary background shades across adjacent posts. Do not publish nine consecutive dark cards. Mix dark obsidian (`#0B0F14`), light clean surfaces (`#F8FAFC`), and project-tinted backgrounds.
+### Feed Rhythm Principles:
+1. **Visual Balance**: Alternate between image-heavy compositions and typography/code-heavy compositions.
+2. **Color Rhythm**: Vary background shades across adjacent posts (Space Black, Studio Dark, Apple Off-White, Studio White).
 3. **Repetition Control**: Never place two identical composition families adjacent horizontally or vertically in the 3×3 grid.
 4. **Project Diversity**: Interleave posts from different projects across the grid to showcase a prolific body of work.
 
----
-
-## 7. Art Direction Decision Process
-
-When preparing content:
-```
-1. REAL PROJECT REPOSITORY (projects/<project-name>/)
-         ↓
-2. EXTRACT VERIFIED FACTS & ASSETS (screens, stack, architecture, logs)
-         ↓
-3. BRAINSTORM CONTENT OPPORTUNITIES (list 4-8 candidate topics)
-         ↓
-4. SELECT ONE PRIMARY IDEA
-         ↓
-5. ASSIGN COMPOSITION FAMILY (1 of 7)
-         ↓
-6. CHECK 3×3 FEED CONTEXT (verify contrast & rhythm against previous 3 posts)
-         ↓
-7. PASS SPECIFICATION TO @figma-design
-```
 
