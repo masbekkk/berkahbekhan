@@ -1,0 +1,543 @@
+{
+  "references": {
+    "page": {
+      "ok": true,
+      "nodeId": "49:30",
+      "name": "Feed Refactor - UMKM",
+      "type": "PAGE"
+    },
+    "tokens": {
+      "ok": true,
+      "collectionId": "VariableCollectionId:49:31",
+      "defaultModeId": "49:0",
+      "name": "Feed Refactor / Editorial"
+    },
+    "display": {
+      "ok": true,
+      "styleId": "S:8bf7e861c667b54e9c178b3e2043513283f3194d,",
+      "name": "Feed Refactor / Display"
+    }
+  },
+  "requests": [
+    {
+      "name": "use_file",
+      "arguments": {
+        "sessionId": "id-mv5238q0-n46cnqvo"
+      }
+    },
+    {
+      "name": "navigate_to_page",
+      "arguments": {
+        "pageId": {
+          "$ref": "page.nodeId"
+        }
+      }
+    },
+    {
+      "name": "create_paint_style",
+      "arguments": {
+        "name": "Feed Refactor / paper",
+        "paints": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      },
+      "as": "color_paper"
+    },
+    {
+      "name": "create_paint_style",
+      "arguments": {
+        "name": "Feed Refactor / white",
+        "paints": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            }
+          }
+        ]
+      },
+      "as": "color_white"
+    },
+    {
+      "name": "create_paint_style",
+      "arguments": {
+        "name": "Feed Refactor / ink",
+        "paints": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      },
+      "as": "color_ink"
+    },
+    {
+      "name": "create_paint_style",
+      "arguments": {
+        "name": "Feed Refactor / dark",
+        "paints": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.08627450980392157,
+              "g": 0.08627450980392157,
+              "b": 0.09019607843137255
+            }
+          }
+        ]
+      },
+      "as": "color_dark"
+    },
+    {
+      "name": "create_paint_style",
+      "arguments": {
+        "name": "Feed Refactor / muted",
+        "paints": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      },
+      "as": "color_muted"
+    },
+    {
+      "name": "create_paint_style",
+      "arguments": {
+        "name": "Feed Refactor / pale",
+        "paints": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.6313725490196078,
+              "g": 0.6313725490196078,
+              "b": 0.6509803921568628
+            }
+          }
+        ]
+      },
+      "as": "color_pale"
+    },
+    {
+      "name": "create_paint_style",
+      "arguments": {
+        "name": "Feed Refactor / blue",
+        "paints": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.44313725490196076,
+              "b": 0.8901960784313725
+            }
+          }
+        ]
+      },
+      "as": "color_blue"
+    },
+    {
+      "name": "create_text_style",
+      "arguments": {
+        "name": "Feed Refactor / headline",
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      },
+      "as": "headline"
+    },
+    {
+      "name": "create_text_style",
+      "arguments": {
+        "name": "Feed Refactor / section",
+        "fontName": {
+          "family": "Inter",
+          "style": "Medium"
+        },
+        "fontSize": 40,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 120
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      },
+      "as": "section"
+    },
+    {
+      "name": "create_text_style",
+      "arguments": {
+        "name": "Feed Refactor / lead",
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      },
+      "as": "lead"
+    },
+    {
+      "name": "create_text_style",
+      "arguments": {
+        "name": "Feed Refactor / body",
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 28,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 140
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      },
+      "as": "body"
+    },
+    {
+      "name": "create_text_style",
+      "arguments": {
+        "name": "Feed Refactor / meta",
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      },
+      "as": "meta"
+    },
+    {
+      "name": "create_text_style",
+      "arguments": {
+        "name": "Feed Refactor / code",
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 26,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 150
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      },
+      "as": "code"
+    },
+    {
+      "name": "create_section",
+      "arguments": {
+        "name": "Audit",
+        "parentId": {
+          "$ref": "page.nodeId"
+        },
+        "x": 0,
+        "y": 0,
+        "width": 3500,
+        "height": 1800
+      },
+      "as": "Audit"
+    },
+    {
+      "name": "create_section",
+      "arguments": {
+        "name": "Components",
+        "parentId": {
+          "$ref": "page.nodeId"
+        },
+        "x": 0,
+        "y": 2100,
+        "width": 4800,
+        "height": 1600
+      },
+      "as": "Components"
+    },
+    {
+      "name": "create_section",
+      "arguments": {
+        "name": "Posts",
+        "parentId": {
+          "$ref": "page.nodeId"
+        },
+        "x": 0,
+        "y": 4100,
+        "width": 3600,
+        "height": 3100
+      },
+      "as": "Posts"
+    },
+    {
+      "name": "create_section",
+      "arguments": {
+        "name": "Feed Overview",
+        "parentId": {
+          "$ref": "page.nodeId"
+        },
+        "x": 3900,
+        "y": 4100,
+        "width": 3600,
+        "height": 4600
+      },
+      "as": "Overview"
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "audit_notes",
+        "parentId": {
+          "$ref": "Audit.nodeId"
+        },
+        "width": 1850,
+        "height": 1550,
+        "x": 1450,
+        "y": 100
+      },
+      "as": "audit_notes"
+    },
+    {
+      "name": "batch",
+      "arguments": {
+        "ops": [
+          {
+            "tool": "apply_style_to_node",
+            "params": {
+              "nodeId": {
+                "$ref": "audit_notes.nodeId"
+              },
+              "field": "fill",
+              "styleId": {
+                "$ref": "color_paper.styleId"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "batch",
+      "arguments": {
+        "ops": [
+          {
+            "tool": "set_auto_layout",
+            "params": {
+              "nodeId": {
+                "$ref": "audit_notes.nodeId"
+              },
+              "layoutMode": "VERTICAL",
+              "paddingTop": 80,
+              "paddingLeft": 80,
+              "paddingRight": 80,
+              "paddingBottom": 80,
+              "itemSpacing": 48
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "audit_notes.nodeId"
+        },
+        "characters": "Dari presentasi teknis,\nke cerita yang dipahami klien."
+      },
+      "as": "audit_title"
+    },
+    {
+      "name": "batch",
+      "arguments": {
+        "ops": [
+          {
+            "tool": "rename_node",
+            "params": {
+              "nodeId": {
+                "$ref": "audit_title.nodeId"
+              },
+              "name": "Text / audit_title"
+            }
+          },
+          {
+            "tool": "apply_style_to_node",
+            "params": {
+              "nodeId": {
+                "$ref": "audit_title.nodeId"
+              },
+              "styleId": {
+                "$ref": "headline.styleId"
+              },
+              "field": "text"
+            }
+          },
+          {
+            "tool": "resize_nodes",
+            "params": {
+              "nodeIds": [
+                {
+                  "$ref": "audit_title.nodeId"
+                }
+              ],
+              "width": 1600,
+              "height": 40
+            }
+          },
+          {
+            "tool": "set_text_properties",
+            "params": {
+              "nodeId": {
+                "$ref": "audit_title.nodeId"
+              },
+              "textAutoResize": "HEIGHT"
+            }
+          },
+          {
+            "tool": "apply_style_to_node",
+            "params": {
+              "nodeId": {
+                "$ref": "audit_title.nodeId"
+              },
+              "field": "fill",
+              "styleId": {
+                "$ref": "color_ink.styleId"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "audit_notes.nodeId"
+        },
+        "characters": "PERTAHANKAN\nScreenshot asli, warna produk, dan bukti implementasi.\n\nUBAH\nHeadline bahasa Indonesia. Satu manfaat per post.\nVariasikan posisi gambar dan kepadatan tulisan.\nDetail framework pindah ke caption.\n\nKOREKSI\nJangan ulangi klaim 1.000+ pengguna atau penghematan waktu\ntanpa data. Proses PDF memakai file sementara.\n\nAUDIENS\nUMKM dan bisnis jasa yang membutuhkan website."
+      },
+      "as": "audit_findings"
+    },
+    {
+      "name": "batch",
+      "arguments": {
+        "ops": [
+          {
+            "tool": "rename_node",
+            "params": {
+              "nodeId": {
+                "$ref": "audit_findings.nodeId"
+              },
+              "name": "Text / audit_findings"
+            }
+          },
+          {
+            "tool": "apply_style_to_node",
+            "params": {
+              "nodeId": {
+                "$ref": "audit_findings.nodeId"
+              },
+              "styleId": {
+                "$ref": "lead.styleId"
+              },
+              "field": "text"
+            }
+          },
+          {
+            "tool": "resize_nodes",
+            "params": {
+              "nodeIds": [
+                {
+                  "$ref": "audit_findings.nodeId"
+                }
+              ],
+              "width": 1600,
+              "height": 40
+            }
+          },
+          {
+            "tool": "set_text_properties",
+            "params": {
+              "nodeId": {
+                "$ref": "audit_findings.nodeId"
+              },
+              "textAutoResize": "HEIGHT"
+            }
+          },
+          {
+            "tool": "apply_style_to_node",
+            "params": {
+              "nodeId": {
+                "$ref": "audit_findings.nodeId"
+              },
+              "field": "fill",
+              "styleId": {
+                "$ref": "color_ink.styleId"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "import_image",
+      "arguments": {
+        "path": "D:/Repos/berkahbekhan/output/figma-exports/feed-refactor-audit/24-341.png",
+        "parentId": {
+          "$ref": "Audit.nodeId"
+        },
+        "name": "Audit / Original overview - unchanged",
+        "x": 80,
+        "y": 100,
+        "width": 1100,
+        "height": 1407.3529411764705,
+        "scaleMode": "FIT"
+      }
+    }
+  ]
+}

@@ -3,6 +3,8 @@
 This document establishes the mandatory editorial and content architecture rules for **@berkahbekhan.inc**.  
 Guiding philosophy: **THE WORK IS THE DESIGN.**
 
+**Current audience and publishing direction:** Follow [feed-direction.md](./feed-direction.md). Indonesian client-facing copy, verified portfolio work, process stories, useful client questions, and service invitations take priority over older developer-only examples below. Technical language belongs in captions unless the post's audience specifically needs it. Four-slide case studies are a useful default; nine-slide sequences are optional.
+
 ---
 
 ## 1. Portfolio-First Content Hierarchy
@@ -54,7 +56,7 @@ Do NOT make every slide attempt to summarize the entire project.
 
 ## 4. Text vs. Image Balance
 
-The real application screenshot must always occupy the **largest visual area** on the canvas.
+For product showcases, the real application screenshot should occupy the largest useful visual area. For service invitations, client questions, and process posts, typography or authentic process evidence may lead. Use the composition that makes the message clearest; the following screenshot percentages are guidance for product posts, not a universal quota.
 
 ### Preferred Pattern:
 ```

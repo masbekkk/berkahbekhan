@@ -1,0 +1,135 @@
+[
+  {
+    "request": {
+      "arguments": {
+        "sessionId": "id-mv5238q0-n46cnqvo"
+      },
+      "name": "use_file"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"bound\":{\"sessionId\":\"id-mv5238q0-n46cnqvo\",\"fileName\":\"Untitled\"},\"files\":[{\"sessionId\":\"id-mv5238q0-n46cnqvo\",\"pluginVersion\":\"0.5.0\",\"routed\":true,\"bound\":true,\"fileKey\":null,\"fileName\":\"Untitled\",\"currentPage\":{\"id\":\"21:31\",\"name\":\"BKMTSN Gresik — Instagram Portfolio\"}}]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "bound": {
+        "sessionId": "id-mv5238q0-n46cnqvo",
+        "fileName": "Untitled"
+      },
+      "files": [
+        {
+          "sessionId": "id-mv5238q0-n46cnqvo",
+          "pluginVersion": "0.5.0",
+          "routed": true,
+          "bound": true,
+          "fileKey": null,
+          "fileName": "Untitled",
+          "currentPage": {
+            "id": "21:31",
+            "name": "BKMTSN Gresik — Instagram Portfolio"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "arguments": {
+        "name": "Feed Refactor - UMKM"
+      },
+      "name": "add_page",
+      "as": "page"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"49:30\",\"name\":\"Feed Refactor - UMKM\",\"type\":\"PAGE\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "49:30",
+      "name": "Feed Refactor - UMKM",
+      "type": "PAGE"
+    }
+  },
+  {
+    "request": {
+      "arguments": {
+        "name": "Feed Refactor / Editorial"
+      },
+      "name": "create_variable_collection",
+      "as": "tokens"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"collectionId\":\"VariableCollectionId:49:31\",\"defaultModeId\":\"49:0\",\"name\":\"Feed Refactor / Editorial\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "collectionId": "VariableCollectionId:49:31",
+      "defaultModeId": "49:0",
+      "name": "Feed Refactor / Editorial"
+    }
+  },
+  {
+    "request": {
+      "arguments": {
+        "letterSpacing": {
+          "value": -3,
+          "unit": "PERCENT"
+        },
+        "name": "Feed Refactor / Display",
+        "fontSize": 80,
+        "lineHeight": {
+          "value": 110,
+          "unit": "PERCENT"
+        },
+        "fontName": {
+          "style": "Semi Bold",
+          "family": "Inter"
+        }
+      },
+      "name": "create_text_style",
+      "as": "display"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"styleId\":\"S:8bf7e861c667b54e9c178b3e2043513283f3194d,\",\"name\":\"Feed Refactor / Display\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "styleId": "S:8bf7e861c667b54e9c178b3e2043513283f3194d,",
+      "name": "Feed Refactor / Display"
+    }
+  }
+]

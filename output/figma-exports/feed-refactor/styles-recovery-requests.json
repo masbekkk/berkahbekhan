@@ -1,0 +1,293 @@
+{
+  "references": {
+    "page": {
+      "ok": true,
+      "nodeId": "49:30",
+      "name": "Feed Refactor - UMKM",
+      "type": "PAGE"
+    },
+    "tokens": {
+      "ok": true,
+      "collectionId": "VariableCollectionId:49:31",
+      "defaultModeId": "49:0",
+      "name": "Feed Refactor / Editorial"
+    },
+    "display": {
+      "ok": true,
+      "styleId": "S:8bf7e861c667b54e9c178b3e2043513283f3194d,",
+      "name": "Feed Refactor / Display"
+    },
+    "color_paper": {
+      "ok": true,
+      "styleId": "S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,",
+      "name": "Feed Refactor / paper"
+    },
+    "color_white": {
+      "ok": true,
+      "styleId": "S:b0660a3efc2aa9975df15cdb666938a7cb8139c7,",
+      "name": "Feed Refactor / white"
+    },
+    "color_ink": {
+      "ok": true,
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "name": "Feed Refactor / ink"
+    },
+    "color_dark": {
+      "ok": true,
+      "styleId": "S:71242f465aa83282843704961657f7914ed71ea9,",
+      "name": "Feed Refactor / dark"
+    },
+    "color_muted": {
+      "ok": true,
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "name": "Feed Refactor / muted"
+    },
+    "color_pale": {
+      "ok": true,
+      "styleId": "S:327cb3362559473ec83c4ca628d34c4aaaffd135,",
+      "name": "Feed Refactor / pale"
+    },
+    "color_blue": {
+      "ok": true,
+      "styleId": "S:f23542352bce4651bfb56bb6b1fa575c0a713df8,",
+      "name": "Feed Refactor / blue"
+    },
+    "headline": {
+      "ok": true,
+      "styleId": "S:52fe80356230c4b575893802cb6e9e9b4c4ea55f,",
+      "name": "Feed Refactor / headline"
+    },
+    "section": {
+      "ok": true,
+      "styleId": "S:e03623b286ca1b05123314105bc20b7223ba8899,",
+      "name": "Feed Refactor / section"
+    },
+    "lead": {
+      "ok": true,
+      "styleId": "S:17608ef0f0f18aafecf9e8a482695facf358f03b,",
+      "name": "Feed Refactor / lead"
+    },
+    "body": {
+      "ok": true,
+      "styleId": "S:780087791ac7fb1441572d3651daaaa1079ac301,",
+      "name": "Feed Refactor / body"
+    },
+    "meta": {
+      "ok": true,
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "name": "Feed Refactor / meta"
+    },
+    "code": {
+      "ok": true,
+      "styleId": "S:9650c54ea6b774279735392f17620f669971afc5,",
+      "name": "Feed Refactor / code"
+    },
+    "Audit": {
+      "ok": true,
+      "nodeId": "50:46",
+      "name": "Audit",
+      "type": "SECTION"
+    },
+    "Components": {
+      "ok": true,
+      "nodeId": "50:47",
+      "name": "Components",
+      "type": "SECTION"
+    },
+    "Posts": {
+      "ok": true,
+      "nodeId": "50:48",
+      "name": "Posts",
+      "type": "SECTION"
+    },
+    "Overview": {
+      "ok": true,
+      "nodeId": "50:49",
+      "name": "Feed Overview",
+      "type": "SECTION"
+    },
+    "audit_notes": {
+      "ok": true,
+      "nodeId": "50:50",
+      "name": "audit_notes",
+      "type": "FRAME"
+    }
+  },
+  "requests": [
+    {
+      "name": "use_file",
+      "arguments": {
+        "sessionId": "id-mv5238q0-n46cnqvo"
+      }
+    },
+    {
+      "name": "apply_style_to_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_notes.nodeId"
+        },
+        "field": "fill",
+        "styleId": {
+          "$ref": "color_paper.styleId"
+        }
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_notes.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingLeft": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "itemSpacing": 48
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "audit_notes.nodeId"
+        },
+        "characters": "Dari presentasi teknis,\nke cerita yang dipahami klien."
+      },
+      "as": "audit_title"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_title.nodeId"
+        },
+        "name": "Text / audit_title"
+      }
+    },
+    {
+      "name": "apply_style_to_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_title.nodeId"
+        },
+        "styleId": {
+          "$ref": "headline.styleId"
+        },
+        "field": "text"
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "audit_title.nodeId"
+          }
+        ],
+        "width": 1600,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "apply_style_to_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_title.nodeId"
+        },
+        "field": "fill",
+        "styleId": {
+          "$ref": "color_ink.styleId"
+        }
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "audit_notes.nodeId"
+        },
+        "characters": "PERTAHANKAN\nScreenshot asli, warna produk, dan bukti implementasi.\n\nUBAH\nHeadline bahasa Indonesia. Satu manfaat per post.\nVariasikan posisi gambar dan kepadatan tulisan.\nDetail framework pindah ke caption.\n\nKOREKSI\nJangan ulangi klaim 1.000+ pengguna atau penghematan waktu\ntanpa data. Proses PDF memakai file sementara.\n\nAUDIENS\nUMKM dan bisnis jasa yang membutuhkan website."
+      },
+      "as": "audit_findings"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_findings.nodeId"
+        },
+        "name": "Text / audit_findings"
+      }
+    },
+    {
+      "name": "apply_style_to_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_findings.nodeId"
+        },
+        "styleId": {
+          "$ref": "lead.styleId"
+        },
+        "field": "text"
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "audit_findings.nodeId"
+          }
+        ],
+        "width": 1600,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_findings.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "apply_style_to_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_findings.nodeId"
+        },
+        "field": "fill",
+        "styleId": {
+          "$ref": "color_ink.styleId"
+        }
+      }
+    },
+    {
+      "name": "import_image",
+      "arguments": {
+        "path": "D:/Repos/berkahbekhan/output/figma-exports/feed-refactor-audit/24-341.png",
+        "parentId": {
+          "$ref": "Audit.nodeId"
+        },
+        "name": "Audit / Original overview - unchanged",
+        "x": 80,
+        "y": 100,
+        "width": 1100,
+        "height": 1407.3529411764705,
+        "scaleMode": "FIT"
+      }
+    }
+  ]
+}

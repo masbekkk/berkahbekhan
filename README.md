@@ -2,6 +2,8 @@
 
 A specialized, reproducible workspace and agentic skill system for generating editorial-grade, developer-focused Instagram content for **@berkahbekhan.inc**.
 
+The current feed refactor targets Indonesian UMKM and service businesses seeking websites. Start with [the active feed direction](brand/feed-direction.md) and [implementation tracker](instagram-feed-refactor-plan.md): client-facing Indonesian copy, verified portfolio examples, useful process stories, and clear service invitations.
+
 > **Core Philosophy**: **THE WORK IS THE DESIGN.**  
 > A developer's visual archive of real software that has actually been built. Every post communicates: *"This developer actually builds software,"* never *"This account generates AI portfolio graphics."*
 

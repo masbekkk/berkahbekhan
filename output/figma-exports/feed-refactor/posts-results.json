@@ -1,0 +1,5290 @@
+[
+  {
+    "request": {
+      "name": "use_file",
+      "arguments": {
+        "sessionId": "id-mv5238q0-n46cnqvo"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"bound\":{\"sessionId\":\"id-mv5238q0-n46cnqvo\",\"fileName\":\"Untitled\"},\"files\":[{\"sessionId\":\"id-mv5238q0-n46cnqvo\",\"pluginVersion\":\"0.5.0\",\"routed\":true,\"bound\":true,\"fileKey\":null,\"fileName\":\"Untitled\",\"currentPage\":{\"id\":\"49:30\",\"name\":\"Feed Refactor - UMKM\"}}]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "bound": {
+        "sessionId": "id-mv5238q0-n46cnqvo",
+        "fileName": "Untitled"
+      },
+      "files": [
+        {
+          "sessionId": "id-mv5238q0-n46cnqvo",
+          "pluginVersion": "0.5.0",
+          "routed": true,
+          "bound": true,
+          "fileKey": null,
+          "fileName": "Untitled",
+          "currentPage": {
+            "id": "49:30",
+            "name": "Feed Refactor - UMKM"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "navigate_to_page",
+      "arguments": {
+        "pageId": {
+          "$ref": "page.nodeId"
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"49:30\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "49:30"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "selected_visual.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 683.7837837837837
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:59\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:59"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_code_label.nodeId"
+        },
+        "characters": "MergedPdfJob.php / cuplikan dipersingkat"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:82\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:82"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_excerpt.nodeId"
+        },
+        "characters": "$merger->addFile($tempPdfPath);\n\n$mergedPdf = $merger->merge();"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:83\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:83"
+    }
+  },
+  {
+    "request": {
+      "name": "create_instance",
+      "arguments": {
+        "componentId": {
+          "$ref": "Selected_Work_master.nodeId"
+        },
+        "parentId": {
+          "$ref": "Posts.nodeId"
+        },
+        "name": "P01_Selected_Work",
+        "x": 80,
+        "y": 100
+      },
+      "as": "P01_Selected_Work"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:106\",\"name\":\"P01_Selected_Work\",\"type\":\"INSTANCE\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:106",
+      "name": "P01_Selected_Work",
+      "type": "INSTANCE"
+    }
+  },
+  {
+    "request": {
+      "name": "create_instance",
+      "arguments": {
+        "componentId": {
+          "$ref": "Useful_Feature_master.nodeId"
+        },
+        "parentId": {
+          "$ref": "Posts.nodeId"
+        },
+        "name": "P02_Useful_Feature",
+        "x": 1240,
+        "y": 100
+      },
+      "as": "P02_Useful_Feature"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:116\",\"name\":\"P02_Useful_Feature\",\"type\":\"INSTANCE\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:116",
+      "name": "P02_Useful_Feature",
+      "type": "INSTANCE"
+    }
+  },
+  {
+    "request": {
+      "name": "create_instance",
+      "arguments": {
+        "componentId": {
+          "$ref": "Service_Invitation_master.nodeId"
+        },
+        "parentId": {
+          "$ref": "Posts.nodeId"
+        },
+        "name": "P03_Service_Invitation",
+        "x": 2400,
+        "y": 100
+      },
+      "as": "P03_Service_Invitation"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:127\",\"name\":\"P03_Service_Invitation\",\"type\":\"INSTANCE\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:127",
+      "name": "P03_Service_Invitation",
+      "type": "INSTANCE"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "C02_Role_Choices",
+        "parentId": {
+          "$ref": "Posts.nodeId"
+        },
+        "width": 1080,
+        "height": 1350,
+        "x": 80,
+        "y": 1600
+      },
+      "as": "C02_Role_Choices"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:143\",\"name\":\"C02_Role_Choices\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:143",
+      "name": "C02_Role_Choices",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "C02_Role_Choices.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:143\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:143"
+    }
+  },
+  {
+    "request": {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "C02_Role_Choices.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "itemSpacing": 32,
+        "primaryAxisAlignItems": "SPACE_BETWEEN"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:143\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:143"
+    }
+  },
+  {
+    "request": {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "C02_Role_Choices.nodeId"
+        },
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:143\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:143"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "C02_Role_Choices.nodeId"
+        },
+        "characters": "BK MTsN GRESIK / PILIHAN AKSES"
+      },
+      "as": "c2_label"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:144\",\"name\":\"BK MTsN GRESIK / PILIHAN AKSES\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:144",
+      "name": "BK MTsN GRESIK / PILIHAN AKSES",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_label.nodeId"
+        },
+        "name": "Text / c2_label"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:144\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:144"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:144\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:144"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c2_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:144\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:144"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:144\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:144"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:144\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:144"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "c2_visual",
+        "parentId": {
+          "$ref": "C02_Role_Choices.nodeId"
+        },
+        "width": 920,
+        "height": 357.96363636363634,
+        "x": 0,
+        "y": 0
+      },
+      "as": "c2_visual"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:145\",\"name\":\"c2_visual\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:145",
+      "name": "c2_visual",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_visual.nodeId"
+        },
+        "fills": []
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:145\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:145"
+    }
+  },
+  {
+    "request": {
+      "name": "import_image",
+      "arguments": {
+        "path": "D:/Repos/berkahbekhan/output/carousel/bk-mtsngresik-v2/assets/01_landing_page.png",
+        "parentId": {
+          "$ref": "c2_visual.nodeId"
+        },
+        "name": "Image / c2_visual",
+        "width": 1926.9818181818182,
+        "height": 1204.3636363636363,
+        "x": -505.16363636363633,
+        "y": -481.74545454545455,
+        "scaleMode": "FIT"
+      },
+      "as": "c2_visual_image"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:146\",\"name\":\"Image / c2_visual\",\"type\":\"RECTANGLE\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:146",
+      "name": "Image / c2_visual",
+      "type": "RECTANGLE"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "c2_story",
+        "parentId": {
+          "$ref": "C02_Role_Choices.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "c2_story"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:147\",\"name\":\"c2_story\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:147",
+      "name": "c2_story",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_story.nodeId"
+        },
+        "fills": []
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:147\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:147"
+    }
+  },
+  {
+    "request": {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_story.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 24
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:147\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:147"
+    }
+  },
+  {
+    "request": {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_story.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:147\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:147"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c2_story.nodeId"
+        },
+        "characters": "Guru dan siswa,\nbeda kebutuhan."
+      },
+      "as": "c2_title"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:148\",\"name\":\"Guru dan siswa, beda kebutuhan.\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:148",
+      "name": "Guru dan siswa, beda kebutuhan.",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_title.nodeId"
+        },
+        "name": "Text / c2_title"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:148\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:148"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:148\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:148"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c2_title.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:148\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:148"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:148\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:148"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:148\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:148"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c2_story.nodeId"
+        },
+        "characters": "Dua pilihan akses sejak halaman awal.\nPengguna memilih jalur sesuai perannya."
+      },
+      "as": "c2_body"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:149\",\"name\":\"Dua pilihan akses sejak halaman awal. Pengguna memilih jalur sesuai perannya.\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:149",
+      "name": "Dua pilihan akses sejak halaman awal. Pengguna memilih jalur sesuai perannya.",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_body.nodeId"
+        },
+        "name": "Text / c2_body"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:149\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:149"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_body.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:149\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:149"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c2_body.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:149\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:149"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_body.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:149\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:149"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_body.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:149\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:149"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "c2_footer",
+        "parentId": {
+          "$ref": "C02_Role_Choices.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "c2_footer"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:150\",\"name\":\"c2_footer\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:150",
+      "name": "c2_footer",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_footer.nodeId"
+        },
+        "fills": []
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:150\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:150"
+    }
+  },
+  {
+    "request": {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_footer.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 12
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:150\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:150"
+    }
+  },
+  {
+    "request": {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_footer.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:150\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:150"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c2_footer.nodeId"
+        },
+        "characters": "@berkahbekhan.inc"
+      },
+      "as": "c2_footer_brand"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:151\",\"name\":\"@berkahbekhan.inc\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:151",
+      "name": "@berkahbekhan.inc",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_footer_brand.nodeId"
+        },
+        "name": "Text / c2_footer_brand"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:151\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:151"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_footer_brand.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:151\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:151"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c2_footer_brand.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:151\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:151"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_footer_brand.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:151\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:151"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_footer_brand.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:151\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:151"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c2_footer.nodeId"
+        },
+        "characters": "Portal layanan sekolah / 02"
+      },
+      "as": "c2_footer_label"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:152\",\"name\":\"Portal layanan sekolah / 02\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:152",
+      "name": "Portal layanan sekolah / 02",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_footer_label.nodeId"
+        },
+        "name": "Text / c2_footer_label"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:152\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:152"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_footer_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:152\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:152"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c2_footer_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:152\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:152"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_footer_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:152\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:152"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c2_footer_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:152\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:152"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "C03_Merged_PDF",
+        "parentId": {
+          "$ref": "Posts.nodeId"
+        },
+        "width": 1080,
+        "height": 1350,
+        "x": 1240,
+        "y": 1600
+      },
+      "as": "C03_Merged_PDF"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:153\",\"name\":\"C03_Merged_PDF\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:153",
+      "name": "C03_Merged_PDF",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "C03_Merged_PDF.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:153\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:153"
+    }
+  },
+  {
+    "request": {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "C03_Merged_PDF.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "itemSpacing": 32,
+        "primaryAxisAlignItems": "SPACE_BETWEEN"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:153\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:153"
+    }
+  },
+  {
+    "request": {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "C03_Merged_PDF.nodeId"
+        },
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:153\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:153"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "C03_Merged_PDF.nodeId"
+        },
+        "characters": "BK MTsN GRESIK / FITUR RAPOR"
+      },
+      "as": "c3_label"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:154\",\"name\":\"BK MTsN GRESIK / FITUR RAPOR\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:154",
+      "name": "BK MTsN GRESIK / FITUR RAPOR",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_label.nodeId"
+        },
+        "name": "Text / c3_label"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:154\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:154"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:154\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:154"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c3_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:154\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:154"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:154\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:154"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:154\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:154"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "c3_visual",
+        "parentId": {
+          "$ref": "C03_Merged_PDF.nodeId"
+        },
+        "width": 920,
+        "height": 492.8,
+        "x": 0,
+        "y": 0
+      },
+      "as": "c3_visual"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:155\",\"name\":\"c3_visual\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:155",
+      "name": "c3_visual",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_visual.nodeId"
+        },
+        "fills": []
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:155\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:155"
+    }
+  },
+  {
+    "request": {
+      "name": "import_image",
+      "arguments": {
+        "path": "D:/Repos/berkahbekhan/output/carousel/bk-mtsngresik-v2/assets/20_admin_bulk_download_merged_pdf.png",
+        "parentId": {
+          "$ref": "c3_visual.nodeId"
+        },
+        "name": "Image / c3_visual",
+        "width": 2304,
+        "height": 1440,
+        "x": -692,
+        "y": -473.6,
+        "scaleMode": "FIT"
+      },
+      "as": "c3_visual_image"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:156\",\"name\":\"Image / c3_visual\",\"type\":\"RECTANGLE\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:156",
+      "name": "Image / c3_visual",
+      "type": "RECTANGLE"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "c3_story",
+        "parentId": {
+          "$ref": "C03_Merged_PDF.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "c3_story"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:157\",\"name\":\"c3_story\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:157",
+      "name": "c3_story",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_story.nodeId"
+        },
+        "fills": []
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:157\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:157"
+    }
+  },
+  {
+    "request": {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_story.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 24
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:157\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:157"
+    }
+  },
+  {
+    "request": {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_story.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:157\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:157"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c3_story.nodeId"
+        },
+        "characters": "Pilih kelas.\nPilih semester."
+      },
+      "as": "c3_title"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:158\",\"name\":\"Pilih kelas. Pilih semester.\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:158",
+      "name": "Pilih kelas. Pilih semester.",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_title.nodeId"
+        },
+        "name": "Text / c3_title"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:158\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:158"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:158\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:158"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c3_title.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:158\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:158"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:158\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:158"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:158\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:158"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c3_story.nodeId"
+        },
+        "characters": "Sistem menggabungkan rapor siswa\ndalam satu kelas menjadi satu file PDF."
+      },
+      "as": "c3_body"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:159\",\"name\":\"Sistem menggabungkan rapor siswa dalam satu kelas menjadi satu file PDF.\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:159",
+      "name": "Sistem menggabungkan rapor siswa dalam satu kelas menjadi satu file PDF.",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_body.nodeId"
+        },
+        "name": "Text / c3_body"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:159\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:159"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_body.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:159\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:159"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c3_body.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:159\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:159"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_body.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:159\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:159"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_body.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:159\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:159"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "c3_footer",
+        "parentId": {
+          "$ref": "C03_Merged_PDF.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "c3_footer"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:160\",\"name\":\"c3_footer\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:160",
+      "name": "c3_footer",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_footer.nodeId"
+        },
+        "fills": []
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:160\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:160"
+    }
+  },
+  {
+    "request": {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_footer.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 12
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:160\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:160"
+    }
+  },
+  {
+    "request": {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_footer.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:160\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:160"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c3_footer.nodeId"
+        },
+        "characters": "@berkahbekhan.inc"
+      },
+      "as": "c3_footer_brand"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:161\",\"name\":\"@berkahbekhan.inc\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:161",
+      "name": "@berkahbekhan.inc",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_footer_brand.nodeId"
+        },
+        "name": "Text / c3_footer_brand"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:161\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:161"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_footer_brand.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:161\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:161"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c3_footer_brand.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:161\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:161"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_footer_brand.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:161\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:161"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_footer_brand.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:161\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:161"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c3_footer.nodeId"
+        },
+        "characters": "Rapor gabungan per kelas / 03"
+      },
+      "as": "c3_footer_label"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:162\",\"name\":\"Rapor gabungan per kelas / 03\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:162",
+      "name": "Rapor gabungan per kelas / 03",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_footer_label.nodeId"
+        },
+        "name": "Text / c3_footer_label"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:162\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:162"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_footer_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:162\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:162"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c3_footer_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:162\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:162"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_footer_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:162\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:162"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c3_footer_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:162\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:162"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "C04_Invitation",
+        "parentId": {
+          "$ref": "Posts.nodeId"
+        },
+        "width": 1080,
+        "height": 1350,
+        "x": 2400,
+        "y": 1600
+      },
+      "as": "C04_Invitation"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:163\",\"name\":\"C04_Invitation\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:163",
+      "name": "C04_Invitation",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "C04_Invitation.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.08627450980392157,
+              "g": 0.08627450980392157,
+              "b": 0.09019607843137255
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:163\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:163"
+    }
+  },
+  {
+    "request": {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "C04_Invitation.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "itemSpacing": 32,
+        "primaryAxisAlignItems": "SPACE_BETWEEN"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:163\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:163"
+    }
+  },
+  {
+    "request": {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "C04_Invitation.nodeId"
+        },
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:163\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:163"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "c4_header",
+        "parentId": {
+          "$ref": "C04_Invitation.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "c4_header"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:164\",\"name\":\"c4_header\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:164",
+      "name": "c4_header",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_header.nodeId"
+        },
+        "fills": []
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:164\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:164"
+    }
+  },
+  {
+    "request": {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_header.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 24
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:164\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:164"
+    }
+  },
+  {
+    "request": {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_header.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:164\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:164"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c4_header.nodeId"
+        },
+        "characters": "DARI KEBUTUHAN, JADI ALUR KERJA"
+      },
+      "as": "c4_label"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:165\",\"name\":\"DARI KEBUTUHAN, JADI ALUR KERJA\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:165",
+      "name": "DARI KEBUTUHAN, JADI ALUR KERJA",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_label.nodeId"
+        },
+        "name": "Text / c4_label"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:165\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:165"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:165\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:165"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c4_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:165\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:165"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:165\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:165"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.6313725490196078,
+              "g": 0.6313725490196078,
+              "b": 0.6509803921568628
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:165\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:165"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c4_header.nodeId"
+        },
+        "characters": "Ada alur kerja\nyang ingin dirapikan?"
+      },
+      "as": "c4_title"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:166\",\"name\":\"Ada alur kerja yang ingin dirapikan?\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:166",
+      "name": "Ada alur kerja yang ingin dirapikan?",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_title.nodeId"
+        },
+        "name": "Text / c4_title"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:166\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:166"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:166\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:166"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c4_title.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:166\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:166"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:166\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:166"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:166\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:166"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c4_header.nodeId"
+        },
+        "characters": "Pilihan akses dan unduhan rapor adalah\ndua bagian dari karya portal sekolah ini."
+      },
+      "as": "c4_context"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:167\",\"name\":\"Pilihan akses dan unduhan rapor adalah dua bagian dari karya portal sekolah ini.\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:167",
+      "name": "Pilihan akses dan unduhan rapor adalah dua bagian dari karya portal sekolah ini.",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_context.nodeId"
+        },
+        "name": "Text / c4_context"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:167\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:167"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_context.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:167\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:167"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c4_context.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:167\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:167"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_context.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:167\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:167"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_context.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:167\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:167"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "c4_sample",
+        "parentId": {
+          "$ref": "C04_Invitation.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "c4_sample"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:168\",\"name\":\"c4_sample\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:168",
+      "name": "c4_sample",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_sample.nodeId"
+        },
+        "fills": []
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:168\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:168"
+    }
+  },
+  {
+    "request": {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_sample.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 16
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:168\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:168"
+    }
+  },
+  {
+    "request": {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_sample.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:168\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:168"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "c4_visual",
+        "parentId": {
+          "$ref": "c4_sample.nodeId"
+        },
+        "width": 920,
+        "height": 357.96363636363634,
+        "x": 0,
+        "y": 0
+      },
+      "as": "c4_visual"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:169\",\"name\":\"c4_visual\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:169",
+      "name": "c4_visual",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_visual.nodeId"
+        },
+        "fills": []
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:169\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:169"
+    }
+  },
+  {
+    "request": {
+      "name": "import_image",
+      "arguments": {
+        "path": "D:/Repos/berkahbekhan/output/carousel/bk-mtsngresik-v2/assets/01_landing_page.png",
+        "parentId": {
+          "$ref": "c4_visual.nodeId"
+        },
+        "name": "Image / c4_visual",
+        "width": 1926.9818181818182,
+        "height": 1204.3636363636363,
+        "x": -505.16363636363633,
+        "y": -481.74545454545455,
+        "scaleMode": "FIT"
+      },
+      "as": "c4_visual_image"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:170\",\"name\":\"Image / c4_visual\",\"type\":\"RECTANGLE\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:170",
+      "name": "Image / c4_visual",
+      "type": "RECTANGLE"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c4_sample.nodeId"
+        },
+        "characters": "BK MTsN Gresik / Contoh karya bidang pendidikan"
+      },
+      "as": "c4_sample_label"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:171\",\"name\":\"BK MTsN Gresik / Contoh karya bidang pendidikan\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:171",
+      "name": "BK MTsN Gresik / Contoh karya bidang pendidikan",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_sample_label.nodeId"
+        },
+        "name": "Text / c4_sample_label"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:171\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:171"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_sample_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:171\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:171"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c4_sample_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:171\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:171"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_sample_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:171\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:171"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_sample_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.6313725490196078,
+              "g": 0.6313725490196078,
+              "b": 0.6509803921568628
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:171\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:171"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "c4_tail",
+        "parentId": {
+          "$ref": "C04_Invitation.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "c4_tail"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:172\",\"name\":\"c4_tail\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:172",
+      "name": "c4_tail",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_tail.nodeId"
+        },
+        "fills": []
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:172\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:172"
+    }
+  },
+  {
+    "request": {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_tail.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 24
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:172\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:172"
+    }
+  },
+  {
+    "request": {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_tail.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:172\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:172"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c4_tail.nodeId"
+        },
+        "characters": "Ceritakan kebutuhan usahamu.\nMulai lewat DM."
+      },
+      "as": "c4_action"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:173\",\"name\":\"Ceritakan kebutuhan usahamu. Mulai lewat DM.\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:173",
+      "name": "Ceritakan kebutuhan usahamu. Mulai lewat DM.",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_action.nodeId"
+        },
+        "name": "Text / c4_action"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:173\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:173"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_action.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Medium"
+        },
+        "fontSize": 40,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 120
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:173\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:173"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c4_action.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:173\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:173"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_action.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:173\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:173"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_action.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:173\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:173"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "c4_footer",
+        "parentId": {
+          "$ref": "c4_tail.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "c4_footer"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:174\",\"name\":\"c4_footer\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:174",
+      "name": "c4_footer",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_footer.nodeId"
+        },
+        "fills": []
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:174\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:174"
+    }
+  },
+  {
+    "request": {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_footer.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 12
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:174\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:174"
+    }
+  },
+  {
+    "request": {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_footer.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:174\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:174"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c4_footer.nodeId"
+        },
+        "characters": "@berkahbekhan.inc"
+      },
+      "as": "c4_footer_brand"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:175\",\"name\":\"@berkahbekhan.inc\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:175",
+      "name": "@berkahbekhan.inc",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_footer_brand.nodeId"
+        },
+        "name": "Text / c4_footer_brand"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:175\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:175"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_footer_brand.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:175\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:175"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c4_footer_brand.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:175\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:175"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_footer_brand.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:175\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:175"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_footer_brand.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.6313725490196078,
+              "g": 0.6313725490196078,
+              "b": 0.6509803921568628
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:175\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:175"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "c4_footer.nodeId"
+        },
+        "characters": "Jasa website / 04"
+      },
+      "as": "c4_footer_label"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:176\",\"name\":\"Jasa website / 04\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:176",
+      "name": "Jasa website / 04",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_footer_label.nodeId"
+        },
+        "name": "Text / c4_footer_label"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:176\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:176"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_footer_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:176\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:176"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "c4_footer_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:176\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:176"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_footer_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:176\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:176"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "c4_footer_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.6313725490196078,
+              "g": 0.6313725490196078,
+              "b": 0.6509803921568628
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:176\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:176"
+    }
+  },
+  {
+    "request": {
+      "name": "save_screenshots",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "P01_Selected_Work.nodeId"
+          }
+        ],
+        "outDir": "D:/Repos/berkahbekhan/output/feed/portal-dua-akses",
+        "scale": 1
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"saved\":[{\"nodeId\":\"51:106\",\"format\":\"PNG\",\"path\":\"D:\\\\Repos\\\\berkahbekhan\\\\output\\\\feed\\\\portal-dua-akses\\\\51-106.png\"}]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "saved": [
+        {
+          "nodeId": "51:106",
+          "format": "PNG",
+          "path": "D:\\Repos\\berkahbekhan\\output\\feed\\portal-dua-akses\\51-106.png"
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "save_screenshots",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "P02_Useful_Feature.nodeId"
+          }
+        ],
+        "outDir": "D:/Repos/berkahbekhan/output/feed/rapor-satu-pdf",
+        "scale": 1
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"saved\":[{\"nodeId\":\"51:116\",\"format\":\"PNG\",\"path\":\"D:\\\\Repos\\\\berkahbekhan\\\\output\\\\feed\\\\rapor-satu-pdf\\\\51-116.png\"}]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "saved": [
+        {
+          "nodeId": "51:116",
+          "format": "PNG",
+          "path": "D:\\Repos\\berkahbekhan\\output\\feed\\rapor-satu-pdf\\51-116.png"
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "save_screenshots",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "P03_Service_Invitation.nodeId"
+          }
+        ],
+        "outDir": "D:/Repos/berkahbekhan/output/feed/website-untuk-usaha",
+        "scale": 1
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"saved\":[{\"nodeId\":\"51:127\",\"format\":\"PNG\",\"path\":\"D:\\\\Repos\\\\berkahbekhan\\\\output\\\\feed\\\\website-untuk-usaha\\\\51-127.png\"}]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "saved": [
+        {
+          "nodeId": "51:127",
+          "format": "PNG",
+          "path": "D:\\Repos\\berkahbekhan\\output\\feed\\website-untuk-usaha\\51-127.png"
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "save_screenshots",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "P01_Selected_Work.nodeId"
+          },
+          {
+            "$ref": "C02_Role_Choices.nodeId"
+          },
+          {
+            "$ref": "C03_Merged_PDF.nodeId"
+          },
+          {
+            "$ref": "C04_Invitation.nodeId"
+          }
+        ],
+        "outDir": "D:/Repos/berkahbekhan/output/carousel/portal-sekolah-refactor",
+        "scale": 1
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"saved\":[{\"nodeId\":\"51:106\",\"format\":\"PNG\",\"path\":\"D:\\\\Repos\\\\berkahbekhan\\\\output\\\\carousel\\\\portal-sekolah-refactor\\\\51-106.png\"},{\"nodeId\":\"51:143\",\"format\":\"PNG\",\"path\":\"D:\\\\Repos\\\\berkahbekhan\\\\output\\\\carousel\\\\portal-sekolah-refactor\\\\51-143.png\"},{\"nodeId\":\"51:153\",\"format\":\"PNG\",\"path\":\"D:\\\\Repos\\\\berkahbekhan\\\\output\\\\carousel\\\\portal-sekolah-refactor\\\\51-153.png\"},{\"nodeId\":\"51:163\",\"format\":\"PNG\",\"path\":\"D:\\\\Repos\\\\berkahbekhan\\\\output\\\\carousel\\\\portal-sekolah-refactor\\\\51-163.png\"}]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "saved": [
+        {
+          "nodeId": "51:106",
+          "format": "PNG",
+          "path": "D:\\Repos\\berkahbekhan\\output\\carousel\\portal-sekolah-refactor\\51-106.png"
+        },
+        {
+          "nodeId": "51:143",
+          "format": "PNG",
+          "path": "D:\\Repos\\berkahbekhan\\output\\carousel\\portal-sekolah-refactor\\51-143.png"
+        },
+        {
+          "nodeId": "51:153",
+          "format": "PNG",
+          "path": "D:\\Repos\\berkahbekhan\\output\\carousel\\portal-sekolah-refactor\\51-153.png"
+        },
+        {
+          "nodeId": "51:163",
+          "format": "PNG",
+          "path": "D:\\Repos\\berkahbekhan\\output\\carousel\\portal-sekolah-refactor\\51-163.png"
+        }
+      ]
+    }
+  }
+]

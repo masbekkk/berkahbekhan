@@ -1,0 +1,1 @@
+﻿[{"method":"tools/list"},{"name":"use_file","arguments":{"sessionId":"id-mv627789-uiy2j4yb"}},{"name":"get_node","arguments":{"nodeId":"51:64"},"as":"master"},{"name":"get_styles","arguments":{},"as":"styles"},{"name":"get_variable_defs","arguments":{},"as":"variables"}]

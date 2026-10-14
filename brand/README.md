@@ -7,10 +7,10 @@ Welcome to the brand identity guide for **@berkahbekhan.inc**. This repository c
 ## 1. Brand Essence & Positioning
 
 - **Brand Handle**: `@berkahbekhan.inc`
-- **Positioning**: A developer's visual archive of real software that has actually been built.
+- **Positioning**: A web-development portfolio for Indonesian UMKM and service businesses, grounded in real software and practical client needs.
 - **Core Message**: *"This developer actually builds software."* (Never: *"This account generates AI portfolio graphics."*)
 - **Core Philosophy**: **THE WORK IS THE DESIGN.**
-- **Tone of Voice**: Pragmatic, understated, confident, human, and developer-first.
+- **Tone of Voice**: Pragmatic, understated, confident, human, and understandable to prospective clients. See [feed-direction.md](./feed-direction.md) for the active direction.
 
 ---
 

@@ -2,6 +2,8 @@
 
 This document defines layout geometry, screenshot presentation, carousel sequence standards, composition families, and visual anti-slop rules for **@berkahbekhan.inc**.
 
+Apply [feed-direction.md](./feed-direction.md) for the active UMKM audience and four reusable publishing compositions. The hierarchy below governs product showcases; service invitations and client questions may lead with typography. Preserve native screenshot geometry in every format. Use varied content order and image scale, not a mandatory badge/headline/card/footer sequence.
+
 ---
 
 ## 1. Core Visual Hierarchy

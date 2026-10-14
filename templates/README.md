@@ -2,6 +2,8 @@
 
 This directory establishes the layout specifications and composition families for **@berkahbekhan.inc** Instagram assets.
 
+The active client-facing system is defined in [feed-direction.md](../brand/feed-direction.md). Start with the four reusable masters in [feed/README.md](./feed/README.md) and the short story sequence in [carousel/README.md](./carousel/README.md). The seven families below remain a vocabulary for composition; their old palette examples and stack-first copy do not override current brand tokens or audience needs.
+
 > **Design Principle**: **THE WORK IS THE DESIGN.**  
 > Avoid decorative, repetitive template-heavy designs. We do not use rigid `CASE STUDY / 01 / 07` decks. Layouts prioritize **real screenshots, clear typography, generous whitespace, and authentic software interfaces**.
 

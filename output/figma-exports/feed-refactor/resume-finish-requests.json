@@ -1,0 +1,1015 @@
+[
+  {
+    "name": "use_file",
+    "arguments": {
+      "sessionId": "id-mv627789-uiy2j4yb"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:64",
+      "styleId": "S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:64",
+      "field": "paddingTop",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:64",
+      "field": "paddingRight",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:64",
+      "field": "paddingBottom",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:64",
+      "field": "paddingLeft",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:56",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:56",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:57",
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:57",
+      "styleId": "S:8bf7e861c667b54e9c178b3e2043513283f3194d,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:58",
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:58",
+      "styleId": "S:780087791ac7fb1441572d3651daaaa1079ac301,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:62",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:62",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:63",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:63",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:76",
+      "styleId": "S:71242f465aa83282843704961657f7914ed71ea9,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:76",
+      "field": "paddingTop",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:76",
+      "field": "paddingRight",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:76",
+      "field": "paddingBottom",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:76",
+      "field": "paddingLeft",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:67",
+      "styleId": "S:327cb3362559473ec83c4ca628d34c4aaaffd135,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:67",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:68",
+      "styleId": "S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:68",
+      "styleId": "S:8bf7e861c667b54e9c178b3e2043513283f3194d,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:72",
+      "styleId": "S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:72",
+      "styleId": "S:17608ef0f0f18aafecf9e8a482695facf358f03b,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:74",
+      "styleId": "S:327cb3362559473ec83c4ca628d34c4aaaffd135,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:74",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:75",
+      "styleId": "S:327cb3362559473ec83c4ca628d34c4aaaffd135,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:75",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:88",
+      "styleId": "S:b0660a3efc2aa9975df15cdb666938a7cb8139c7,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:88",
+      "field": "paddingTop",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:88",
+      "field": "paddingRight",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:88",
+      "field": "paddingBottom",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:88",
+      "field": "paddingLeft",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:79",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:79",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:80",
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:80",
+      "styleId": "S:52fe80356230c4b575893802cb6e9e9b4c4ea55f,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:81",
+      "styleId": "S:71242f465aa83282843704961657f7914ed71ea9,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:82",
+      "styleId": "S:327cb3362559473ec83c4ca628d34c4aaaffd135,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:82",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:83",
+      "styleId": "S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:83",
+      "styleId": "S:9650c54ea6b774279735392f17620f669971afc5,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:84",
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:84",
+      "styleId": "S:17608ef0f0f18aafecf9e8a482695facf358f03b,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:86",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:86",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:87",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:87",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:105",
+      "styleId": "S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:105",
+      "field": "paddingTop",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:105",
+      "field": "paddingRight",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:105",
+      "field": "paddingBottom",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:105",
+      "field": "paddingLeft",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:91",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:91",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:92",
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:92",
+      "styleId": "S:8bf7e861c667b54e9c178b3e2043513283f3194d,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:93",
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:93",
+      "styleId": "S:17608ef0f0f18aafecf9e8a482695facf358f03b,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:95",
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:95",
+      "styleId": "S:e03623b286ca1b05123314105bc20b7223ba8899,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:96",
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:96",
+      "styleId": "S:17608ef0f0f18aafecf9e8a482695facf358f03b,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:97",
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:97",
+      "styleId": "S:17608ef0f0f18aafecf9e8a482695facf358f03b,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:101",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:101",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:103",
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:103",
+      "styleId": "S:780087791ac7fb1441572d3651daaaa1079ac301,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:104",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:104",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:143",
+      "styleId": "S:b0660a3efc2aa9975df15cdb666938a7cb8139c7,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:143",
+      "field": "paddingTop",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:143",
+      "field": "paddingRight",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:143",
+      "field": "paddingBottom",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:143",
+      "field": "paddingLeft",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:144",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:144",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:148",
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:148",
+      "styleId": "S:52fe80356230c4b575893802cb6e9e9b4c4ea55f,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:149",
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:149",
+      "styleId": "S:17608ef0f0f18aafecf9e8a482695facf358f03b,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:151",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:151",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:152",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:152",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:153",
+      "styleId": "S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:153",
+      "field": "paddingTop",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:153",
+      "field": "paddingRight",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:153",
+      "field": "paddingBottom",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:153",
+      "field": "paddingLeft",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:154",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:154",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:158",
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:158",
+      "styleId": "S:52fe80356230c4b575893802cb6e9e9b4c4ea55f,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:159",
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:159",
+      "styleId": "S:17608ef0f0f18aafecf9e8a482695facf358f03b,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:161",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:161",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:162",
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:162",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:163",
+      "styleId": "S:71242f465aa83282843704961657f7914ed71ea9,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:163",
+      "field": "paddingTop",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:163",
+      "field": "paddingRight",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:163",
+      "field": "paddingBottom",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "bind_variable_to_node",
+    "arguments": {
+      "nodeId": "51:163",
+      "field": "paddingLeft",
+      "variableId": "VariableID:58:132"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:165",
+      "styleId": "S:327cb3362559473ec83c4ca628d34c4aaaffd135,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:165",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:166",
+      "styleId": "S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:166",
+      "styleId": "S:52fe80356230c4b575893802cb6e9e9b4c4ea55f,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:167",
+      "styleId": "S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:167",
+      "styleId": "S:17608ef0f0f18aafecf9e8a482695facf358f03b,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:171",
+      "styleId": "S:327cb3362559473ec83c4ca628d34c4aaaffd135,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:171",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:173",
+      "styleId": "S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:173",
+      "styleId": "S:e03623b286ca1b05123314105bc20b7223ba8899,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:175",
+      "styleId": "S:327cb3362559473ec83c4ca628d34c4aaaffd135,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:175",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:176",
+      "styleId": "S:327cb3362559473ec83c4ca628d34c4aaaffd135,",
+      "field": "fill"
+    }
+  },
+  {
+    "name": "apply_style_to_node",
+    "arguments": {
+      "nodeId": "51:176",
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "field": "text"
+    }
+  },
+  {
+    "name": "get_document",
+    "arguments": {},
+    "as": "after"
+  },
+  {
+    "name": "get_variable_defs",
+    "arguments": {},
+    "as": "variables"
+  },
+  {
+    "name": "save_screenshots",
+    "arguments": {
+      "nodeIds": [
+        "51:64",
+        "51:76",
+        "51:88",
+        "51:105",
+        "51:106",
+        "51:116",
+        "51:127",
+        "51:143",
+        "51:153",
+        "51:163",
+        "52:258"
+      ],
+      "outDir": "D:/Repos/berkahbekhan/output/figma-exports/feed-refactor/bound",
+      "scale": 1
+    },
+    "as": "exports"
+  }
+]

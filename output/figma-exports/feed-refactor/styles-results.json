@@ -1,0 +1,754 @@
+[
+  {
+    "request": {
+      "name": "use_file",
+      "arguments": {
+        "sessionId": "id-mv5238q0-n46cnqvo"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"bound\":{\"sessionId\":\"id-mv5238q0-n46cnqvo\",\"fileName\":\"Untitled\"},\"files\":[{\"sessionId\":\"id-mv5238q0-n46cnqvo\",\"pluginVersion\":\"0.5.0\",\"routed\":true,\"bound\":true,\"fileKey\":null,\"fileName\":\"Untitled\",\"currentPage\":{\"id\":\"49:30\",\"name\":\"Feed Refactor - UMKM\"}}]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "bound": {
+        "sessionId": "id-mv5238q0-n46cnqvo",
+        "fileName": "Untitled"
+      },
+      "files": [
+        {
+          "sessionId": "id-mv5238q0-n46cnqvo",
+          "pluginVersion": "0.5.0",
+          "routed": true,
+          "bound": true,
+          "fileKey": null,
+          "fileName": "Untitled",
+          "currentPage": {
+            "id": "49:30",
+            "name": "Feed Refactor - UMKM"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "navigate_to_page",
+      "arguments": {
+        "pageId": {
+          "$ref": "page.nodeId"
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"49:30\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "49:30"
+    }
+  },
+  {
+    "request": {
+      "name": "create_paint_style",
+      "arguments": {
+        "name": "Feed Refactor / paper",
+        "paints": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      },
+      "as": "color_paper"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"styleId\":\"S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,\",\"name\":\"Feed Refactor / paper\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "styleId": "S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,",
+      "name": "Feed Refactor / paper"
+    }
+  },
+  {
+    "request": {
+      "name": "create_paint_style",
+      "arguments": {
+        "name": "Feed Refactor / white",
+        "paints": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            }
+          }
+        ]
+      },
+      "as": "color_white"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"styleId\":\"S:b0660a3efc2aa9975df15cdb666938a7cb8139c7,\",\"name\":\"Feed Refactor / white\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "styleId": "S:b0660a3efc2aa9975df15cdb666938a7cb8139c7,",
+      "name": "Feed Refactor / white"
+    }
+  },
+  {
+    "request": {
+      "name": "create_paint_style",
+      "arguments": {
+        "name": "Feed Refactor / ink",
+        "paints": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      },
+      "as": "color_ink"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"styleId\":\"S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,\",\"name\":\"Feed Refactor / ink\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "name": "Feed Refactor / ink"
+    }
+  },
+  {
+    "request": {
+      "name": "create_paint_style",
+      "arguments": {
+        "name": "Feed Refactor / dark",
+        "paints": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.08627450980392157,
+              "g": 0.08627450980392157,
+              "b": 0.09019607843137255
+            }
+          }
+        ]
+      },
+      "as": "color_dark"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"styleId\":\"S:71242f465aa83282843704961657f7914ed71ea9,\",\"name\":\"Feed Refactor / dark\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "styleId": "S:71242f465aa83282843704961657f7914ed71ea9,",
+      "name": "Feed Refactor / dark"
+    }
+  },
+  {
+    "request": {
+      "name": "create_paint_style",
+      "arguments": {
+        "name": "Feed Refactor / muted",
+        "paints": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      },
+      "as": "color_muted"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"styleId\":\"S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,\",\"name\":\"Feed Refactor / muted\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "name": "Feed Refactor / muted"
+    }
+  },
+  {
+    "request": {
+      "name": "create_paint_style",
+      "arguments": {
+        "name": "Feed Refactor / pale",
+        "paints": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.6313725490196078,
+              "g": 0.6313725490196078,
+              "b": 0.6509803921568628
+            }
+          }
+        ]
+      },
+      "as": "color_pale"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"styleId\":\"S:327cb3362559473ec83c4ca628d34c4aaaffd135,\",\"name\":\"Feed Refactor / pale\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "styleId": "S:327cb3362559473ec83c4ca628d34c4aaaffd135,",
+      "name": "Feed Refactor / pale"
+    }
+  },
+  {
+    "request": {
+      "name": "create_paint_style",
+      "arguments": {
+        "name": "Feed Refactor / blue",
+        "paints": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.44313725490196076,
+              "b": 0.8901960784313725
+            }
+          }
+        ]
+      },
+      "as": "color_blue"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"styleId\":\"S:f23542352bce4651bfb56bb6b1fa575c0a713df8,\",\"name\":\"Feed Refactor / blue\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "styleId": "S:f23542352bce4651bfb56bb6b1fa575c0a713df8,",
+      "name": "Feed Refactor / blue"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text_style",
+      "arguments": {
+        "name": "Feed Refactor / headline",
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      },
+      "as": "headline"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"styleId\":\"S:52fe80356230c4b575893802cb6e9e9b4c4ea55f,\",\"name\":\"Feed Refactor / headline\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "styleId": "S:52fe80356230c4b575893802cb6e9e9b4c4ea55f,",
+      "name": "Feed Refactor / headline"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text_style",
+      "arguments": {
+        "name": "Feed Refactor / section",
+        "fontName": {
+          "family": "Inter",
+          "style": "Medium"
+        },
+        "fontSize": 40,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 120
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      },
+      "as": "section"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"styleId\":\"S:e03623b286ca1b05123314105bc20b7223ba8899,\",\"name\":\"Feed Refactor / section\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "styleId": "S:e03623b286ca1b05123314105bc20b7223ba8899,",
+      "name": "Feed Refactor / section"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text_style",
+      "arguments": {
+        "name": "Feed Refactor / lead",
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      },
+      "as": "lead"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"styleId\":\"S:17608ef0f0f18aafecf9e8a482695facf358f03b,\",\"name\":\"Feed Refactor / lead\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "styleId": "S:17608ef0f0f18aafecf9e8a482695facf358f03b,",
+      "name": "Feed Refactor / lead"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text_style",
+      "arguments": {
+        "name": "Feed Refactor / body",
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 28,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 140
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      },
+      "as": "body"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"styleId\":\"S:780087791ac7fb1441572d3651daaaa1079ac301,\",\"name\":\"Feed Refactor / body\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "styleId": "S:780087791ac7fb1441572d3651daaaa1079ac301,",
+      "name": "Feed Refactor / body"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text_style",
+      "arguments": {
+        "name": "Feed Refactor / meta",
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      },
+      "as": "meta"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"styleId\":\"S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,\",\"name\":\"Feed Refactor / meta\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "name": "Feed Refactor / meta"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text_style",
+      "arguments": {
+        "name": "Feed Refactor / code",
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 26,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 150
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      },
+      "as": "code"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"styleId\":\"S:9650c54ea6b774279735392f17620f669971afc5,\",\"name\":\"Feed Refactor / code\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "styleId": "S:9650c54ea6b774279735392f17620f669971afc5,",
+      "name": "Feed Refactor / code"
+    }
+  },
+  {
+    "request": {
+      "name": "create_section",
+      "arguments": {
+        "name": "Audit",
+        "parentId": {
+          "$ref": "page.nodeId"
+        },
+        "x": 0,
+        "y": 0,
+        "width": 3500,
+        "height": 1800
+      },
+      "as": "Audit"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"50:46\",\"name\":\"Audit\",\"type\":\"SECTION\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "50:46",
+      "name": "Audit",
+      "type": "SECTION"
+    }
+  },
+  {
+    "request": {
+      "name": "create_section",
+      "arguments": {
+        "name": "Components",
+        "parentId": {
+          "$ref": "page.nodeId"
+        },
+        "x": 0,
+        "y": 2100,
+        "width": 4800,
+        "height": 1600
+      },
+      "as": "Components"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"50:47\",\"name\":\"Components\",\"type\":\"SECTION\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "50:47",
+      "name": "Components",
+      "type": "SECTION"
+    }
+  },
+  {
+    "request": {
+      "name": "create_section",
+      "arguments": {
+        "name": "Posts",
+        "parentId": {
+          "$ref": "page.nodeId"
+        },
+        "x": 0,
+        "y": 4100,
+        "width": 3600,
+        "height": 3100
+      },
+      "as": "Posts"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"50:48\",\"name\":\"Posts\",\"type\":\"SECTION\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "50:48",
+      "name": "Posts",
+      "type": "SECTION"
+    }
+  },
+  {
+    "request": {
+      "name": "create_section",
+      "arguments": {
+        "name": "Feed Overview",
+        "parentId": {
+          "$ref": "page.nodeId"
+        },
+        "x": 3900,
+        "y": 4100,
+        "width": 3600,
+        "height": 4600
+      },
+      "as": "Overview"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"50:49\",\"name\":\"Feed Overview\",\"type\":\"SECTION\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "50:49",
+      "name": "Feed Overview",
+      "type": "SECTION"
+    }
+  },
+  {
+    "request": {
+      "name": "create_frame",
+      "arguments": {
+        "name": "audit_notes",
+        "parentId": {
+          "$ref": "Audit.nodeId"
+        },
+        "width": 1850,
+        "height": 1550,
+        "x": 1450,
+        "y": 100
+      },
+      "as": "audit_notes"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"50:50\",\"name\":\"audit_notes\",\"type\":\"FRAME\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "50:50",
+      "name": "audit_notes",
+      "type": "FRAME"
+    }
+  },
+  {
+    "request": {
+      "name": "batch",
+      "arguments": {
+        "ops": [
+          {
+            "tool": "apply_style_to_node",
+            "params": {
+              "nodeId": {
+                "$ref": "audit_notes.nodeId"
+              },
+              "field": "fill",
+              "styleId": {
+                "$ref": "color_paper.styleId"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "INTERNAL_ERROR: INTERNAL_ERROR: batch: op 'apply_style_to_node' (index 0) is not batchable — only invertible writes are allowed"
+        }
+      ],
+      "isError": true
+    }
+  }
+]

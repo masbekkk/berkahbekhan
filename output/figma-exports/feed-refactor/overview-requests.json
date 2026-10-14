@@ -1,0 +1,4062 @@
+{
+  "references": {
+    "page": {
+      "ok": true,
+      "nodeId": "49:30",
+      "name": "Feed Refactor - UMKM",
+      "type": "PAGE"
+    },
+    "tokens": {
+      "ok": true,
+      "collectionId": "VariableCollectionId:49:31",
+      "defaultModeId": "49:0",
+      "name": "Feed Refactor / Editorial"
+    },
+    "display": {
+      "ok": true,
+      "styleId": "S:8bf7e861c667b54e9c178b3e2043513283f3194d,",
+      "name": "Feed Refactor / Display"
+    },
+    "audit_title": {
+      "ok": true,
+      "nodeId": "51:51",
+      "name": "Dari presentasi teknis, ke cerita yang dipahami klien.",
+      "type": "TEXT"
+    },
+    "audit_findings": {
+      "ok": true,
+      "nodeId": "51:52",
+      "name": "PERTAHANKAN Screenshot asli, warna produk, dan bukti implementasi. UBAH Headline bahasa Indonesia. Satu manfaat per post. Variasikan posisi gambar dan kepadatan tulisan. Detail framework pindah ke caption. KOREKSI Jangan ulangi klaim 1.000+ pengguna atau penghematan waktu tanpa data. Proses PDF memakai file sementara. AUDIENS UMKM dan bisnis jasa yang membutuhkan website.",
+      "type": "TEXT"
+    },
+    "Selected_Work": {
+      "ok": true,
+      "nodeId": "51:54",
+      "name": "Selected_Work",
+      "type": "FRAME"
+    },
+    "selected_header": {
+      "ok": true,
+      "nodeId": "51:55",
+      "name": "selected_header",
+      "type": "FRAME"
+    },
+    "selected_label": {
+      "ok": true,
+      "nodeId": "51:56",
+      "name": "PILIHAN KARYA / SISTEM SEKOLAH",
+      "type": "TEXT"
+    },
+    "selected_title": {
+      "ok": true,
+      "nodeId": "51:57",
+      "name": "Satu portal. Dua akses.",
+      "type": "TEXT"
+    },
+    "selected_intro": {
+      "ok": true,
+      "nodeId": "51:58",
+      "name": "Akses guru dan siswa di BK MTsN Gresik.",
+      "type": "TEXT"
+    },
+    "selected_visual": {
+      "ok": true,
+      "nodeId": "51:59",
+      "name": "selected_visual",
+      "type": "FRAME"
+    },
+    "selected_visual_image": {
+      "ok": true,
+      "nodeId": "51:60",
+      "name": "Image / selected_visual",
+      "type": "RECTANGLE"
+    },
+    "selected_footer": {
+      "ok": true,
+      "nodeId": "51:61",
+      "name": "selected_footer",
+      "type": "FRAME"
+    },
+    "selected_footer_brand": {
+      "ok": true,
+      "nodeId": "51:62",
+      "name": "@berkahbekhan.inc",
+      "type": "TEXT"
+    },
+    "selected_footer_label": {
+      "ok": true,
+      "nodeId": "51:63",
+      "name": "BK MTsN Gresik / Portal layanan sekolah",
+      "type": "TEXT"
+    },
+    "Selected_Work_master": {
+      "ok": true,
+      "nodeId": "51:64",
+      "name": "Feed / Selected_Work",
+      "type": "COMPONENT"
+    },
+    "Useful_Feature": {
+      "ok": true,
+      "nodeId": "51:65",
+      "name": "Useful_Feature",
+      "type": "FRAME"
+    },
+    "feature_header": {
+      "ok": true,
+      "nodeId": "51:66",
+      "name": "feature_header",
+      "type": "FRAME"
+    },
+    "feature_label": {
+      "ok": true,
+      "nodeId": "51:67",
+      "name": "DETAIL KARYA / UNDUH RAPOR",
+      "type": "TEXT"
+    },
+    "feature_title": {
+      "ok": true,
+      "nodeId": "51:68",
+      "name": "Satu kelas. Satu file PDF.",
+      "type": "TEXT"
+    },
+    "feature_visual": {
+      "ok": true,
+      "nodeId": "51:69",
+      "name": "feature_visual",
+      "type": "FRAME"
+    },
+    "feature_visual_image": {
+      "ok": true,
+      "nodeId": "51:70",
+      "name": "Image / feature_visual",
+      "type": "RECTANGLE"
+    },
+    "feature_tail": {
+      "ok": true,
+      "nodeId": "51:71",
+      "name": "feature_tail",
+      "type": "FRAME"
+    },
+    "feature_intro": {
+      "ok": true,
+      "nodeId": "51:72",
+      "name": "Pilih kelas dan semester. Unduh rapor dalam satu berkas.",
+      "type": "TEXT"
+    },
+    "feature_footer": {
+      "ok": true,
+      "nodeId": "51:73",
+      "name": "feature_footer",
+      "type": "FRAME"
+    },
+    "feature_footer_brand": {
+      "ok": true,
+      "nodeId": "51:74",
+      "name": "@berkahbekhan.inc",
+      "type": "TEXT"
+    },
+    "feature_footer_label": {
+      "ok": true,
+      "nodeId": "51:75",
+      "name": "BK MTsN Gresik / Fitur rapor gabungan",
+      "type": "TEXT"
+    },
+    "Useful_Feature_master": {
+      "ok": true,
+      "nodeId": "51:76",
+      "name": "Feed / Useful_Feature",
+      "type": "COMPONENT"
+    },
+    "Behind_the_Work": {
+      "ok": true,
+      "nodeId": "51:77",
+      "name": "Behind_the_Work",
+      "type": "FRAME"
+    },
+    "process_header": {
+      "ok": true,
+      "nodeId": "51:78",
+      "name": "process_header",
+      "type": "FRAME"
+    },
+    "process_label": {
+      "ok": true,
+      "nodeId": "51:79",
+      "name": "DI BALIK KARYA / LOGIKA UNDUHAN",
+      "type": "TEXT"
+    },
+    "process_title": {
+      "ok": true,
+      "nodeId": "51:80",
+      "name": "Dari tiap siswa, ke satu berkas.",
+      "type": "TEXT"
+    },
+    "process_code": {
+      "ok": true,
+      "nodeId": "51:81",
+      "name": "process_code",
+      "type": "FRAME"
+    },
+    "process_code_label": {
+      "ok": true,
+      "nodeId": "51:82",
+      "name": "MergedPdfJob.php / cuplikan sumber",
+      "type": "TEXT"
+    },
+    "process_excerpt": {
+      "ok": true,
+      "nodeId": "51:83",
+      "name": "$merger->addFile($tempPdfPath); // Setelah semua rapor ditambahkan $mergedPdf = $merger->merge();",
+      "type": "TEXT"
+    },
+    "process_explanation": {
+      "ok": true,
+      "nodeId": "51:84",
+      "name": "Rapor dibuat per siswa, disimpan sementara, lalu digabung menjadi satu file PDF. Satu tombol di layar, beberapa langkah di belakangnya.",
+      "type": "TEXT"
+    },
+    "process_footer": {
+      "ok": true,
+      "nodeId": "51:85",
+      "name": "process_footer",
+      "type": "FRAME"
+    },
+    "process_footer_brand": {
+      "ok": true,
+      "nodeId": "51:86",
+      "name": "@berkahbekhan.inc",
+      "type": "TEXT"
+    },
+    "process_footer_label": {
+      "ok": true,
+      "nodeId": "51:87",
+      "name": "BK MTsN Gresik / Catatan implementasi",
+      "type": "TEXT"
+    },
+    "Behind_the_Work_master": {
+      "ok": true,
+      "nodeId": "51:88",
+      "name": "Feed / Behind_the_Work",
+      "type": "COMPONENT"
+    },
+    "Service_Invitation": {
+      "ok": true,
+      "nodeId": "51:89",
+      "name": "Service_Invitation",
+      "type": "FRAME"
+    },
+    "service_header": {
+      "ok": true,
+      "nodeId": "51:90",
+      "name": "service_header",
+      "type": "FRAME"
+    },
+    "service_label": {
+      "ok": true,
+      "nodeId": "51:91",
+      "name": "JASA WEBSITE / BERKAHBEKHAN.INC",
+      "type": "TEXT"
+    },
+    "service_title": {
+      "ok": true,
+      "nodeId": "51:92",
+      "name": "Website untuk usaha kamu.",
+      "type": "TEXT"
+    },
+    "service_intro": {
+      "ok": true,
+      "nodeId": "51:93",
+      "name": "Mulai dari kebutuhan usahanya.",
+      "type": "TEXT"
+    },
+    "service_prompts": {
+      "ok": true,
+      "nodeId": "51:94",
+      "name": "service_prompts",
+      "type": "FRAME"
+    },
+    "service_question1": {
+      "ok": true,
+      "nodeId": "51:95",
+      "name": "01 Apa jenis usahanya?",
+      "type": "TEXT"
+    },
+    "service_question2": {
+      "ok": true,
+      "nodeId": "51:96",
+      "name": "02 Apa yang perlu dilihat pelanggan?",
+      "type": "TEXT"
+    },
+    "service_question3": {
+      "ok": true,
+      "nodeId": "51:97",
+      "name": "03 Apa yang ingin mereka lakukan?",
+      "type": "TEXT"
+    },
+    "service_sample": {
+      "ok": true,
+      "nodeId": "51:98",
+      "name": "service_sample",
+      "type": "FRAME"
+    },
+    "service_visual": {
+      "ok": true,
+      "nodeId": "51:99",
+      "name": "service_visual",
+      "type": "FRAME"
+    },
+    "service_visual_image": {
+      "ok": true,
+      "nodeId": "51:100",
+      "name": "Image / service_visual",
+      "type": "RECTANGLE"
+    },
+    "service_sample_label": {
+      "ok": true,
+      "nodeId": "51:101",
+      "name": "Contoh karya / portal sekolah BK MTsN Gresik",
+      "type": "TEXT"
+    },
+    "service_cta": {
+      "ok": true,
+      "nodeId": "51:102",
+      "name": "service_cta",
+      "type": "FRAME"
+    },
+    "service_action": {
+      "ok": true,
+      "nodeId": "51:103",
+      "name": "Kirim jenis usaha + kebutuhanmu lewat DM.",
+      "type": "TEXT"
+    },
+    "service_handle": {
+      "ok": true,
+      "nodeId": "51:104",
+      "name": "@berkahbekhan.inc",
+      "type": "TEXT"
+    },
+    "Service_Invitation_master": {
+      "ok": true,
+      "nodeId": "51:105",
+      "name": "Feed / Service_Invitation",
+      "type": "COMPONENT"
+    },
+    "P01_Selected_Work": {
+      "ok": true,
+      "nodeId": "51:106",
+      "name": "P01_Selected_Work",
+      "type": "INSTANCE"
+    },
+    "P02_Useful_Feature": {
+      "ok": true,
+      "nodeId": "51:116",
+      "name": "P02_Useful_Feature",
+      "type": "INSTANCE"
+    },
+    "P03_Service_Invitation": {
+      "ok": true,
+      "nodeId": "51:127",
+      "name": "P03_Service_Invitation",
+      "type": "INSTANCE"
+    },
+    "C02_Role_Choices": {
+      "ok": true,
+      "nodeId": "51:143",
+      "name": "C02_Role_Choices",
+      "type": "FRAME"
+    },
+    "c2_label": {
+      "ok": true,
+      "nodeId": "51:144",
+      "name": "BK MTsN GRESIK / PILIHAN AKSES",
+      "type": "TEXT"
+    },
+    "c2_visual": {
+      "ok": true,
+      "nodeId": "51:145",
+      "name": "c2_visual",
+      "type": "FRAME"
+    },
+    "c2_visual_image": {
+      "ok": true,
+      "nodeId": "51:146",
+      "name": "Image / c2_visual",
+      "type": "RECTANGLE"
+    },
+    "c2_story": {
+      "ok": true,
+      "nodeId": "51:147",
+      "name": "c2_story",
+      "type": "FRAME"
+    },
+    "c2_title": {
+      "ok": true,
+      "nodeId": "51:148",
+      "name": "Guru dan siswa, beda kebutuhan.",
+      "type": "TEXT"
+    },
+    "c2_body": {
+      "ok": true,
+      "nodeId": "51:149",
+      "name": "Dua pilihan akses sejak halaman awal. Pengguna memilih jalur sesuai perannya.",
+      "type": "TEXT"
+    },
+    "c2_footer": {
+      "ok": true,
+      "nodeId": "51:150",
+      "name": "c2_footer",
+      "type": "FRAME"
+    },
+    "c2_footer_brand": {
+      "ok": true,
+      "nodeId": "51:151",
+      "name": "@berkahbekhan.inc",
+      "type": "TEXT"
+    },
+    "c2_footer_label": {
+      "ok": true,
+      "nodeId": "51:152",
+      "name": "Portal layanan sekolah / 02",
+      "type": "TEXT"
+    },
+    "C03_Merged_PDF": {
+      "ok": true,
+      "nodeId": "51:153",
+      "name": "C03_Merged_PDF",
+      "type": "FRAME"
+    },
+    "c3_label": {
+      "ok": true,
+      "nodeId": "51:154",
+      "name": "BK MTsN GRESIK / FITUR RAPOR",
+      "type": "TEXT"
+    },
+    "c3_visual": {
+      "ok": true,
+      "nodeId": "51:155",
+      "name": "c3_visual",
+      "type": "FRAME"
+    },
+    "c3_visual_image": {
+      "ok": true,
+      "nodeId": "51:156",
+      "name": "Image / c3_visual",
+      "type": "RECTANGLE"
+    },
+    "c3_story": {
+      "ok": true,
+      "nodeId": "51:157",
+      "name": "c3_story",
+      "type": "FRAME"
+    },
+    "c3_title": {
+      "ok": true,
+      "nodeId": "51:158",
+      "name": "Pilih kelas. Pilih semester.",
+      "type": "TEXT"
+    },
+    "c3_body": {
+      "ok": true,
+      "nodeId": "51:159",
+      "name": "Sistem menggabungkan rapor siswa dalam satu kelas menjadi satu file PDF.",
+      "type": "TEXT"
+    },
+    "c3_footer": {
+      "ok": true,
+      "nodeId": "51:160",
+      "name": "c3_footer",
+      "type": "FRAME"
+    },
+    "c3_footer_brand": {
+      "ok": true,
+      "nodeId": "51:161",
+      "name": "@berkahbekhan.inc",
+      "type": "TEXT"
+    },
+    "c3_footer_label": {
+      "ok": true,
+      "nodeId": "51:162",
+      "name": "Rapor gabungan per kelas / 03",
+      "type": "TEXT"
+    },
+    "C04_Invitation": {
+      "ok": true,
+      "nodeId": "51:163",
+      "name": "C04_Invitation",
+      "type": "FRAME"
+    },
+    "c4_header": {
+      "ok": true,
+      "nodeId": "51:164",
+      "name": "c4_header",
+      "type": "FRAME"
+    },
+    "c4_label": {
+      "ok": true,
+      "nodeId": "51:165",
+      "name": "DARI KEBUTUHAN, JADI ALUR KERJA",
+      "type": "TEXT"
+    },
+    "c4_title": {
+      "ok": true,
+      "nodeId": "51:166",
+      "name": "Ada alur kerja yang ingin dirapikan?",
+      "type": "TEXT"
+    },
+    "c4_context": {
+      "ok": true,
+      "nodeId": "51:167",
+      "name": "Pilihan akses dan unduhan rapor adalah dua bagian dari karya portal sekolah ini.",
+      "type": "TEXT"
+    },
+    "c4_sample": {
+      "ok": true,
+      "nodeId": "51:168",
+      "name": "c4_sample",
+      "type": "FRAME"
+    },
+    "c4_visual": {
+      "ok": true,
+      "nodeId": "51:169",
+      "name": "c4_visual",
+      "type": "FRAME"
+    },
+    "c4_visual_image": {
+      "ok": true,
+      "nodeId": "51:170",
+      "name": "Image / c4_visual",
+      "type": "RECTANGLE"
+    },
+    "c4_sample_label": {
+      "ok": true,
+      "nodeId": "51:171",
+      "name": "BK MTsN Gresik / Contoh karya bidang pendidikan",
+      "type": "TEXT"
+    },
+    "c4_tail": {
+      "ok": true,
+      "nodeId": "51:172",
+      "name": "c4_tail",
+      "type": "FRAME"
+    },
+    "c4_action": {
+      "ok": true,
+      "nodeId": "51:173",
+      "name": "Ceritakan kebutuhan usahamu. Mulai lewat DM.",
+      "type": "TEXT"
+    },
+    "c4_footer": {
+      "ok": true,
+      "nodeId": "51:174",
+      "name": "c4_footer",
+      "type": "FRAME"
+    },
+    "c4_footer_brand": {
+      "ok": true,
+      "nodeId": "51:175",
+      "name": "@berkahbekhan.inc",
+      "type": "TEXT"
+    },
+    "c4_footer_label": {
+      "ok": true,
+      "nodeId": "51:176",
+      "name": "Jasa website / 04",
+      "type": "TEXT"
+    },
+    "color_paper": {
+      "ok": true,
+      "styleId": "S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,",
+      "name": "Feed Refactor / paper"
+    },
+    "color_white": {
+      "ok": true,
+      "styleId": "S:b0660a3efc2aa9975df15cdb666938a7cb8139c7,",
+      "name": "Feed Refactor / white"
+    },
+    "color_ink": {
+      "ok": true,
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "name": "Feed Refactor / ink"
+    },
+    "color_dark": {
+      "ok": true,
+      "styleId": "S:71242f465aa83282843704961657f7914ed71ea9,",
+      "name": "Feed Refactor / dark"
+    },
+    "color_muted": {
+      "ok": true,
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "name": "Feed Refactor / muted"
+    },
+    "color_pale": {
+      "ok": true,
+      "styleId": "S:327cb3362559473ec83c4ca628d34c4aaaffd135,",
+      "name": "Feed Refactor / pale"
+    },
+    "color_blue": {
+      "ok": true,
+      "styleId": "S:f23542352bce4651bfb56bb6b1fa575c0a713df8,",
+      "name": "Feed Refactor / blue"
+    },
+    "headline": {
+      "ok": true,
+      "styleId": "S:52fe80356230c4b575893802cb6e9e9b4c4ea55f,",
+      "name": "Feed Refactor / headline"
+    },
+    "section": {
+      "ok": true,
+      "styleId": "S:e03623b286ca1b05123314105bc20b7223ba8899,",
+      "name": "Feed Refactor / section"
+    },
+    "lead": {
+      "ok": true,
+      "styleId": "S:17608ef0f0f18aafecf9e8a482695facf358f03b,",
+      "name": "Feed Refactor / lead"
+    },
+    "body": {
+      "ok": true,
+      "styleId": "S:780087791ac7fb1441572d3651daaaa1079ac301,",
+      "name": "Feed Refactor / body"
+    },
+    "meta": {
+      "ok": true,
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "name": "Feed Refactor / meta"
+    },
+    "code": {
+      "ok": true,
+      "styleId": "S:9650c54ea6b774279735392f17620f669971afc5,",
+      "name": "Feed Refactor / code"
+    },
+    "Audit": {
+      "ok": true,
+      "nodeId": "50:46",
+      "name": "Audit",
+      "type": "SECTION"
+    },
+    "Components": {
+      "ok": true,
+      "nodeId": "50:47",
+      "name": "Components",
+      "type": "SECTION"
+    },
+    "Posts": {
+      "ok": true,
+      "nodeId": "50:48",
+      "name": "Posts",
+      "type": "SECTION"
+    },
+    "Overview": {
+      "ok": true,
+      "nodeId": "50:49",
+      "name": "Feed Overview",
+      "type": "SECTION"
+    },
+    "audit_notes": {
+      "ok": true,
+      "nodeId": "50:50",
+      "name": "audit_notes",
+      "type": "FRAME"
+    }
+  },
+  "requests": [
+    {
+      "name": "use_file",
+      "arguments": {
+        "sessionId": "id-mv5238q0-n46cnqvo"
+      }
+    },
+    {
+      "name": "navigate_to_page",
+      "arguments": {
+        "pageId": {
+          "$ref": "page.nodeId"
+        }
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Feed_Board",
+        "parentId": {
+          "$ref": "Overview.nodeId"
+        },
+        "width": 3480,
+        "height": 4520,
+        "x": 60,
+        "y": 60
+      },
+      "as": "Feed_Board"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Feed_Board.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Feed_Board.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "paddingRight": 80,
+        "itemSpacing": 40
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "board_header",
+        "parentId": {
+          "$ref": "Feed_Board.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "board_header"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_header.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_header.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 16
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_header.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "board_header.nodeId"
+        },
+        "characters": "Feed berikutnya"
+      },
+      "as": "board_title"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_title.nodeId"
+        },
+        "name": "Text / board_title"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "board_title.nodeId"
+          }
+        ],
+        "width": 3320,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "board_header.nodeId"
+        },
+        "characters": "Terbaru di kiri atas. Tiga cover siap; enam slot rencana. Slot rencana bukan materi publikasi."
+      },
+      "as": "board_context"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_context.nodeId"
+        },
+        "name": "Text / board_context"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_context.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "board_context.nodeId"
+          }
+        ],
+        "width": 3320,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_context.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_context.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "board_row_0",
+        "parentId": {
+          "$ref": "Feed_Board.nodeId"
+        },
+        "width": 3320,
+        "height": 1350,
+        "x": 0,
+        "y": 0
+      },
+      "as": "board_row_0"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_row_0.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_row_0.nodeId"
+        },
+        "layoutMode": "HORIZONTAL",
+        "itemSpacing": 40
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Planned_9",
+        "parentId": {
+          "$ref": "board_row_0.nodeId"
+        },
+        "width": 1080,
+        "height": 1350,
+        "x": 0,
+        "y": 0
+      },
+      "as": "Planned_9"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "itemSpacing": 32,
+        "primaryAxisAlignItems": "SPACE_BETWEEN"
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9.nodeId"
+        },
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_9.nodeId"
+        },
+        "characters": "RENCANA / POST 9"
+      },
+      "as": "Planned_9_status"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_status.nodeId"
+        },
+        "name": "Text / Planned_9_status"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_status.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Medium"
+        },
+        "fontSize": 40,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 120
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_9_status.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_status.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_status.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Planned_9_copy",
+        "parentId": {
+          "$ref": "Planned_9.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "Planned_9_copy"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_copy.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_copy.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 32
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_copy.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_9_copy.nodeId"
+        },
+        "characters": "Detail dari karya berikutnya"
+      },
+      "as": "Planned_9_title"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_title.nodeId"
+        },
+        "name": "Text / Planned_9_title"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_9_title.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_9_copy.nodeId"
+        },
+        "characters": "Pilih proyek dan bukti fiturnya dahulu."
+      },
+      "as": "Planned_9_note"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_note.nodeId"
+        },
+        "name": "Text / Planned_9_note"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_note.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_9_note.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_note.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_note.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_9.nodeId"
+        },
+        "characters": "BELUM DIBUAT\nTidak untuk diekspor sebagai portofolio."
+      },
+      "as": "Planned_9_footer"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_footer.nodeId"
+        },
+        "name": "Text / Planned_9_footer"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_footer.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 28,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 140
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_9_footer.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_footer.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_9_footer.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Planned_8",
+        "parentId": {
+          "$ref": "board_row_0.nodeId"
+        },
+        "width": 1080,
+        "height": 1350,
+        "x": 0,
+        "y": 0
+      },
+      "as": "Planned_8"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "itemSpacing": 32,
+        "primaryAxisAlignItems": "SPACE_BETWEEN"
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8.nodeId"
+        },
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_8.nodeId"
+        },
+        "characters": "RENCANA / POST 8"
+      },
+      "as": "Planned_8_status"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_status.nodeId"
+        },
+        "name": "Text / Planned_8_status"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_status.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Medium"
+        },
+        "fontSize": 40,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 120
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_8_status.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_status.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_status.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Planned_8_copy",
+        "parentId": {
+          "$ref": "Planned_8.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "Planned_8_copy"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_copy.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_copy.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 32
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_copy.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_8_copy.nodeId"
+        },
+        "characters": "Sebelum briefing developer"
+      },
+      "as": "Planned_8_title"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_title.nodeId"
+        },
+        "name": "Text / Planned_8_title"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_8_title.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_8_copy.nodeId"
+        },
+        "characters": "Siapkan panduan praktis untuk calon klien."
+      },
+      "as": "Planned_8_note"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_note.nodeId"
+        },
+        "name": "Text / Planned_8_note"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_note.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_8_note.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_note.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_note.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_8.nodeId"
+        },
+        "characters": "BELUM DIBUAT\nTidak untuk diekspor sebagai portofolio."
+      },
+      "as": "Planned_8_footer"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_footer.nodeId"
+        },
+        "name": "Text / Planned_8_footer"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_footer.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 28,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 140
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_8_footer.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_footer.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_8_footer.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Planned_7",
+        "parentId": {
+          "$ref": "board_row_0.nodeId"
+        },
+        "width": 1080,
+        "height": 1350,
+        "x": 0,
+        "y": 0
+      },
+      "as": "Planned_7"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "itemSpacing": 32,
+        "primaryAxisAlignItems": "SPACE_BETWEEN"
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7.nodeId"
+        },
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_7.nodeId"
+        },
+        "characters": "RENCANA / POST 7"
+      },
+      "as": "Planned_7_status"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_status.nodeId"
+        },
+        "name": "Text / Planned_7_status"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_status.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Medium"
+        },
+        "fontSize": 40,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 120
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_7_status.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_status.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_status.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Planned_7_copy",
+        "parentId": {
+          "$ref": "Planned_7.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "Planned_7_copy"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_copy.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_copy.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 32
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_copy.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_7_copy.nodeId"
+        },
+        "characters": "Satu interaksi yang berguna"
+      },
+      "as": "Planned_7_title"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_title.nodeId"
+        },
+        "name": "Text / Planned_7_title"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_7_title.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_7_copy.nodeId"
+        },
+        "characters": "Butuh materi website bisnis yang terverifikasi."
+      },
+      "as": "Planned_7_note"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_note.nodeId"
+        },
+        "name": "Text / Planned_7_note"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_note.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_7_note.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_note.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_note.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_7.nodeId"
+        },
+        "characters": "BELUM DIBUAT\nTidak untuk diekspor sebagai portofolio."
+      },
+      "as": "Planned_7_footer"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_footer.nodeId"
+        },
+        "name": "Text / Planned_7_footer"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_footer.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 28,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 140
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_7_footer.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_footer.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_7_footer.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "board_row_1",
+        "parentId": {
+          "$ref": "Feed_Board.nodeId"
+        },
+        "width": 3320,
+        "height": 1350,
+        "x": 0,
+        "y": 0
+      },
+      "as": "board_row_1"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_row_1.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_row_1.nodeId"
+        },
+        "layoutMode": "HORIZONTAL",
+        "itemSpacing": 40
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Planned_6",
+        "parentId": {
+          "$ref": "board_row_1.nodeId"
+        },
+        "width": 1080,
+        "height": 1350,
+        "x": 0,
+        "y": 0
+      },
+      "as": "Planned_6"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "itemSpacing": 32,
+        "primaryAxisAlignItems": "SPACE_BETWEEN"
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6.nodeId"
+        },
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_6.nodeId"
+        },
+        "characters": "RENCANA / POST 6"
+      },
+      "as": "Planned_6_status"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_status.nodeId"
+        },
+        "name": "Text / Planned_6_status"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_status.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Medium"
+        },
+        "fontSize": 40,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 120
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_6_status.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_status.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_status.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Planned_6_copy",
+        "parentId": {
+          "$ref": "Planned_6.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "Planned_6_copy"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_copy.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_copy.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 32
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_copy.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_6_copy.nodeId"
+        },
+        "characters": "Di balik pilihan kelas"
+      },
+      "as": "Planned_6_title"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_title.nodeId"
+        },
+        "name": "Text / Planned_6_title"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_6_title.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_6_copy.nodeId"
+        },
+        "characters": "Cerita proses dari implementasi yang nyata."
+      },
+      "as": "Planned_6_note"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_note.nodeId"
+        },
+        "name": "Text / Planned_6_note"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_note.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_6_note.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_note.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_note.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_6.nodeId"
+        },
+        "characters": "BELUM DIBUAT\nTidak untuk diekspor sebagai portofolio."
+      },
+      "as": "Planned_6_footer"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_footer.nodeId"
+        },
+        "name": "Text / Planned_6_footer"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_footer.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 28,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 140
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_6_footer.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_footer.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_6_footer.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Planned_5",
+        "parentId": {
+          "$ref": "board_row_1.nodeId"
+        },
+        "width": 1080,
+        "height": 1350,
+        "x": 0,
+        "y": 0
+      },
+      "as": "Planned_5"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "itemSpacing": 32,
+        "primaryAxisAlignItems": "SPACE_BETWEEN"
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5.nodeId"
+        },
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_5.nodeId"
+        },
+        "characters": "RENCANA / POST 5"
+      },
+      "as": "Planned_5_status"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_status.nodeId"
+        },
+        "name": "Text / Planned_5_status"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_status.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Medium"
+        },
+        "fontSize": 40,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 120
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_5_status.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_status.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_status.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Planned_5_copy",
+        "parentId": {
+          "$ref": "Planned_5.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "Planned_5_copy"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_copy.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_copy.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 32
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_copy.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_5_copy.nodeId"
+        },
+        "characters": "Karya atau alur berikutnya"
+      },
+      "as": "Planned_5_title"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_title.nodeId"
+        },
+        "name": "Text / Planned_5_title"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_5_title.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_5_copy.nodeId"
+        },
+        "characters": "Pilih bukti yang berbeda dari dua post awal."
+      },
+      "as": "Planned_5_note"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_note.nodeId"
+        },
+        "name": "Text / Planned_5_note"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_note.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_5_note.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_note.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_note.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_5.nodeId"
+        },
+        "characters": "BELUM DIBUAT\nTidak untuk diekspor sebagai portofolio."
+      },
+      "as": "Planned_5_footer"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_footer.nodeId"
+        },
+        "name": "Text / Planned_5_footer"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_footer.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 28,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 140
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_5_footer.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_footer.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_5_footer.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Planned_4",
+        "parentId": {
+          "$ref": "board_row_1.nodeId"
+        },
+        "width": 1080,
+        "height": 1350,
+        "x": 0,
+        "y": 0
+      },
+      "as": "Planned_4"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "itemSpacing": 32,
+        "primaryAxisAlignItems": "SPACE_BETWEEN"
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4.nodeId"
+        },
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_4.nodeId"
+        },
+        "characters": "RENCANA / POST 4"
+      },
+      "as": "Planned_4_status"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_status.nodeId"
+        },
+        "name": "Text / Planned_4_status"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_status.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Medium"
+        },
+        "fontSize": 40,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 120
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_4_status.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_status.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_status.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Planned_4_copy",
+        "parentId": {
+          "$ref": "Planned_4.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "Planned_4_copy"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_copy.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_copy.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 32
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_copy.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_4_copy.nodeId"
+        },
+        "characters": "Apa yang perlu ada di website?"
+      },
+      "as": "Planned_4_title"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_title.nodeId"
+        },
+        "name": "Text / Planned_4_title"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_4_title.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_4_copy.nodeId"
+        },
+        "characters": "Jawab satu pertanyaan calon klien."
+      },
+      "as": "Planned_4_note"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_note.nodeId"
+        },
+        "name": "Text / Planned_4_note"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_note.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_4_note.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_note.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_note.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Planned_4.nodeId"
+        },
+        "characters": "BELUM DIBUAT\nTidak untuk diekspor sebagai portofolio."
+      },
+      "as": "Planned_4_footer"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_footer.nodeId"
+        },
+        "name": "Text / Planned_4_footer"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_footer.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 28,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 140
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Planned_4_footer.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_footer.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Planned_4_footer.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "board_row_2",
+        "parentId": {
+          "$ref": "Feed_Board.nodeId"
+        },
+        "width": 3320,
+        "height": 1350,
+        "x": 0,
+        "y": 0
+      },
+      "as": "board_row_2"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_row_2.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "board_row_2.nodeId"
+        },
+        "layoutMode": "HORIZONTAL",
+        "itemSpacing": 40
+      }
+    },
+    {
+      "name": "create_instance",
+      "arguments": {
+        "componentId": {
+          "$ref": "Service_Invitation_master.nodeId"
+        },
+        "parentId": {
+          "$ref": "board_row_2.nodeId"
+        },
+        "name": "Overview / Service_Invitation_master"
+      }
+    },
+    {
+      "name": "create_instance",
+      "arguments": {
+        "componentId": {
+          "$ref": "Useful_Feature_master.nodeId"
+        },
+        "parentId": {
+          "$ref": "board_row_2.nodeId"
+        },
+        "name": "Overview / Useful_Feature_master"
+      }
+    },
+    {
+      "name": "create_instance",
+      "arguments": {
+        "componentId": {
+          "$ref": "Selected_Work_master.nodeId"
+        },
+        "parentId": {
+          "$ref": "board_row_2.nodeId"
+        },
+        "name": "Overview / Selected_Work_master"
+      }
+    },
+    {
+      "name": "create_section",
+      "arguments": {
+        "name": "Delivery Preview",
+        "parentId": {
+          "$ref": "page.nodeId"
+        },
+        "x": 3900,
+        "y": 9000,
+        "width": 3600,
+        "height": 3300
+      },
+      "as": "Delivery"
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Delivery_Board",
+        "parentId": {
+          "$ref": "Delivery.nodeId"
+        },
+        "width": 3480,
+        "height": 3100,
+        "x": 60,
+        "y": 60
+      },
+      "as": "Delivery_Board"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Delivery_Board.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Delivery_Board.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "paddingRight": 80,
+        "itemSpacing": 40
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "delivery_header",
+        "parentId": {
+          "$ref": "Delivery_Board.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "delivery_header"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_header.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_header.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 16
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_header.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "delivery_header.nodeId"
+        },
+        "characters": "Berkahbekhan / Feed refactor"
+      },
+      "as": "delivery_title"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_title.nodeId"
+        },
+        "name": "Text / delivery_title"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "delivery_title.nodeId"
+          }
+        ],
+        "width": 3320,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "delivery_header.nodeId"
+        },
+        "characters": "Atas: tiga cover. Bawah: lanjutan carousel dari cover pertama."
+      },
+      "as": "delivery_context"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_context.nodeId"
+        },
+        "name": "Text / delivery_context"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_context.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "delivery_context.nodeId"
+          }
+        ],
+        "width": 3320,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_context.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_context.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "delivery_row_0",
+        "parentId": {
+          "$ref": "Delivery_Board.nodeId"
+        },
+        "width": 3320,
+        "height": 1350,
+        "x": 0,
+        "y": 0
+      },
+      "as": "delivery_row_0"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_row_0.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_row_0.nodeId"
+        },
+        "layoutMode": "HORIZONTAL",
+        "itemSpacing": 40
+      }
+    },
+    {
+      "name": "clone_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "P01_Selected_Work.nodeId"
+        }
+      },
+      "as": "preview_P01_Selected_Work"
+    },
+    {
+      "name": "reparent_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "preview_P01_Selected_Work.nodeId"
+          }
+        ],
+        "newParentId": {
+          "$ref": "delivery_row_0.nodeId"
+        }
+      }
+    },
+    {
+      "name": "clone_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "P02_Useful_Feature.nodeId"
+        }
+      },
+      "as": "preview_P02_Useful_Feature"
+    },
+    {
+      "name": "reparent_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "preview_P02_Useful_Feature.nodeId"
+          }
+        ],
+        "newParentId": {
+          "$ref": "delivery_row_0.nodeId"
+        }
+      }
+    },
+    {
+      "name": "clone_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "P03_Service_Invitation.nodeId"
+        }
+      },
+      "as": "preview_P03_Service_Invitation"
+    },
+    {
+      "name": "reparent_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "preview_P03_Service_Invitation.nodeId"
+          }
+        ],
+        "newParentId": {
+          "$ref": "delivery_row_0.nodeId"
+        }
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "delivery_row_1",
+        "parentId": {
+          "$ref": "Delivery_Board.nodeId"
+        },
+        "width": 3320,
+        "height": 1350,
+        "x": 0,
+        "y": 0
+      },
+      "as": "delivery_row_1"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_row_1.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "delivery_row_1.nodeId"
+        },
+        "layoutMode": "HORIZONTAL",
+        "itemSpacing": 40
+      }
+    },
+    {
+      "name": "clone_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "C02_Role_Choices.nodeId"
+        }
+      },
+      "as": "preview_C02_Role_Choices"
+    },
+    {
+      "name": "reparent_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "preview_C02_Role_Choices.nodeId"
+          }
+        ],
+        "newParentId": {
+          "$ref": "delivery_row_1.nodeId"
+        }
+      }
+    },
+    {
+      "name": "clone_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "C03_Merged_PDF.nodeId"
+        }
+      },
+      "as": "preview_C03_Merged_PDF"
+    },
+    {
+      "name": "reparent_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "preview_C03_Merged_PDF.nodeId"
+          }
+        ],
+        "newParentId": {
+          "$ref": "delivery_row_1.nodeId"
+        }
+      }
+    },
+    {
+      "name": "clone_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "C04_Invitation.nodeId"
+        }
+      },
+      "as": "preview_C04_Invitation"
+    },
+    {
+      "name": "reparent_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "preview_C04_Invitation.nodeId"
+          }
+        ],
+        "newParentId": {
+          "$ref": "delivery_row_1.nodeId"
+        }
+      }
+    },
+    {
+      "name": "save_screenshots",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Feed_Board.nodeId"
+          },
+          {
+            "$ref": "Delivery_Board.nodeId"
+          }
+        ],
+        "outDir": "D:/Repos/berkahbekhan/output/figma-exports/feed-refactor/overview",
+        "scale": 0.3333333333333333
+      }
+    },
+    {
+      "name": "save_screenshots",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "P01_Selected_Work.nodeId"
+          },
+          {
+            "$ref": "P02_Useful_Feature.nodeId"
+          },
+          {
+            "$ref": "P03_Service_Invitation.nodeId"
+          },
+          {
+            "$ref": "C02_Role_Choices.nodeId"
+          },
+          {
+            "$ref": "C03_Merged_PDF.nodeId"
+          },
+          {
+            "$ref": "C04_Invitation.nodeId"
+          }
+        ],
+        "outDir": "D:/Repos/berkahbekhan/output/figma-exports/feed-refactor/mobile",
+        "scale": 0.3333333333333333
+      }
+    },
+    {
+      "name": "get_document",
+      "arguments": {},
+      "as": "final_document"
+    }
+  ]
+}

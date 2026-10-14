@@ -1,0 +1,90 @@
+[
+  {
+    "request": {
+      "name": "use_file",
+      "arguments": {
+        "sessionId": "id-mv5238q0-n46cnqvo"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"bound\":{\"sessionId\":\"id-mv5238q0-n46cnqvo\",\"fileName\":\"Untitled\"},\"files\":[{\"sessionId\":\"id-mv5238q0-n46cnqvo\",\"pluginVersion\":\"0.5.0\",\"routed\":true,\"bound\":true,\"fileKey\":null,\"fileName\":\"Untitled\",\"currentPage\":{\"id\":\"21:31\",\"name\":\"BKMTSN Gresik — Instagram Portfolio\"}}]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "bound": {
+        "sessionId": "id-mv5238q0-n46cnqvo",
+        "fileName": "Untitled"
+      },
+      "files": [
+        {
+          "sessionId": "id-mv5238q0-n46cnqvo",
+          "pluginVersion": "0.5.0",
+          "routed": true,
+          "bound": true,
+          "fileKey": null,
+          "fileName": "Untitled",
+          "currentPage": {
+            "id": "21:31",
+            "name": "BKMTSN Gresik — Instagram Portfolio"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "navigate_to_page",
+      "arguments": {
+        "pageId": {
+          "$ref": "page.nodeId"
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"49:30\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "49:30"
+    }
+  },
+  {
+    "request": {
+      "name": "create_variable",
+      "arguments": {
+        "name": "color/paper",
+        "collectionId": {
+          "$ref": "tokens.collectionId"
+        },
+        "resolvedType": "COLOR"
+      },
+      "as": "color_paper"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "INTERNAL_ERROR: INTERNAL_ERROR: Unable to establish connection to Figma after 10 seconds. Please check your internet connection."
+        }
+      ],
+      "isError": true
+    }
+  }
+]

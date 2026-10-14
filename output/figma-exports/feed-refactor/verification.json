@@ -1,0 +1,14 @@
+{
+  "pageId": "49:30",
+  "productionFrames": 6,
+  "componentMasters": 4,
+  "checkedTextNodes": 62,
+  "proportionalImageLayers": 9,
+  "minimumTextContrast": 4.66,
+  "pngExports": 7,
+  "nativeBindings": "PASS",
+  "status": "PASS",
+  "limitations": [
+    "Image readability is reviewed visually, not inferred from geometry."
+  ]
+}

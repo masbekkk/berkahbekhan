@@ -1,0 +1,795 @@
+[
+  {
+    "request": {
+      "arguments": {
+        "sessionId": "id-mv5238q0-n46cnqvo"
+      },
+      "name": "use_file"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"bound\":{\"sessionId\":\"id-mv5238q0-n46cnqvo\",\"fileName\":\"Untitled\"},\"files\":[{\"sessionId\":\"id-mv5238q0-n46cnqvo\",\"pluginVersion\":\"0.5.0\",\"routed\":true,\"bound\":true,\"fileKey\":null,\"fileName\":\"Untitled\",\"currentPage\":{\"id\":\"49:30\",\"name\":\"Feed Refactor - UMKM\"}}]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "bound": {
+        "sessionId": "id-mv5238q0-n46cnqvo",
+        "fileName": "Untitled"
+      },
+      "files": [
+        {
+          "sessionId": "id-mv5238q0-n46cnqvo",
+          "pluginVersion": "0.5.0",
+          "routed": true,
+          "bound": true,
+          "fileKey": null,
+          "fileName": "Untitled",
+          "currentPage": {
+            "id": "49:30",
+            "name": "Feed Refactor - UMKM"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "arguments": {},
+      "name": "get_styles"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"paints\":[{\"id\":\"S:b0660a3efc2aa9975df15cdb666938a7cb8139c7,\",\"name\":\"Feed Refactor / white\",\"key\":\"b0660a3efc2aa9975df15cdb666938a7cb8139c7\",\"description\":\"\",\"paints\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"color\":{\"r\":1,\"g\":1,\"b\":1}}]},{\"id\":\"S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,\",\"name\":\"Feed Refactor / paper\",\"key\":\"6b39b77a7d9132ea1ee260f4fccfbdfb773287cb\",\"description\":\"\",\"paints\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"color\":{\"r\":0.9607999920845032,\"g\":0.9607999920845032,\"b\":0.9685999751091003}}]},{\"id\":\"S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,\",\"name\":\"Feed Refactor / ink\",\"key\":\"a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4\",\"description\":\"\",\"paints\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"color\":{\"r\":0.1137000024318695,\"g\":0.1137000024318695,\"b\":0.12160000205039978}}]},{\"id\":\"S:71242f465aa83282843704961657f7914ed71ea9,\",\"name\":\"Feed Refactor / dark\",\"key\":\"71242f465aa83282843704961657f7914ed71ea9\",\"description\":\"\",\"paints\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"color\":{\"r\":0.08630000054836273,\"g\":0.08630000054836273,\"b\":0.09019999951124191}}]},{\"id\":\"S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,\",\"name\":\"Feed Refactor / muted\",\"key\":\"c7bab7bf64204e61bed2519a27629e7e9074d8fd\",\"description\":\"\",\"paints\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"color\":{\"r\":0.43140000104904175,\"g\":0.43140000104904175,\"b\":0.45100000500679016}}]},{\"id\":\"S:327cb3362559473ec83c4ca628d34c4aaaffd135,\",\"name\":\"Feed Refactor / pale\",\"key\":\"327cb3362559473ec83c4ca628d34c4aaaffd135\",\"description\":\"\",\"paints\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"color\":{\"r\":0.6313999891281128,\"g\":0.6313999891281128,\"b\":0.6510000228881836}}]},{\"id\":\"S:f23542352bce4651bfb56bb6b1fa575c0a713df8,\",\"name\":\"Feed Refactor / blue\",\"key\":\"f23542352bce4651bfb56bb6b1fa575c0a713df8\",\"description\":\"\",\"paints\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"color\":{\"r\":0,\"g\":0.4431000053882599,\"b\":0.8902000188827515}}]}],\"texts\":[{\"id\":\"S:8bf7e861c667b54e9c178b3e2043513283f3194d,\",\"name\":\"Feed Refactor / Display\",\"key\":\"8bf7e861c667b54e9c178b3e2043513283f3194d\",\"description\":\"\",\"fontName\":{\"family\":\"Inter\",\"style\":\"Semi Bold\"},\"fontSize\":80,\"lineHeight\":{\"unit\":\"PERCENT\",\"value\":110.00000238418579},\"letterSpacing\":{\"unit\":\"PERCENT\",\"value\":-3},\"textWrapStyle\":\"AUTO\"},{\"id\":\"S:52fe80356230c4b575893802cb6e9e9b4c4ea55f,\",\"name\":\"Feed Refactor / headline\",\"key\":\"52fe80356230c4b575893802cb6e9e9b4c4ea55f\",\"description\":\"\",\"fontName\":{\"family\":\"Inter\",\"style\":\"Semi Bold\"},\"fontSize\":64,\"lineHeight\":{\"unit\":\"PERCENT\",\"value\":110.00000238418579},\"letterSpacing\":{\"unit\":\"PERCENT\",\"value\":-3},\"textWrapStyle\":\"AUTO\"},{\"id\":\"S:e03623b286ca1b05123314105bc20b7223ba8899,\",\"name\":\"Feed Refactor / section\",\"key\":\"e03623b286ca1b05123314105bc20b7223ba8899\",\"description\":\"\",\"fontName\":{\"family\":\"Inter\",\"style\":\"Medium\"},\"fontSize\":40,\"lineHeight\":{\"unit\":\"PERCENT\",\"value\":120.00000476837158},\"letterSpacing\":{\"unit\":\"PERCENT\",\"value\":0},\"textWrapStyle\":\"AUTO\"},{\"id\":\"S:17608ef0f0f18aafecf9e8a482695facf358f03b,\",\"name\":\"Feed Refactor / lead\",\"key\":\"17608ef0f0f18aafecf9e8a482695facf358f03b\",\"description\":\"\",\"fontName\":{\"family\":\"Inter\",\"style\":\"Regular\"},\"fontSize\":32,\"lineHeight\":{\"unit\":\"PERCENT\",\"value\":135.0000023841858},\"letterSpacing\":{\"unit\":\"PERCENT\",\"value\":0},\"textWrapStyle\":\"AUTO\"},{\"id\":\"S:780087791ac7fb1441572d3651daaaa1079ac301,\",\"name\":\"Feed Refactor / body\",\"key\":\"780087791ac7fb1441572d3651daaaa1079ac301\",\"description\":\"\",\"fontName\":{\"family\":\"Inter\",\"style\":\"Regular\"},\"fontSize\":28,\"lineHeight\":{\"unit\":\"PERCENT\",\"value\":139.9999976158142},\"letterSpacing\":{\"unit\":\"PERCENT\",\"value\":0},\"textWrapStyle\":\"AUTO\"},{\"id\":\"S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,\",\"name\":\"Feed Refactor / meta\",\"key\":\"0c0ee90697a396fc4f68339ace6c69d16e4bd741\",\"description\":\"\",\"fontName\":{\"family\":\"JetBrains Mono\",\"style\":\"Regular\"},\"fontSize\":22,\"lineHeight\":{\"unit\":\"PERCENT\",\"value\":129.99999523162842},\"letterSpacing\":{\"unit\":\"PERCENT\",\"value\":0},\"textWrapStyle\":\"AUTO\"},{\"id\":\"S:9650c54ea6b774279735392f17620f669971afc5,\",\"name\":\"Feed Refactor / code\",\"key\":\"9650c54ea6b774279735392f17620f669971afc5\",\"description\":\"\",\"fontName\":{\"family\":\"JetBrains Mono\",\"style\":\"Regular\"},\"fontSize\":26,\"lineHeight\":{\"unit\":\"PERCENT\",\"value\":150},\"letterSpacing\":{\"unit\":\"PERCENT\",\"value\":0},\"textWrapStyle\":\"AUTO\"}],\"effects\":[],\"grids\":[]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "paints": [
+        {
+          "id": "S:b0660a3efc2aa9975df15cdb666938a7cb8139c7,",
+          "name": "Feed Refactor / white",
+          "key": "b0660a3efc2aa9975df15cdb666938a7cb8139c7",
+          "description": "",
+          "paints": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": "S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,",
+          "name": "Feed Refactor / paper",
+          "key": "6b39b77a7d9132ea1ee260f4fccfbdfb773287cb",
+          "description": "",
+          "paints": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "color": {
+                "r": 0.9607999920845032,
+                "g": 0.9607999920845032,
+                "b": 0.9685999751091003
+              }
+            }
+          ]
+        },
+        {
+          "id": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+          "name": "Feed Refactor / ink",
+          "key": "a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4",
+          "description": "",
+          "paints": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "color": {
+                "r": 0.1137000024318695,
+                "g": 0.1137000024318695,
+                "b": 0.12160000205039978
+              }
+            }
+          ]
+        },
+        {
+          "id": "S:71242f465aa83282843704961657f7914ed71ea9,",
+          "name": "Feed Refactor / dark",
+          "key": "71242f465aa83282843704961657f7914ed71ea9",
+          "description": "",
+          "paints": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "color": {
+                "r": 0.08630000054836273,
+                "g": 0.08630000054836273,
+                "b": 0.09019999951124191
+              }
+            }
+          ]
+        },
+        {
+          "id": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+          "name": "Feed Refactor / muted",
+          "key": "c7bab7bf64204e61bed2519a27629e7e9074d8fd",
+          "description": "",
+          "paints": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "color": {
+                "r": 0.43140000104904175,
+                "g": 0.43140000104904175,
+                "b": 0.45100000500679016
+              }
+            }
+          ]
+        },
+        {
+          "id": "S:327cb3362559473ec83c4ca628d34c4aaaffd135,",
+          "name": "Feed Refactor / pale",
+          "key": "327cb3362559473ec83c4ca628d34c4aaaffd135",
+          "description": "",
+          "paints": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "color": {
+                "r": 0.6313999891281128,
+                "g": 0.6313999891281128,
+                "b": 0.6510000228881836
+              }
+            }
+          ]
+        },
+        {
+          "id": "S:f23542352bce4651bfb56bb6b1fa575c0a713df8,",
+          "name": "Feed Refactor / blue",
+          "key": "f23542352bce4651bfb56bb6b1fa575c0a713df8",
+          "description": "",
+          "paints": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "color": {
+                "r": 0,
+                "g": 0.4431000053882599,
+                "b": 0.8902000188827515
+              }
+            }
+          ]
+        }
+      ],
+      "texts": [
+        {
+          "id": "S:8bf7e861c667b54e9c178b3e2043513283f3194d,",
+          "name": "Feed Refactor / Display",
+          "key": "8bf7e861c667b54e9c178b3e2043513283f3194d",
+          "description": "",
+          "fontName": {
+            "family": "Inter",
+            "style": "Semi Bold"
+          },
+          "fontSize": 80,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 110.00000238418579
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": -3
+          },
+          "textWrapStyle": "AUTO"
+        },
+        {
+          "id": "S:52fe80356230c4b575893802cb6e9e9b4c4ea55f,",
+          "name": "Feed Refactor / headline",
+          "key": "52fe80356230c4b575893802cb6e9e9b4c4ea55f",
+          "description": "",
+          "fontName": {
+            "family": "Inter",
+            "style": "Semi Bold"
+          },
+          "fontSize": 64,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 110.00000238418579
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": -3
+          },
+          "textWrapStyle": "AUTO"
+        },
+        {
+          "id": "S:e03623b286ca1b05123314105bc20b7223ba8899,",
+          "name": "Feed Refactor / section",
+          "key": "e03623b286ca1b05123314105bc20b7223ba8899",
+          "description": "",
+          "fontName": {
+            "family": "Inter",
+            "style": "Medium"
+          },
+          "fontSize": 40,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 120.00000476837158
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textWrapStyle": "AUTO"
+        },
+        {
+          "id": "S:17608ef0f0f18aafecf9e8a482695facf358f03b,",
+          "name": "Feed Refactor / lead",
+          "key": "17608ef0f0f18aafecf9e8a482695facf358f03b",
+          "description": "",
+          "fontName": {
+            "family": "Inter",
+            "style": "Regular"
+          },
+          "fontSize": 32,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 135.0000023841858
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textWrapStyle": "AUTO"
+        },
+        {
+          "id": "S:780087791ac7fb1441572d3651daaaa1079ac301,",
+          "name": "Feed Refactor / body",
+          "key": "780087791ac7fb1441572d3651daaaa1079ac301",
+          "description": "",
+          "fontName": {
+            "family": "Inter",
+            "style": "Regular"
+          },
+          "fontSize": 28,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 139.9999976158142
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textWrapStyle": "AUTO"
+        },
+        {
+          "id": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+          "name": "Feed Refactor / meta",
+          "key": "0c0ee90697a396fc4f68339ace6c69d16e4bd741",
+          "description": "",
+          "fontName": {
+            "family": "JetBrains Mono",
+            "style": "Regular"
+          },
+          "fontSize": 22,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 129.99999523162842
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textWrapStyle": "AUTO"
+        },
+        {
+          "id": "S:9650c54ea6b774279735392f17620f669971afc5,",
+          "name": "Feed Refactor / code",
+          "key": "9650c54ea6b774279735392f17620f669971afc5",
+          "description": "",
+          "fontName": {
+            "family": "JetBrains Mono",
+            "style": "Regular"
+          },
+          "fontSize": 26,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 150
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "textWrapStyle": "AUTO"
+        }
+      ],
+      "effects": [],
+      "grids": []
+    }
+  },
+  {
+    "request": {
+      "arguments": {
+        "nodeId": "51:64"
+      },
+      "name": "get_node"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"node\":{\"id\":\"51:64\",\"name\":\"Feed / Selected_Work\",\"type\":\"COMPONENT\",\"visible\":true,\"locked\":false,\"x\":80,\"y\":100,\"width\":1080,\"height\":1350,\"parentId\":\"50:47\",\"rotation\":0,\"opacity\":1,\"cornerRadius\":0,\"fills\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"color\":{\"r\":0.9607999920845032,\"g\":0.9607999920845032,\"b\":0.9685999751091003}}],\"layout\":{\"mode\":\"VERTICAL\",\"paddingTop\":80,\"paddingRight\":80,\"paddingBottom\":80,\"paddingLeft\":80,\"itemSpacing\":32,\"primaryAxisAlignItems\":\"SPACE_BETWEEN\",\"counterAxisAlignItems\":\"MIN\",\"layoutWrap\":\"NO_WRAP\",\"strokesIncludedInLayout\":true},\"constraints\":{\"horizontal\":\"MIN\",\"vertical\":\"MIN\"},\"clipsContent\":true,\"children\":[{\"id\":\"51:55\",\"name\":\"selected_header\",\"type\":\"FRAME\",\"visible\":true,\"locked\":false,\"x\":80,\"y\":80,\"width\":920,\"height\":292,\"parentId\":\"51:64\",\"rotation\":0,\"opacity\":1,\"cornerRadius\":0,\"fills\":[],\"layout\":{\"mode\":\"VERTICAL\",\"paddingTop\":0,\"paddingRight\":0,\"paddingBottom\":0,\"paddingLeft\":0,\"itemSpacing\":24,\"primaryAxisAlignItems\":\"MIN\",\"counterAxisAlignItems\":\"MIN\",\"layoutWrap\":\"NO_WRAP\",\"strokesIncludedInLayout\":true},\"layoutSizingHorizontal\":\"FILL\",\"layoutSizingVertical\":\"HUG\",\"layoutAlign\":\"STRETCH\",\"clipsContent\":true,\"children\":[{\"id\":\"51:56\",\"name\":\"Text / selected_label\",\"type\":\"TEXT\",\"visible\":true,\"locked\":false,\"x\":0,\"y\":0,\"width\":920,\"height\":29,\"parentId\":\"51:55\",\"rotation\":0,\"opacity\":1,\"fills\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"color\":{\"r\":0.43140000104904175,\"g\":0.43140000104904175,\"b\":0.45100000500679016}}],\"layoutSizingHorizontal\":\"FIXED\",\"layoutSizingVertical\":\"HUG\",\"characters\":\"PILIHAN KARYA / SISTEM SEKOLAH\",\"fontSize\":22,\"fontName\":{\"family\":\"JetBrains Mono\",\"style\":\"Regular\",\"variationSettings\":{\"wght\":400}},\"textAlignHorizontal\":\"LEFT\",\"textAlignVertical\":\"TOP\",\"lineHeight\":{\"value\":129.99999523162842,\"unit\":\"PERCENT\"},\"letterSpacing\":{\"value\":0,\"unit\":\"PERCENT\"},\"textCase\":\"ORIGINAL\",\"textDecoration\":\"NONE\",\"textAutoResize\":\"HEIGHT\",\"textTruncation\":\"DISABLED\",\"maxLines\":null,\"paragraphSpacing\":0,\"paragraphIndent\":0,\"textWrapStyle\":\"AUTO\"},{\"id\":\"51:57\",\"name\":\"Text / selected_title\",\"type\":\"TEXT\",\"visible\":true,\"locked\":false,\"x\":0,\"y\":53,\"width\":920,\"height\":176,\"parentId\":\"51:55\",\"rotation\":0,\"opacity\":1,\"fills\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"color\":{\"r\":0.1137000024318695,\"g\":0.1137000024318695,\"b\":0.12160000205039978}}],\"layoutSizingHorizontal\":\"FIXED\",\"layoutSizingVertical\":\"HUG\",\"characters\":\"Satu portal.\\nDua akses.\",\"fontSize\":80,\"fontName\":{\"family\":\"Inter\",\"style\":\"Semi Bold\",\"variationSettings\":{\"slnt\":0,\"wght\":600}},\"textAlignHorizontal\":\"LEFT\",\"textAlignVertical\":\"TOP\",\"lineHeight\":{\"value\":110.00000238418579,\"unit\":\"PERCENT\"},\"letterSpacing\":{\"value\":-3,\"unit\":\"PERCENT\"},\"textCase\":\"ORIGINAL\",\"textDecoration\":\"NONE\",\"textAutoResize\":\"HEIGHT\",\"textTruncation\":\"DISABLED\",\"maxLines\":null,\"paragraphSpacing\":0,\"paragraphIndent\":0,\"textWrapStyle\":\"AUTO\"},{\"id\":\"51:58\",\"name\":\"Text / selected_intro\",\"type\":\"TEXT\",\"visible\":true,\"locked\":false,\"x\":0,\"y\":253,\"width\":920,\"height\":39,\"parentId\":\"51:55\",\"rotation\":0,\"opacity\":1,\"fills\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"color\":{\"r\":0.1137000024318695,\"g\":0.1137000024318695,\"b\":0.12160000205039978}}],\"layoutSizingHorizontal\":\"FIXED\",\"layoutSizingVertical\":\"HUG\",\"characters\":\"Akses guru dan siswa di BK MTsN Gresik.\",\"fontSize\":28,\"fontName\":{\"family\":\"Inter\",\"style\":\"Regular\",\"variationSettings\":{\"slnt\":0,\"wght\":400}},\"textAlignHorizontal\":\"LEFT\",\"textAlignVertical\":\"TOP\",\"lineHeight\":{\"value\":139.9999976158142,\"unit\":\"PERCENT\"},\"letterSpacing\":{\"value\":0,\"unit\":\"PERCENT\"},\"textCase\":\"ORIGINAL\",\"textDecoration\":\"NONE\",\"textAutoResize\":\"HEIGHT\",\"textTruncation\":\"DISABLED\",\"maxLines\":null,\"paragraphSpacing\":0,\"paragraphIndent\":0,\"textWrapStyle\":\"AUTO\"}]},{\"id\":\"51:59\",\"name\":\"selected_visual\",\"type\":\"FRAME\",\"visible\":true,\"locked\":false,\"x\":80,\"y\":437.89190673828125,\"width\":920,\"height\":696.2161865234375,\"parentId\":\"51:64\",\"rotation\":0,\"opacity\":1,\"cornerRadius\":0,\"fills\":[],\"layoutSizingHorizontal\":\"FIXED\",\"layoutSizingVertical\":\"FIXED\",\"clipsContent\":true,\"children\":[{\"id\":\"51:60\",\"name\":\"Image / selected_visual\",\"type\":\"RECTANGLE\",\"visible\":true,\"locked\":false,\"x\":-435.1351318359375,\"y\":-195.81080627441406,\"width\":1790.270263671875,\"height\":1118.9189453125,\"parentId\":\"51:59\",\"rotation\":0,\"opacity\":1,\"cornerRadius\":0,\"fills\":[{\"type\":\"IMAGE\",\"visible\":true,\"opacity\":1,\"scaleMode\":\"FIT\"}],\"constraints\":{\"horizontal\":\"MIN\",\"vertical\":\"MIN\"}}]},{\"id\":\"51:61\",\"name\":\"selected_footer\",\"type\":\"FRAME\",\"visible\":true,\"locked\":false,\"x\":80,\"y\":1200,\"width\":920,\"height\":70,\"parentId\":\"51:64\",\"rotation\":0,\"opacity\":1,\"cornerRadius\":0,\"fills\":[],\"layout\":{\"mode\":\"VERTICAL\",\"paddingTop\":0,\"paddingRight\":0,\"paddingBottom\":0,\"paddingLeft\":0,\"itemSpacing\":12,\"primaryAxisAlignItems\":\"MIN\",\"counterAxisAlignItems\":\"MIN\",\"layoutWrap\":\"NO_WRAP\",\"strokesIncludedInLayout\":true},\"layoutSizingHorizontal\":\"FILL\",\"layoutSizingVertical\":\"HUG\",\"layoutAlign\":\"STRETCH\",\"clipsContent\":true,\"children\":[{\"id\":\"51:62\",\"name\":\"Text / selected_footer_brand\",\"type\":\"TEXT\",\"visible\":true,\"locked\":false,\"x\":0,\"y\":0,\"width\":920,\"height\":29,\"parentId\":\"51:61\",\"rotation\":0,\"opacity\":1,\"fills\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"color\":{\"r\":0.43140000104904175,\"g\":0.43140000104904175,\"b\":0.45100000500679016}}],\"layoutSizingHorizontal\":\"FIXED\",\"layoutSizingVertical\":\"HUG\",\"characters\":\"@berkahbekhan.inc\",\"fontSize\":22,\"fontName\":{\"family\":\"JetBrains Mono\",\"style\":\"Regular\",\"variationSettings\":{\"wght\":400}},\"textAlignHorizontal\":\"LEFT\",\"textAlignVertical\":\"TOP\",\"lineHeight\":{\"value\":129.99999523162842,\"unit\":\"PERCENT\"},\"letterSpacing\":{\"value\":0,\"unit\":\"PERCENT\"},\"textCase\":\"ORIGINAL\",\"textDecoration\":\"NONE\",\"textAutoResize\":\"HEIGHT\",\"textTruncation\":\"DISABLED\",\"maxLines\":null,\"paragraphSpacing\":0,\"paragraphIndent\":0,\"textWrapStyle\":\"AUTO\"},{\"id\":\"51:63\",\"name\":\"Text / selected_footer_label\",\"type\":\"TEXT\",\"visible\":true,\"locked\":false,\"x\":0,\"y\":41,\"width\":920,\"height\":29,\"parentId\":\"51:61\",\"rotation\":0,\"opacity\":1,\"fills\":[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"color\":{\"r\":0.43140000104904175,\"g\":0.43140000104904175,\"b\":0.45100000500679016}}],\"layoutSizingHorizontal\":\"FIXED\",\"layoutSizingVertical\":\"HUG\",\"characters\":\"BK MTsN Gresik / Portal layanan sekolah\",\"fontSize\":22,\"fontName\":{\"family\":\"JetBrains Mono\",\"style\":\"Regular\",\"variationSettings\":{\"wght\":400}},\"textAlignHorizontal\":\"LEFT\",\"textAlignVertical\":\"TOP\",\"lineHeight\":{\"value\":129.99999523162842,\"unit\":\"PERCENT\"},\"letterSpacing\":{\"value\":0,\"unit\":\"PERCENT\"},\"textCase\":\"ORIGINAL\",\"textDecoration\":\"NONE\",\"textAutoResize\":\"HEIGHT\",\"textTruncation\":\"DISABLED\",\"maxLines\":null,\"paragraphSpacing\":0,\"paragraphIndent\":0,\"textWrapStyle\":\"AUTO\"}]}]}}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "node": {
+        "id": "51:64",
+        "name": "Feed / Selected_Work",
+        "type": "COMPONENT",
+        "visible": true,
+        "locked": false,
+        "x": 80,
+        "y": 100,
+        "width": 1080,
+        "height": 1350,
+        "parentId": "50:47",
+        "rotation": 0,
+        "opacity": 1,
+        "cornerRadius": 0,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "color": {
+              "r": 0.9607999920845032,
+              "g": 0.9607999920845032,
+              "b": 0.9685999751091003
+            }
+          }
+        ],
+        "layout": {
+          "mode": "VERTICAL",
+          "paddingTop": 80,
+          "paddingRight": 80,
+          "paddingBottom": 80,
+          "paddingLeft": 80,
+          "itemSpacing": 32,
+          "primaryAxisAlignItems": "SPACE_BETWEEN",
+          "counterAxisAlignItems": "MIN",
+          "layoutWrap": "NO_WRAP",
+          "strokesIncludedInLayout": true
+        },
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "clipsContent": true,
+        "children": [
+          {
+            "id": "51:55",
+            "name": "selected_header",
+            "type": "FRAME",
+            "visible": true,
+            "locked": false,
+            "x": 80,
+            "y": 80,
+            "width": 920,
+            "height": 292,
+            "parentId": "51:64",
+            "rotation": 0,
+            "opacity": 1,
+            "cornerRadius": 0,
+            "fills": [],
+            "layout": {
+              "mode": "VERTICAL",
+              "paddingTop": 0,
+              "paddingRight": 0,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "itemSpacing": 24,
+              "primaryAxisAlignItems": "MIN",
+              "counterAxisAlignItems": "MIN",
+              "layoutWrap": "NO_WRAP",
+              "strokesIncludedInLayout": true
+            },
+            "layoutSizingHorizontal": "FILL",
+            "layoutSizingVertical": "HUG",
+            "layoutAlign": "STRETCH",
+            "clipsContent": true,
+            "children": [
+              {
+                "id": "51:56",
+                "name": "Text / selected_label",
+                "type": "TEXT",
+                "visible": true,
+                "locked": false,
+                "x": 0,
+                "y": 0,
+                "width": 920,
+                "height": 29,
+                "parentId": "51:55",
+                "rotation": 0,
+                "opacity": 1,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "color": {
+                      "r": 0.43140000104904175,
+                      "g": 0.43140000104904175,
+                      "b": 0.45100000500679016
+                    }
+                  }
+                ],
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "characters": "PILIHAN KARYA / SISTEM SEKOLAH",
+                "fontSize": 22,
+                "fontName": {
+                  "family": "JetBrains Mono",
+                  "style": "Regular",
+                  "variationSettings": {
+                    "wght": 400
+                  }
+                },
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "lineHeight": {
+                  "value": 129.99999523162842,
+                  "unit": "PERCENT"
+                },
+                "letterSpacing": {
+                  "value": 0,
+                  "unit": "PERCENT"
+                },
+                "textCase": "ORIGINAL",
+                "textDecoration": "NONE",
+                "textAutoResize": "HEIGHT",
+                "textTruncation": "DISABLED",
+                "maxLines": null,
+                "paragraphSpacing": 0,
+                "paragraphIndent": 0,
+                "textWrapStyle": "AUTO"
+              },
+              {
+                "id": "51:57",
+                "name": "Text / selected_title",
+                "type": "TEXT",
+                "visible": true,
+                "locked": false,
+                "x": 0,
+                "y": 53,
+                "width": 920,
+                "height": 176,
+                "parentId": "51:55",
+                "rotation": 0,
+                "opacity": 1,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "color": {
+                      "r": 0.1137000024318695,
+                      "g": 0.1137000024318695,
+                      "b": 0.12160000205039978
+                    }
+                  }
+                ],
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "characters": "Satu portal.\nDua akses.",
+                "fontSize": 80,
+                "fontName": {
+                  "family": "Inter",
+                  "style": "Semi Bold",
+                  "variationSettings": {
+                    "slnt": 0,
+                    "wght": 600
+                  }
+                },
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "lineHeight": {
+                  "value": 110.00000238418579,
+                  "unit": "PERCENT"
+                },
+                "letterSpacing": {
+                  "value": -3,
+                  "unit": "PERCENT"
+                },
+                "textCase": "ORIGINAL",
+                "textDecoration": "NONE",
+                "textAutoResize": "HEIGHT",
+                "textTruncation": "DISABLED",
+                "maxLines": null,
+                "paragraphSpacing": 0,
+                "paragraphIndent": 0,
+                "textWrapStyle": "AUTO"
+              },
+              {
+                "id": "51:58",
+                "name": "Text / selected_intro",
+                "type": "TEXT",
+                "visible": true,
+                "locked": false,
+                "x": 0,
+                "y": 253,
+                "width": 920,
+                "height": 39,
+                "parentId": "51:55",
+                "rotation": 0,
+                "opacity": 1,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "color": {
+                      "r": 0.1137000024318695,
+                      "g": 0.1137000024318695,
+                      "b": 0.12160000205039978
+                    }
+                  }
+                ],
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "characters": "Akses guru dan siswa di BK MTsN Gresik.",
+                "fontSize": 28,
+                "fontName": {
+                  "family": "Inter",
+                  "style": "Regular",
+                  "variationSettings": {
+                    "slnt": 0,
+                    "wght": 400
+                  }
+                },
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "lineHeight": {
+                  "value": 139.9999976158142,
+                  "unit": "PERCENT"
+                },
+                "letterSpacing": {
+                  "value": 0,
+                  "unit": "PERCENT"
+                },
+                "textCase": "ORIGINAL",
+                "textDecoration": "NONE",
+                "textAutoResize": "HEIGHT",
+                "textTruncation": "DISABLED",
+                "maxLines": null,
+                "paragraphSpacing": 0,
+                "paragraphIndent": 0,
+                "textWrapStyle": "AUTO"
+              }
+            ]
+          },
+          {
+            "id": "51:59",
+            "name": "selected_visual",
+            "type": "FRAME",
+            "visible": true,
+            "locked": false,
+            "x": 80,
+            "y": 437.89190673828125,
+            "width": 920,
+            "height": 696.2161865234375,
+            "parentId": "51:64",
+            "rotation": 0,
+            "opacity": 1,
+            "cornerRadius": 0,
+            "fills": [],
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED",
+            "clipsContent": true,
+            "children": [
+              {
+                "id": "51:60",
+                "name": "Image / selected_visual",
+                "type": "RECTANGLE",
+                "visible": true,
+                "locked": false,
+                "x": -435.1351318359375,
+                "y": -195.81080627441406,
+                "width": 1790.270263671875,
+                "height": 1118.9189453125,
+                "parentId": "51:59",
+                "rotation": 0,
+                "opacity": 1,
+                "cornerRadius": 0,
+                "fills": [
+                  {
+                    "type": "IMAGE",
+                    "visible": true,
+                    "opacity": 1,
+                    "scaleMode": "FIT"
+                  }
+                ],
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                }
+              }
+            ]
+          },
+          {
+            "id": "51:61",
+            "name": "selected_footer",
+            "type": "FRAME",
+            "visible": true,
+            "locked": false,
+            "x": 80,
+            "y": 1200,
+            "width": 920,
+            "height": 70,
+            "parentId": "51:64",
+            "rotation": 0,
+            "opacity": 1,
+            "cornerRadius": 0,
+            "fills": [],
+            "layout": {
+              "mode": "VERTICAL",
+              "paddingTop": 0,
+              "paddingRight": 0,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "itemSpacing": 12,
+              "primaryAxisAlignItems": "MIN",
+              "counterAxisAlignItems": "MIN",
+              "layoutWrap": "NO_WRAP",
+              "strokesIncludedInLayout": true
+            },
+            "layoutSizingHorizontal": "FILL",
+            "layoutSizingVertical": "HUG",
+            "layoutAlign": "STRETCH",
+            "clipsContent": true,
+            "children": [
+              {
+                "id": "51:62",
+                "name": "Text / selected_footer_brand",
+                "type": "TEXT",
+                "visible": true,
+                "locked": false,
+                "x": 0,
+                "y": 0,
+                "width": 920,
+                "height": 29,
+                "parentId": "51:61",
+                "rotation": 0,
+                "opacity": 1,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "color": {
+                      "r": 0.43140000104904175,
+                      "g": 0.43140000104904175,
+                      "b": 0.45100000500679016
+                    }
+                  }
+                ],
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "characters": "@berkahbekhan.inc",
+                "fontSize": 22,
+                "fontName": {
+                  "family": "JetBrains Mono",
+                  "style": "Regular",
+                  "variationSettings": {
+                    "wght": 400
+                  }
+                },
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "lineHeight": {
+                  "value": 129.99999523162842,
+                  "unit": "PERCENT"
+                },
+                "letterSpacing": {
+                  "value": 0,
+                  "unit": "PERCENT"
+                },
+                "textCase": "ORIGINAL",
+                "textDecoration": "NONE",
+                "textAutoResize": "HEIGHT",
+                "textTruncation": "DISABLED",
+                "maxLines": null,
+                "paragraphSpacing": 0,
+                "paragraphIndent": 0,
+                "textWrapStyle": "AUTO"
+              },
+              {
+                "id": "51:63",
+                "name": "Text / selected_footer_label",
+                "type": "TEXT",
+                "visible": true,
+                "locked": false,
+                "x": 0,
+                "y": 41,
+                "width": 920,
+                "height": 29,
+                "parentId": "51:61",
+                "rotation": 0,
+                "opacity": 1,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "color": {
+                      "r": 0.43140000104904175,
+                      "g": 0.43140000104904175,
+                      "b": 0.45100000500679016
+                    }
+                  }
+                ],
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "characters": "BK MTsN Gresik / Portal layanan sekolah",
+                "fontSize": 22,
+                "fontName": {
+                  "family": "JetBrains Mono",
+                  "style": "Regular",
+                  "variationSettings": {
+                    "wght": 400
+                  }
+                },
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "lineHeight": {
+                  "value": 129.99999523162842,
+                  "unit": "PERCENT"
+                },
+                "letterSpacing": {
+                  "value": 0,
+                  "unit": "PERCENT"
+                },
+                "textCase": "ORIGINAL",
+                "textDecoration": "NONE",
+                "textAutoResize": "HEIGHT",
+                "textTruncation": "DISABLED",
+                "maxLines": null,
+                "paragraphSpacing": 0,
+                "paragraphIndent": 0,
+                "textWrapStyle": "AUTO"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

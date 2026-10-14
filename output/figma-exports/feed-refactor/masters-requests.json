@@ -1,0 +1,3152 @@
+{
+  "references": {
+    "page": {
+      "ok": true,
+      "nodeId": "49:30",
+      "name": "Feed Refactor - UMKM",
+      "type": "PAGE"
+    },
+    "tokens": {
+      "ok": true,
+      "collectionId": "VariableCollectionId:49:31",
+      "defaultModeId": "49:0",
+      "name": "Feed Refactor / Editorial"
+    },
+    "display": {
+      "ok": true,
+      "styleId": "S:8bf7e861c667b54e9c178b3e2043513283f3194d,",
+      "name": "Feed Refactor / Display"
+    },
+    "audit_title": {
+      "ok": true,
+      "nodeId": "51:51",
+      "name": "Dari presentasi teknis, ke cerita yang dipahami klien.",
+      "type": "TEXT"
+    },
+    "audit_findings": {
+      "ok": true,
+      "nodeId": "51:52",
+      "name": "PERTAHANKAN Screenshot asli, warna produk, dan bukti implementasi. UBAH Headline bahasa Indonesia. Satu manfaat per post. Variasikan posisi gambar dan kepadatan tulisan. Detail framework pindah ke caption. KOREKSI Jangan ulangi klaim 1.000+ pengguna atau penghematan waktu tanpa data. Proses PDF memakai file sementara. AUDIENS UMKM dan bisnis jasa yang membutuhkan website.",
+      "type": "TEXT"
+    },
+    "color_paper": {
+      "ok": true,
+      "styleId": "S:6b39b77a7d9132ea1ee260f4fccfbdfb773287cb,",
+      "name": "Feed Refactor / paper"
+    },
+    "color_white": {
+      "ok": true,
+      "styleId": "S:b0660a3efc2aa9975df15cdb666938a7cb8139c7,",
+      "name": "Feed Refactor / white"
+    },
+    "color_ink": {
+      "ok": true,
+      "styleId": "S:a0b75b13104cc37dbf9ef3af72edf7f5d7e248c4,",
+      "name": "Feed Refactor / ink"
+    },
+    "color_dark": {
+      "ok": true,
+      "styleId": "S:71242f465aa83282843704961657f7914ed71ea9,",
+      "name": "Feed Refactor / dark"
+    },
+    "color_muted": {
+      "ok": true,
+      "styleId": "S:c7bab7bf64204e61bed2519a27629e7e9074d8fd,",
+      "name": "Feed Refactor / muted"
+    },
+    "color_pale": {
+      "ok": true,
+      "styleId": "S:327cb3362559473ec83c4ca628d34c4aaaffd135,",
+      "name": "Feed Refactor / pale"
+    },
+    "color_blue": {
+      "ok": true,
+      "styleId": "S:f23542352bce4651bfb56bb6b1fa575c0a713df8,",
+      "name": "Feed Refactor / blue"
+    },
+    "headline": {
+      "ok": true,
+      "styleId": "S:52fe80356230c4b575893802cb6e9e9b4c4ea55f,",
+      "name": "Feed Refactor / headline"
+    },
+    "section": {
+      "ok": true,
+      "styleId": "S:e03623b286ca1b05123314105bc20b7223ba8899,",
+      "name": "Feed Refactor / section"
+    },
+    "lead": {
+      "ok": true,
+      "styleId": "S:17608ef0f0f18aafecf9e8a482695facf358f03b,",
+      "name": "Feed Refactor / lead"
+    },
+    "body": {
+      "ok": true,
+      "styleId": "S:780087791ac7fb1441572d3651daaaa1079ac301,",
+      "name": "Feed Refactor / body"
+    },
+    "meta": {
+      "ok": true,
+      "styleId": "S:0c0ee90697a396fc4f68339ace6c69d16e4bd741,",
+      "name": "Feed Refactor / meta"
+    },
+    "code": {
+      "ok": true,
+      "styleId": "S:9650c54ea6b774279735392f17620f669971afc5,",
+      "name": "Feed Refactor / code"
+    },
+    "Audit": {
+      "ok": true,
+      "nodeId": "50:46",
+      "name": "Audit",
+      "type": "SECTION"
+    },
+    "Components": {
+      "ok": true,
+      "nodeId": "50:47",
+      "name": "Components",
+      "type": "SECTION"
+    },
+    "Posts": {
+      "ok": true,
+      "nodeId": "50:48",
+      "name": "Posts",
+      "type": "SECTION"
+    },
+    "Overview": {
+      "ok": true,
+      "nodeId": "50:49",
+      "name": "Feed Overview",
+      "type": "SECTION"
+    },
+    "audit_notes": {
+      "ok": true,
+      "nodeId": "50:50",
+      "name": "audit_notes",
+      "type": "FRAME"
+    }
+  },
+  "requests": [
+    {
+      "name": "use_file",
+      "arguments": {
+        "sessionId": "id-mv5238q0-n46cnqvo"
+      }
+    },
+    {
+      "name": "navigate_to_page",
+      "arguments": {
+        "pageId": {
+          "$ref": "page.nodeId"
+        }
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Selected_Work",
+        "parentId": {
+          "$ref": "Components.nodeId"
+        },
+        "width": 1080,
+        "height": 1350,
+        "x": 80,
+        "y": 100
+      },
+      "as": "Selected_Work"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Selected_Work.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Selected_Work.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "itemSpacing": 32,
+        "primaryAxisAlignItems": "SPACE_BETWEEN"
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Selected_Work.nodeId"
+        },
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED"
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "selected_header",
+        "parentId": {
+          "$ref": "Selected_Work.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "selected_header"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_header.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_header.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 24
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_header.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "selected_header.nodeId"
+        },
+        "characters": "PILIHAN KARYA / SISTEM SEKOLAH"
+      },
+      "as": "selected_label"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_label.nodeId"
+        },
+        "name": "Text / selected_label"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "selected_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "selected_header.nodeId"
+        },
+        "characters": "Satu portal.\nDua akses."
+      },
+      "as": "selected_title"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_title.nodeId"
+        },
+        "name": "Text / selected_title"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 80,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "selected_title.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "selected_header.nodeId"
+        },
+        "characters": "Akses guru dan siswa di BK MTsN Gresik."
+      },
+      "as": "selected_intro"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_intro.nodeId"
+        },
+        "name": "Text / selected_intro"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_intro.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 28,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 140
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "selected_intro.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_intro.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_intro.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "selected_visual",
+        "parentId": {
+          "$ref": "Selected_Work.nodeId"
+        },
+        "width": 920,
+        "height": 696.2162162162161,
+        "x": 0,
+        "y": 0
+      },
+      "as": "selected_visual"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_visual.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "import_image",
+      "arguments": {
+        "path": "D:/Repos/berkahbekhan/output/carousel/bk-mtsngresik-v2/assets/01_landing_page.png",
+        "parentId": {
+          "$ref": "selected_visual.nodeId"
+        },
+        "name": "Image / selected_visual",
+        "width": 1790.2702702702702,
+        "height": 1118.918918918919,
+        "x": -435.1351351351351,
+        "y": -195.8108108108108,
+        "scaleMode": "FIT"
+      },
+      "as": "selected_visual_image"
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "selected_footer",
+        "parentId": {
+          "$ref": "Selected_Work.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "selected_footer"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_footer.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_footer.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 12
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_footer.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "selected_footer.nodeId"
+        },
+        "characters": "@berkahbekhan.inc"
+      },
+      "as": "selected_footer_brand"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_footer_brand.nodeId"
+        },
+        "name": "Text / selected_footer_brand"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_footer_brand.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "selected_footer_brand.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_footer_brand.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_footer_brand.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "selected_footer.nodeId"
+        },
+        "characters": "BK MTsN Gresik / Portal layanan sekolah"
+      },
+      "as": "selected_footer_label"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_footer_label.nodeId"
+        },
+        "name": "Text / selected_footer_label"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_footer_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "selected_footer_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_footer_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "selected_footer_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_component",
+      "arguments": {
+        "fromNodeId": {
+          "$ref": "Selected_Work.nodeId"
+        },
+        "name": "Feed / Selected_Work"
+      },
+      "as": "Selected_Work_master"
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Useful_Feature",
+        "parentId": {
+          "$ref": "Components.nodeId"
+        },
+        "width": 1080,
+        "height": 1350,
+        "x": 1240,
+        "y": 100
+      },
+      "as": "Useful_Feature"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Useful_Feature.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.08627450980392157,
+              "g": 0.08627450980392157,
+              "b": 0.09019607843137255
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Useful_Feature.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "itemSpacing": 32,
+        "primaryAxisAlignItems": "SPACE_BETWEEN"
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Useful_Feature.nodeId"
+        },
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED"
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "feature_header",
+        "parentId": {
+          "$ref": "Useful_Feature.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "feature_header"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_header.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_header.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 24
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_header.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "feature_header.nodeId"
+        },
+        "characters": "DETAIL KARYA / UNDUH RAPOR"
+      },
+      "as": "feature_label"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_label.nodeId"
+        },
+        "name": "Text / feature_label"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "feature_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.6313725490196078,
+              "g": 0.6313725490196078,
+              "b": 0.6509803921568628
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "feature_header.nodeId"
+        },
+        "characters": "Satu kelas.\nSatu file PDF."
+      },
+      "as": "feature_title"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_title.nodeId"
+        },
+        "name": "Text / feature_title"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 80,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "feature_title.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "feature_visual",
+        "parentId": {
+          "$ref": "Useful_Feature.nodeId"
+        },
+        "width": 920,
+        "height": 492.8,
+        "x": 0,
+        "y": 0
+      },
+      "as": "feature_visual"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_visual.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "import_image",
+      "arguments": {
+        "path": "D:/Repos/berkahbekhan/output/carousel/bk-mtsngresik-v2/assets/20_admin_bulk_download_merged_pdf.png",
+        "parentId": {
+          "$ref": "feature_visual.nodeId"
+        },
+        "name": "Image / feature_visual",
+        "width": 2304,
+        "height": 1440,
+        "x": -692,
+        "y": -473.6,
+        "scaleMode": "FIT"
+      },
+      "as": "feature_visual_image"
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "feature_tail",
+        "parentId": {
+          "$ref": "Useful_Feature.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "feature_tail"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_tail.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_tail.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 24
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_tail.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "feature_tail.nodeId"
+        },
+        "characters": "Pilih kelas dan semester.\nUnduh rapor dalam satu berkas."
+      },
+      "as": "feature_intro"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_intro.nodeId"
+        },
+        "name": "Text / feature_intro"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_intro.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "feature_intro.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_intro.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_intro.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "feature_footer",
+        "parentId": {
+          "$ref": "feature_tail.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "feature_footer"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_footer.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_footer.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 12
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_footer.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "feature_footer.nodeId"
+        },
+        "characters": "@berkahbekhan.inc"
+      },
+      "as": "feature_footer_brand"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_footer_brand.nodeId"
+        },
+        "name": "Text / feature_footer_brand"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_footer_brand.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "feature_footer_brand.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_footer_brand.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_footer_brand.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.6313725490196078,
+              "g": 0.6313725490196078,
+              "b": 0.6509803921568628
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "feature_footer.nodeId"
+        },
+        "characters": "BK MTsN Gresik / Fitur rapor gabungan"
+      },
+      "as": "feature_footer_label"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_footer_label.nodeId"
+        },
+        "name": "Text / feature_footer_label"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_footer_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "feature_footer_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_footer_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "feature_footer_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.6313725490196078,
+              "g": 0.6313725490196078,
+              "b": 0.6509803921568628
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_component",
+      "arguments": {
+        "fromNodeId": {
+          "$ref": "Useful_Feature.nodeId"
+        },
+        "name": "Feed / Useful_Feature"
+      },
+      "as": "Useful_Feature_master"
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Behind_the_Work",
+        "parentId": {
+          "$ref": "Components.nodeId"
+        },
+        "width": 1080,
+        "height": 1350,
+        "x": 2400,
+        "y": 100
+      },
+      "as": "Behind_the_Work"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Behind_the_Work.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Behind_the_Work.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "itemSpacing": 32,
+        "primaryAxisAlignItems": "SPACE_BETWEEN"
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Behind_the_Work.nodeId"
+        },
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED"
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "process_header",
+        "parentId": {
+          "$ref": "Behind_the_Work.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "process_header"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_header.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_header.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 24
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_header.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "process_header.nodeId"
+        },
+        "characters": "DI BALIK KARYA / LOGIKA UNDUHAN"
+      },
+      "as": "process_label"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_label.nodeId"
+        },
+        "name": "Text / process_label"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "process_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "process_header.nodeId"
+        },
+        "characters": "Dari tiap siswa,\nke satu berkas."
+      },
+      "as": "process_title"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_title.nodeId"
+        },
+        "name": "Text / process_title"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "process_title.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "process_code",
+        "parentId": {
+          "$ref": "Behind_the_Work.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "process_code"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_code.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_code.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 24
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_code.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_code.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.08627450980392157,
+              "g": 0.08627450980392157,
+              "b": 0.09019607843137255
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_code.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 32,
+        "paddingRight": 32,
+        "paddingBottom": 32,
+        "paddingLeft": 32,
+        "itemSpacing": 32
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "process_code.nodeId"
+        },
+        "characters": "MergedPdfJob.php / cuplikan sumber"
+      },
+      "as": "process_code_label"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_code_label.nodeId"
+        },
+        "name": "Text / process_code_label"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_code_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "process_code_label.nodeId"
+          }
+        ],
+        "width": 856,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_code_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_code_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.6313725490196078,
+              "g": 0.6313725490196078,
+              "b": 0.6509803921568628
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "process_code.nodeId"
+        },
+        "characters": "$merger->addFile($tempPdfPath);\n\n// Setelah semua rapor ditambahkan\n$mergedPdf = $merger->merge();"
+      },
+      "as": "process_excerpt"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_excerpt.nodeId"
+        },
+        "name": "Text / process_excerpt"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_excerpt.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 26,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 150
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "process_excerpt.nodeId"
+          }
+        ],
+        "width": 856,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_excerpt.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_excerpt.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "Behind_the_Work.nodeId"
+        },
+        "characters": "Rapor dibuat per siswa, disimpan sementara,\nlalu digabung menjadi satu file PDF.\n\nSatu tombol di layar, beberapa langkah\ndi belakangnya."
+      },
+      "as": "process_explanation"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_explanation.nodeId"
+        },
+        "name": "Text / process_explanation"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_explanation.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "process_explanation.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_explanation.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_explanation.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "process_footer",
+        "parentId": {
+          "$ref": "Behind_the_Work.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "process_footer"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_footer.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_footer.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 12
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_footer.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "process_footer.nodeId"
+        },
+        "characters": "@berkahbekhan.inc"
+      },
+      "as": "process_footer_brand"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_footer_brand.nodeId"
+        },
+        "name": "Text / process_footer_brand"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_footer_brand.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "process_footer_brand.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_footer_brand.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_footer_brand.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "process_footer.nodeId"
+        },
+        "characters": "BK MTsN Gresik / Catatan implementasi"
+      },
+      "as": "process_footer_label"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_footer_label.nodeId"
+        },
+        "name": "Text / process_footer_label"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_footer_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "process_footer_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_footer_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "process_footer_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_component",
+      "arguments": {
+        "fromNodeId": {
+          "$ref": "Behind_the_Work.nodeId"
+        },
+        "name": "Feed / Behind_the_Work"
+      },
+      "as": "Behind_the_Work_master"
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "Service_Invitation",
+        "parentId": {
+          "$ref": "Components.nodeId"
+        },
+        "width": 1080,
+        "height": 1350,
+        "x": 3560,
+        "y": 100
+      },
+      "as": "Service_Invitation"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Service_Invitation.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Service_Invitation.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "paddingLeft": 80,
+        "itemSpacing": 32,
+        "primaryAxisAlignItems": "SPACE_BETWEEN"
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "Service_Invitation.nodeId"
+        },
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "FIXED"
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "service_header",
+        "parentId": {
+          "$ref": "Service_Invitation.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "service_header"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_header.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_header.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 24
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_header.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "service_header.nodeId"
+        },
+        "characters": "JASA WEBSITE / BERKAHBEKHAN.INC"
+      },
+      "as": "service_label"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_label.nodeId"
+        },
+        "name": "Text / service_label"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "service_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "service_header.nodeId"
+        },
+        "characters": "Website untuk\nusaha kamu."
+      },
+      "as": "service_title"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_title.nodeId"
+        },
+        "name": "Text / service_title"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 80,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -3
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "service_title.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "service_header.nodeId"
+        },
+        "characters": "Mulai dari kebutuhan usahanya."
+      },
+      "as": "service_intro"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_intro.nodeId"
+        },
+        "name": "Text / service_intro"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_intro.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "service_intro.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_intro.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_intro.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "service_prompts",
+        "parentId": {
+          "$ref": "Service_Invitation.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "service_prompts"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_prompts.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_prompts.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 24
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_prompts.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "service_prompts.nodeId"
+        },
+        "characters": "01  Apa jenis usahanya?"
+      },
+      "as": "service_question1"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_question1.nodeId"
+        },
+        "name": "Text / service_question1"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_question1.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Medium"
+        },
+        "fontSize": 40,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 120
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "service_question1.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_question1.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_question1.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "service_prompts.nodeId"
+        },
+        "characters": "02  Apa yang perlu dilihat pelanggan?"
+      },
+      "as": "service_question2"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_question2.nodeId"
+        },
+        "name": "Text / service_question2"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_question2.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "service_question2.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_question2.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_question2.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "service_prompts.nodeId"
+        },
+        "characters": "03  Apa yang ingin mereka lakukan?"
+      },
+      "as": "service_question3"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_question3.nodeId"
+        },
+        "name": "Text / service_question3"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_question3.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "service_question3.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_question3.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_question3.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "service_sample",
+        "parentId": {
+          "$ref": "Service_Invitation.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "service_sample"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_sample.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_sample.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 16
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_sample.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "service_visual",
+        "parentId": {
+          "$ref": "service_sample.nodeId"
+        },
+        "width": 920,
+        "height": 284.11764705882354,
+        "x": 0,
+        "y": 0
+      },
+      "as": "service_visual"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_visual.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "import_image",
+      "arguments": {
+        "path": "D:/Repos/berkahbekhan/output/carousel/bk-mtsngresik-v2/assets/01_landing_page.png",
+        "parentId": {
+          "$ref": "service_visual.nodeId"
+        },
+        "name": "Image / service_visual",
+        "width": 1948.235294117647,
+        "height": 1217.6470588235295,
+        "x": -514.1176470588235,
+        "y": -487.05882352941177,
+        "scaleMode": "FIT"
+      },
+      "as": "service_visual_image"
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "service_sample.nodeId"
+        },
+        "characters": "Contoh karya / portal sekolah BK MTsN Gresik"
+      },
+      "as": "service_sample_label"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_sample_label.nodeId"
+        },
+        "name": "Text / service_sample_label"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_sample_label.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "service_sample_label.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_sample_label.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_sample_label.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_frame",
+      "arguments": {
+        "name": "service_cta",
+        "parentId": {
+          "$ref": "Service_Invitation.nodeId"
+        },
+        "width": 920,
+        "height": 100,
+        "x": 0,
+        "y": 0
+      },
+      "as": "service_cta"
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_cta.nodeId"
+        },
+        "fills": []
+      }
+    },
+    {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_cta.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "itemSpacing": 16
+      }
+    },
+    {
+      "name": "set_layout_props",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_cta.nodeId"
+        },
+        "layoutSizingHorizontal": "FILL",
+        "layoutSizingVertical": "HUG"
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "service_cta.nodeId"
+        },
+        "characters": "Kirim jenis usaha + kebutuhanmu lewat DM."
+      },
+      "as": "service_action"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_action.nodeId"
+        },
+        "name": "Text / service_action"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_action.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 28,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 140
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "service_action.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_action.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_action.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "service_cta.nodeId"
+        },
+        "characters": "@berkahbekhan.inc"
+      },
+      "as": "service_handle"
+    },
+    {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_handle.nodeId"
+        },
+        "name": "Text / service_handle"
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_handle.nodeId"
+        },
+        "fontName": {
+          "family": "JetBrains Mono",
+          "style": "Regular"
+        },
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 130
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        }
+      }
+    },
+    {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "service_handle.nodeId"
+          }
+        ],
+        "width": 920,
+        "height": 40
+      }
+    },
+    {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_handle.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "service_handle.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.43137254901960786,
+              "g": 0.43137254901960786,
+              "b": 0.45098039215686275
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "create_component",
+      "arguments": {
+        "fromNodeId": {
+          "$ref": "Service_Invitation.nodeId"
+        },
+        "name": "Feed / Service_Invitation"
+      },
+      "as": "Service_Invitation_master"
+    },
+    {
+      "name": "save_screenshots",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "Selected_Work_master.nodeId"
+          },
+          {
+            "$ref": "Useful_Feature_master.nodeId"
+          },
+          {
+            "$ref": "Behind_the_Work_master.nodeId"
+          },
+          {
+            "$ref": "Service_Invitation_master.nodeId"
+          }
+        ],
+        "outDir": "D:/Repos/berkahbekhan/output/figma-exports/feed-refactor/masters",
+        "scale": 1
+      }
+    }
+  ]
+}

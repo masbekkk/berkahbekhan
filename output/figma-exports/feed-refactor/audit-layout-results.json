@@ -1,0 +1,519 @@
+[
+  {
+    "request": {
+      "name": "use_file",
+      "arguments": {
+        "sessionId": "id-mv5238q0-n46cnqvo"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"bound\":{\"sessionId\":\"id-mv5238q0-n46cnqvo\",\"fileName\":\"Untitled\"},\"files\":[{\"sessionId\":\"id-mv5238q0-n46cnqvo\",\"pluginVersion\":\"0.5.0\",\"routed\":true,\"bound\":true,\"fileKey\":null,\"fileName\":\"Untitled\",\"currentPage\":{\"id\":\"49:30\",\"name\":\"Feed Refactor - UMKM\"}}]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "bound": {
+        "sessionId": "id-mv5238q0-n46cnqvo",
+        "fileName": "Untitled"
+      },
+      "files": [
+        {
+          "sessionId": "id-mv5238q0-n46cnqvo",
+          "pluginVersion": "0.5.0",
+          "routed": true,
+          "bound": true,
+          "fileKey": null,
+          "fileName": "Untitled",
+          "currentPage": {
+            "id": "49:30",
+            "name": "Feed Refactor - UMKM"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_notes.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9607843137254902,
+              "g": 0.9607843137254902,
+              "b": 0.9686274509803922
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"50:50\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "50:50"
+    }
+  },
+  {
+    "request": {
+      "name": "set_auto_layout",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_notes.nodeId"
+        },
+        "layoutMode": "VERTICAL",
+        "paddingTop": 80,
+        "paddingLeft": 80,
+        "paddingRight": 80,
+        "paddingBottom": 80,
+        "itemSpacing": 48
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"50:50\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "50:50"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "audit_notes.nodeId"
+        },
+        "characters": "Dari presentasi teknis,\nke cerita yang dipahami klien."
+      },
+      "as": "audit_title"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:51\",\"name\":\"Dari presentasi teknis, ke cerita yang dipahami klien.\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:51",
+      "name": "Dari presentasi teknis, ke cerita yang dipahami klien.",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_title.nodeId"
+        },
+        "name": "Text / audit_title"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:51\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:51"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_title.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Semi Bold"
+        },
+        "fontSize": 64,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 110
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:51\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:51"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "audit_title.nodeId"
+          }
+        ],
+        "width": 1600,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:51\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:51"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_title.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:51\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:51"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_title.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:51\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:51"
+    }
+  },
+  {
+    "request": {
+      "name": "create_text",
+      "arguments": {
+        "parentId": {
+          "$ref": "audit_notes.nodeId"
+        },
+        "characters": "PERTAHANKAN\nScreenshot asli, warna produk, dan bukti implementasi.\n\nUBAH\nHeadline bahasa Indonesia. Satu manfaat per post.\nVariasikan posisi gambar dan kepadatan tulisan.\nDetail framework pindah ke caption.\n\nKOREKSI\nJangan ulangi klaim 1.000+ pengguna atau penghematan waktu\ntanpa data. Proses PDF memakai file sementara.\n\nAUDIENS\nUMKM dan bisnis jasa yang membutuhkan website."
+      },
+      "as": "audit_findings"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:52\",\"name\":\"PERTAHANKAN Screenshot asli, warna produk, dan bukti implementasi. UBAH Headline bahasa Indonesia. Satu manfaat per post. Variasikan posisi gambar dan kepadatan tulisan. Detail framework pindah ke caption. KOREKSI Jangan ulangi klaim 1.000+ pengguna atau penghematan waktu tanpa data. Proses PDF memakai file sementara. AUDIENS UMKM dan bisnis jasa yang membutuhkan website.\",\"type\":\"TEXT\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:52",
+      "name": "PERTAHANKAN Screenshot asli, warna produk, dan bukti implementasi. UBAH Headline bahasa Indonesia. Satu manfaat per post. Variasikan posisi gambar dan kepadatan tulisan. Detail framework pindah ke caption. KOREKSI Jangan ulangi klaim 1.000+ pengguna atau penghematan waktu tanpa data. Proses PDF memakai file sementara. AUDIENS UMKM dan bisnis jasa yang membutuhkan website.",
+      "type": "TEXT"
+    }
+  },
+  {
+    "request": {
+      "name": "rename_node",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_findings.nodeId"
+        },
+        "name": "Text / audit_findings"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:52\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:52"
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_findings.nodeId"
+        },
+        "fontName": {
+          "family": "Inter",
+          "style": "Regular"
+        },
+        "fontSize": 32,
+        "lineHeight": {
+          "unit": "PERCENT",
+          "value": 135
+        }
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:52\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:52"
+    }
+  },
+  {
+    "request": {
+      "name": "resize_nodes",
+      "arguments": {
+        "nodeIds": [
+          {
+            "$ref": "audit_findings.nodeId"
+          }
+        ],
+        "width": 1600,
+        "height": 40
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"affected\":[\"51:52\"]}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "affected": [
+        "51:52"
+      ]
+    }
+  },
+  {
+    "request": {
+      "name": "set_text_properties",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_findings.nodeId"
+        },
+        "textAutoResize": "HEIGHT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:52\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:52"
+    }
+  },
+  {
+    "request": {
+      "name": "set_fills",
+      "arguments": {
+        "nodeId": {
+          "$ref": "audit_findings.nodeId"
+        },
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.11372549019607843,
+              "g": 0.11372549019607843,
+              "b": 0.12156862745098039
+            }
+          }
+        ]
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:52\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:52"
+    }
+  },
+  {
+    "request": {
+      "name": "import_image",
+      "arguments": {
+        "path": "D:/Repos/berkahbekhan/output/figma-exports/feed-refactor-audit/24-341.png",
+        "parentId": {
+          "$ref": "Audit.nodeId"
+        },
+        "name": "Audit / Original overview - unchanged",
+        "x": 80,
+        "y": 100,
+        "width": 1100,
+        "height": 1407.3529411764705,
+        "scaleMode": "FIT"
+      }
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"ok\":true,\"nodeId\":\"51:53\",\"name\":\"Audit / Original overview - unchanged\",\"type\":\"RECTANGLE\"}"
+        },
+        {
+          "type": "text",
+          "text": "\n\n⚠️ FIGWRIGHT PLUGIN OUT OF DATE\nFigwright plugin v0.5.0 is older than this server (v0.6.0), so this result is unverified — an edit may have applied only part of what was asked, and reads can be incomplete."
+        }
+      ]
+    },
+    "data": {
+      "ok": true,
+      "nodeId": "51:53",
+      "name": "Audit / Original overview - unchanged",
+      "type": "RECTANGLE"
+    }
+  }
+]

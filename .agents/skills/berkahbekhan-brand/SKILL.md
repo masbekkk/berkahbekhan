@@ -8,6 +8,9 @@ priority: CRITICAL
 ---
 
 # BerkahBekhan Brand Identity Skill
+## Active client-facing feed direction
+
+For @berkahbekhan.inc content, first read [brand/feed-direction.md](../../../brand/feed-direction.md). This is the active direction for Indonesian UMKM and service businesses and takes precedence over older examples below: lead with practical Indonesian copy, preserve real project evidence, support actual process stories and service invitations, and normally move framework details into captions. Screenshot-area targets apply to product showcases, not every post. Nine-slide sequences and stack-first covers are optional examples. Use the four publishing compositions alongside the seven visual families. Verify the headline and focal UI at mobile size; do not require all peripheral screenshot text to be readable. Keep the original industry visible and never invent results.
 
 > **Core Philosophy**: **THE WORK IS THE DESIGN.**  
 > The Instagram identity of **@berkahbekhan.inc** is a developer's visual archive of real software that has actually been built. Every post communicates: *"This developer actually builds software,"* never *"This account generates AI portfolio graphics."*
