@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://berkahbekhan.inc/schemas/project-truth.schema.json",
+  "title": "BerkahBekhan Project Truth",
+  "type": "object",
+  "required": ["project", "run", "features", "privacy", "forbiddenClaims"],
+  "properties": {
+    "project": {
+      "type": "object",
+      "required": ["name", "slug", "type", "context"],
+      "properties": {
+        "name": {"type": "string"},
+        "slug": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+        "type": {"enum": ["website", "web-app", "mobile-app", "api", "other"]},
+        "context": {"type": "string"},
+        "audiences": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "run": {
+      "type": "object",
+      "required": ["baseUrl"],
+      "properties": {
+        "cwd": {"type": "string"},
+        "command": {"type": "string"},
+        "baseUrl": {"type": "string"},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "status", "clientValue", "evidence"],
+        "properties": {
+          "id": {"type": "string"},
+          "name": {"type": "string"},
+          "status": {"enum": ["source_verified", "runtime_verified", "documented_only", "unknown"]},
+          "clientValue": {"type": "string"},
+          "routes": {"type": "array", "items": {"type": "string"}},
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["type", "reference"],
+              "properties": {
+                "type": {"enum": ["source", "runtime", "documentation", "screenshot", "test"]},
+                "reference": {"type": "string"},
+                "note": {"type": "string"}
+              },
+              "additionalProperties": false
+            }
+          },
+          "demoFlowIds": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": true
+      }
+    },
+    "demoFlows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "safeToRecord", "status"],
+        "properties": {
+          "id": {"type": "string"},
+          "name": {"type": "string"},
+          "safeToRecord": {"type": "boolean"},
+          "status": {"enum": ["source_verified", "runtime_verified", "documented_only", "unknown"]},
+          "startPath": {"type": "string"},
+          "expectedResult": {"type": "string"},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "privacy": {
+      "type": "object",
+      "required": ["forbiddenOnScreen"],
+      "properties": {
+        "forbiddenOnScreen": {"type": "array", "items": {"type": "string"}},
+        "demoDataNotes": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "forbiddenClaims": {"type": "array", "items": {"type": "string"}},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

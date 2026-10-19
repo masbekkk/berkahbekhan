@@ -1,0 +1,72 @@
+{
+  "projectSlug": "berkahemas",
+  "name": "catat-buyback",
+  "status": "runtime_verified",
+  "recordingReadiness": "silent_captioned_mp4_draft_ready_for_review",
+  "targetBuyer": "Pemilik toko emas Indonesia",
+  "buyerTask": "Mencatat pembelian kembali perhiasan pelanggan.",
+  "buyerDesire": "Staf menyimpan rincian barang, kadar dan berat beserta catatan buyback.",
+  "hookVariants": [
+    "Catat buyback emas dalam satu alur.",
+    "Buyback perlu catatan barang yang jelas?",
+    "Dari detail perhiasan sampai riwayat buyback."
+  ],
+  "recommendedHook": "Catat buyback emas dalam satu alur.",
+  "salesAngle": "Kontrol operasional melalui alur produk yang dapat dilihat.",
+  "conversionBridge": "Undang pemilik toko mencoba alur yang sama dalam demo BerkahEmas.",
+  "cta": "Minta demo BerkahEmas lewat WhatsApp.",
+  "whatsappDestination": "https://wa.me/6285183003076",
+  "proofFeatureId": "buyback",
+  "proofFlowId": "buyback-create",
+  "proofScreenshot": "captures/berkahemas/verification/buyback-save-proof.png",
+  "screen": "/buyback",
+  "beats": [
+    {
+      "startSeconds": 0,
+      "endSeconds": 2,
+      "salesRole": "hook",
+      "shot": "Buka hasil buyback demo yang sudah tersimpan.",
+      "overlay": "Catat buyback emas dalam satu alur."
+    },
+    {
+      "startSeconds": 2,
+      "endSeconds": 5,
+      "salesRole": "relevance",
+      "shot": "Tampilkan form dan pilih Pelanggan Demo.",
+      "overlay": "Mulai dari pelanggan dan rincian barang."
+    },
+    {
+      "startSeconds": 5,
+      "endSeconds": 13,
+      "salesRole": "proof",
+      "shot": "Isi Cincin Demo Buyback, pilih kadar 18K, berat 2.5g, lalu Tambah dan Ajukan Buyback.",
+      "overlay": "Catat barang, kadar, dan berat."
+    },
+    {
+      "startSeconds": 13,
+      "endSeconds": 19,
+      "salesRole": "payoff",
+      "shot": "Buka kembali buyback dan tunjukkan baris tersimpan berstatus Menunggu Approval.",
+      "overlay": "Catatan tersimpan untuk ditinjau."
+    },
+    {
+      "startSeconds": 19,
+      "endSeconds": 23,
+      "salesRole": "cta",
+      "shot": "Tahan riwayat buyback dan tambahkan lockup serta CTA.",
+      "overlay": "Minta demo BerkahEmas lewat WhatsApp."
+    }
+  ],
+  "recordingPrerequisites": [
+    "Pilih Pelanggan Demo terlebih dahulu; aplikasi mewajibkan pelanggan.",
+    "Harga buyback 18K harus sudah tersedia.",
+    "Nilai kadar buyback memakai tanda pisah dari opsi asli, bukan menyalin opsi harga jual.",
+    "Jangan menyebut pengajuan sebagai persetujuan atau pembayaran selesai."
+  ],
+  "notes": [
+    "This is an editorial storyboard, not an executable video-plan.json for the current recorder.",
+    "Authenticate before capture and exclude credentials from footage.",
+    "Keep product proportions truthful; use purposeful crop/zoom without stretching.",
+    "Task-local authenticated capture and FFmpeg editing produced output/tiktok/berkahemas/catat-buyback.mp4; generic CLI and compositor remain unchanged."
+  ]
+}

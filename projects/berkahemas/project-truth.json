@@ -1,0 +1,196 @@
+{
+  "project": {
+    "name": "BerkahEmas",
+    "slug": "berkahemas",
+    "type": "web-app",
+    "context": "Ready-to-use gold-store software. ERP source is jewerly-erp; marketing site is astaenterprise. BerkahBekhan produces the sales content.",
+    "audiences": [
+      "Pemilik toko emas Indonesia",
+      "Kasir dan staf operasional"
+    ],
+    "verifiedOn": "2026-10-19",
+    "stack": [
+      "Laravel 13",
+      "Inertia React 19",
+      "Tailwind v4 (ERP)",
+      "React 19 / Tailwind v3 (marketing)"
+    ]
+  },
+  "run": {
+    "cwd": "D:/Repos/jewerly-erp",
+    "baseUrl": "http://127.0.0.1:8018",
+    "command": "Use an isolated SQLite database with fictional fixtures; run the existing Laravel app and its production asset build.",
+    "notes": "This session used task-local SQLite under D:/Repos/.berkahemas-work/. Credentials and session state stay outside content artifacts. PHP extensions pdo_sqlite, sqlite3, gd, sockets and zip were enabled per process. Locked spreadsheet dependency has a pre-existing PHP upper-bound conflict; Composer installed with --ignore-platform-req=php+ for this local check."
+  },
+  "features": [
+    {
+      "id": "inventory",
+      "name": "Inventori, pencarian dan filter",
+      "status": "runtime_verified",
+      "clientValue": "Staf dapat mencari stok menurut nama, kategori, dan kadar.",
+      "routes": [
+        "/inventori"
+      ],
+      "evidence": [
+        {
+          "type": "source",
+          "reference": "jewerly-erp/resources/js/pages/Inventory.tsx"
+        },
+        {
+          "type": "source",
+          "reference": "jewerly-erp/app/Http/Controllers/ProductController.php"
+        },
+        {
+          "type": "runtime",
+          "reference": "captures/berkahemas/verification/runtime-report.json#inventory-search-filter"
+        },
+        {
+          "type": "screenshot",
+          "reference": "captures/berkahemas/verification/inventory-filter-proof.png"
+        }
+      ],
+      "demoFlowIds": [
+        "inventory-search-filter"
+      ]
+    },
+    {
+      "id": "pos-invoice",
+      "name": "POS sampai nota",
+      "status": "runtime_verified",
+      "clientValue": "Kasir dapat memilih produk, menyimpan penjualan, dan melihat nota dengan identitas toko.",
+      "routes": [
+        "/pos"
+      ],
+      "evidence": [
+        {
+          "type": "source",
+          "reference": "jewerly-erp/resources/js/pages/POS.tsx"
+        },
+        {
+          "type": "source",
+          "reference": "jewerly-erp/app/Actions/CreateTransaction.php"
+        },
+        {
+          "type": "runtime",
+          "reference": "captures/berkahemas/verification/runtime-report.json#pos-to-invoice"
+        },
+        {
+          "type": "screenshot",
+          "reference": "captures/berkahemas/verification/pos-invoice-proof.png"
+        }
+      ],
+      "demoFlowIds": [
+        "pos-to-invoice"
+      ]
+    },
+    {
+      "id": "buyback",
+      "name": "Pencatatan buyback",
+      "status": "runtime_verified",
+      "clientValue": "Staf dapat memilih pelanggan, mencatat perhiasan, kadar dan berat, lalu melihat catatan tersimpan.",
+      "routes": [
+        "/buyback"
+      ],
+      "evidence": [
+        {
+          "type": "source",
+          "reference": "jewerly-erp/resources/js/pages/Buyback.tsx"
+        },
+        {
+          "type": "source",
+          "reference": "jewerly-erp/app/Actions/CreateBuyback.php"
+        },
+        {
+          "type": "runtime",
+          "reference": "captures/berkahemas/verification/runtime-report.json#buyback-create"
+        },
+        {
+          "type": "screenshot",
+          "reference": "captures/berkahemas/verification/buyback-save-proof.png"
+        }
+      ],
+      "demoFlowIds": [
+        "buyback-create"
+      ]
+    },
+    {
+      "id": "reports",
+      "name": "Laporan operasional",
+      "status": "source_verified",
+      "clientValue": "Pemilik dapat membuka ringkasan laporan dengan pilihan periode.",
+      "routes": [
+        "/laporan"
+      ],
+      "evidence": [
+        {
+          "type": "source",
+          "reference": "jewerly-erp/app/Http/Controllers/ReportController.php"
+        },
+        {
+          "type": "source",
+          "reference": "jewerly-erp/resources/js/pages/Reports.tsx"
+        },
+        {
+          "type": "screenshot",
+          "reference": "astaenterprise/public/assets/screenshots/reports.png",
+          "note": "Screen rendered in the isolated runtime; filter calculations were not independently revalidated."
+        }
+      ],
+      "demoFlowIds": []
+    }
+  ],
+  "demoFlows": [
+    {
+      "id": "inventory-search-filter",
+      "name": "inventory-search-filter",
+      "safeToRecord": true,
+      "status": "runtime_verified",
+      "startPath": "/inventori",
+      "expectedResult": "Search Cincin and category CC / 18K purity filters show matching real rows.",
+      "notes": "Verified only against the isolated fictional demo, not production."
+    },
+    {
+      "id": "pos-to-invoice",
+      "name": "pos-to-invoice",
+      "safeToRecord": true,
+      "status": "runtime_verified",
+      "startPath": "/pos",
+      "expectedResult": "Product selection, non-zero total, successful saved transaction and visible merchant invoice. Merchant name and custom invoice header preserved.",
+      "notes": "Verified only against the isolated fictional demo, not production."
+    },
+    {
+      "id": "buyback-create",
+      "name": "buyback-create",
+      "safeToRecord": true,
+      "status": "runtime_verified",
+      "startPath": "/buyback",
+      "expectedResult": "Jewelry details, purity, weight and non-zero estimate submitted; saved item remains in buyback history after a fresh visit.",
+      "notes": "Verified only against the isolated fictional demo, not production."
+    }
+  ],
+  "privacy": {
+    "forbiddenOnScreen": [
+      "Production customer data",
+      "Passwords, session cookies or access tokens",
+      "Real financial records",
+      "Invented testimonials or business outcomes"
+    ],
+    "demoDataNotes": "Products, staff and customer names are fictional; contacts use .test domains. Merchant is Toko Emas Demo. Stock and transaction numbers describe only this isolated fixture dataset."
+  },
+  "forbiddenClaims": [
+    "200+ stores or any unverified customer count",
+    "99.9% accuracy",
+    "1-second synchronization",
+    "ISO certification or bank-grade security",
+    "Guaranteed revenue improvement or time savings",
+    "Unverified hardware compatibility",
+    "Free service, scarcity, or delivery-time promises"
+  ],
+  "limitations": [
+    "Production readiness and deployment were not verified.",
+    "Report rendering was observed; accounting/report calculations were not independently audited.",
+    "Existing recording CLI cannot load authenticated storage state.",
+    "Compositor currently adds static hook/CTA around a uniformly scaled full capture; it does not implement planned cuts, timed overlays, or focus zooms.",
+    "Three silent captioned demo MP4 drafts were produced from real isolated-demo recordings; publication and optional audio remain pending."
+  ]
+}

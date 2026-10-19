@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "language": "id",
+      "heading": "BerkahEmas — Software Toko Emas",
+      "metadata": "pass",
+      "claims": "pass",
+      "screenshots": 8,
+      "cta": "pass"
+    },
+    {
+      "language": "en",
+      "heading": "BerkahEmas — Gold Store Software",
+      "metadata": "pass",
+      "claims": "pass",
+      "screenshots": 8,
+      "cta": "pass"
+    }
+  ],
+  "errors": [],
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "horizontalOverflow": false,
+    "menu": "pass"
+  }
+}

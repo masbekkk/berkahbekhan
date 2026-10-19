@@ -1,0 +1,14 @@
+{
+  "slug": "cari-stok-emas",
+  "source": "real BerkahEmas ERP on isolated fictional SQLite copy",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "status": "pass",
+  "events": [
+    "searched fictional Cincin inventory",
+    "visible matching purity and weight"
+  ],
+  "pageErrors": []
+}

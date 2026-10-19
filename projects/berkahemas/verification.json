@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-19",
+  "erpBuild": "pass",
+  "websiteBuildAndPrerender": "pass",
+  "erpTests": {
+    "passed": 37,
+    "assertions": 257
+  },
+  "metadataRegression": "pass",
+  "projectTruthSchema": "pass",
+  "svgXmlAndCopiedAssets": "pass",
+  "screenshotManifest": "pass",
+  "runtimeFlows": 3,
+  "freshProductScreenshots": 10,
+  "websiteDesktopAndMobile": "pass",
+  "subscriptionUi": "actual component with fictional fixture props; enforcement covered by existing tests",
+  "typescript": {
+    "result": "pre_existing_failure",
+    "baselineDiagnostics": 647,
+    "finalDiagnostics": 647,
+    "addedDiagnostics": 0
+  },
+  "deployment": "not performed",
+  "finishedVideos": {
+    "status": "three_silent_captioned_mp4_drafts",
+    "format": "1080x1920 H.264 MP4, 25 fps",
+    "publication": "pending_user_review",
+    "audio": "none",
+    "files": [
+      "output/tiktok/berkahemas/pos-ke-nota.mp4",
+      "output/tiktok/berkahemas/cari-stok-emas.mp4",
+      "output/tiktok/berkahemas/catat-buyback.mp4"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "mobileDrawer": "pass",
+  "merchantIdentity": "verified in saved invoice",
+  "subscription": "Actual component rendered with explicit fixture props on a task-local preview route; production expiry enforcement is covered by existing tests.",
+  "focusCapture": "pos-cart-focus.png",
+  "fontLicense": "Manrope OFL included"
+}

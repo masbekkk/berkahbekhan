@@ -1,0 +1,65 @@
+{
+  "baseUrl": "http://127.0.0.1:8018",
+  "data": "fictional isolated SQLite",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "flows": [
+    {
+      "id": "inventory-search-filter",
+      "status": "runtime_verified",
+      "result": "Search Cincin and category CC / 18K purity filters show matching real rows.",
+      "selectors": [
+        "[data-testid=inventory-search]",
+        "[data-testid=filter-category]",
+        "[data-testid=filter-karat]",
+        "[data-testid=inventory-table]"
+      ]
+    },
+    {
+      "id": "pos-to-invoice",
+      "status": "runtime_verified",
+      "result": "Product selection, non-zero total, successful saved transaction and visible merchant invoice. Merchant name and custom invoice header preserved.",
+      "selectors": [
+        "[data-testid=pos-product-DEMO-P-1]",
+        "[data-testid=pos-total]",
+        "[data-testid=pos-checkout-btn]",
+        "[data-testid=new-transaction-btn]"
+      ]
+    },
+    {
+      "id": "buyback-create",
+      "status": "runtime_verified",
+      "result": "Jewelry details, purity, weight and non-zero estimate submitted; saved item remains in buyback history after a fresh visit.",
+      "selectors": [
+        "input[placeholder=\"Nama barang (contoh: Kalung Rantai 22K)\"]",
+        "input[placeholder=\"Berat (g)\"]",
+        "[data-testid=buyback-estimate]",
+        "[data-testid=submit-buyback-btn]",
+        "[data-testid=buyback-table]"
+      ]
+    }
+  ],
+  "screenshots": [
+    "inventory",
+    "pos",
+    "buyback",
+    "dashboard",
+    "gold-price",
+    "reports",
+    "crm",
+    "employees",
+    "settings",
+    "multi-branch"
+  ],
+  "errors": [],
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "navigation": "captured"
+  },
+  "status": "pass"
+}

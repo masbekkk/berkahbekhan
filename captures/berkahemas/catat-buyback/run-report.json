@@ -1,0 +1,14 @@
+{
+  "slug": "catat-buyback",
+  "source": "real BerkahEmas ERP on isolated fictional SQLite copy",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "status": "pass",
+  "events": [
+    "fictional customer, item, purity and weight entered with nonzero estimate",
+    "saved buyback appears in fresh history"
+  ],
+  "pageErrors": []
+}

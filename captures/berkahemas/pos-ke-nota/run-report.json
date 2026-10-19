@@ -1,0 +1,14 @@
+{
+  "slug": "pos-ke-nota",
+  "source": "real BerkahEmas ERP on isolated fictional SQLite copy",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "status": "pass",
+  "events": [
+    "selected fictional item and nonzero total",
+    "saved transaction and merchant invoice visible"
+  ],
+  "pageErrors": []
+}

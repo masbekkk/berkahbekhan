@@ -1,0 +1,72 @@
+{
+  "projectSlug": "berkahemas",
+  "name": "pos-ke-nota",
+  "status": "runtime_verified",
+  "recordingReadiness": "silent_captioned_mp4_draft_ready_for_review",
+  "targetBuyer": "Pemilik toko emas Indonesia",
+  "buyerTask": "Mencatat penjualan dan menyediakan nota toko.",
+  "buyerDesire": "Kasir melihat produk, total dan nota dalam alur yang jelas.",
+  "hookVariants": [
+    "Transaksi toko emas sampai nota, satu alur.",
+    "Masih pisah catatan transaksi dan nota?",
+    "Begini alur kasir sampai nota toko."
+  ],
+  "recommendedHook": "Transaksi toko emas sampai nota, satu alur.",
+  "salesAngle": "Kontrol operasional melalui alur produk yang dapat dilihat.",
+  "conversionBridge": "Undang pemilik toko mencoba alur yang sama dalam demo BerkahEmas.",
+  "cta": "Minta demo BerkahEmas lewat WhatsApp.",
+  "whatsappDestination": "https://wa.me/6285183003076",
+  "proofFeatureId": "pos-invoice",
+  "proofFlowId": "pos-to-invoice",
+  "proofScreenshot": "captures/berkahemas/verification/pos-invoice-proof.png",
+  "screen": "/pos",
+  "beats": [
+    {
+      "startSeconds": 0,
+      "endSeconds": 2,
+      "salesRole": "hook",
+      "shot": "Nota dari transaksi demo yang benar-benar selesai.",
+      "overlay": "Transaksi sampai nota, satu alur."
+    },
+    {
+      "startSeconds": 2,
+      "endSeconds": 5,
+      "salesRole": "relevance",
+      "shot": "Kembali ke kasir dan cari Cincin Anyaman.",
+      "overlay": "Untuk operasional kasir toko emas."
+    },
+    {
+      "startSeconds": 5,
+      "endSeconds": 12,
+      "salesRole": "proof",
+      "shot": "Pilih produk DEMO-P-1, periksa total, lalu Proses Pembayaran.",
+      "overlay": "Pilih produk. Cek total. Simpan transaksi."
+    },
+    {
+      "startSeconds": 12,
+      "endSeconds": 18,
+      "salesRole": "payoff",
+      "shot": "Tampilkan Transaksi Berhasil dan nota Toko Emas Demo.",
+      "overlay": "Nota mengikuti identitas toko Anda."
+    },
+    {
+      "startSeconds": 18,
+      "endSeconds": 22,
+      "salesRole": "cta",
+      "shot": "Tahan frame nota, tampilkan lockup dan CTA di luar area bukti.",
+      "overlay": "Minta demo BerkahEmas lewat WhatsApp."
+    }
+  ],
+  "recordingPrerequisites": [
+    "Pilih cabang Toko Emas Demo.",
+    "Sediakan produk DEMO-P-1 dengan stok dan harga positif.",
+    "Pastikan pengaturan merchant dan header nota terisi.",
+    "Pembuka nota memerlukan rekaman hasil yang disimpan dahulu; editor menaruh cuplikan hasil itu di awal."
+  ],
+  "notes": [
+    "This is an editorial storyboard, not an executable video-plan.json for the current recorder.",
+    "Authenticate before capture and exclude credentials from footage.",
+    "Keep product proportions truthful; use purposeful crop/zoom without stretching.",
+    "Task-local authenticated capture and FFmpeg editing produced output/tiktok/berkahemas/pos-ke-nota.mp4; generic CLI and compositor remain unchanged."
+  ]
+}

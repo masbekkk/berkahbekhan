@@ -1,0 +1,13 @@
+{
+  "name": "@berkahbekhan/video-recorder",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install-browser": "playwright install chromium",
+    "record": "node record.mjs",
+    "compose": "node compose.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}

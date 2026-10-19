@@ -1,0 +1,112 @@
+[
+  {
+    "name": "dashboard",
+    "viewport": [
+      1440,
+      900
+    ],
+    "png": "astaenterprise/public/assets/screenshots/dashboard.png",
+    "sha256": "dc682a8cf3fbb2fa7efcfe74f4fc00ed3788fb147b4c35e2dad46d13c3aba50b",
+    "data": "fictional isolated demo",
+    "capturedOn": "2026-10-19"
+  },
+  {
+    "name": "inventory",
+    "viewport": [
+      1440,
+      900
+    ],
+    "png": "astaenterprise/public/assets/screenshots/inventory.png",
+    "sha256": "3a26a3920c8dc4af23cf577f4450e22b64d005218ff18b481436d561608c035f",
+    "data": "fictional isolated demo",
+    "capturedOn": "2026-10-19"
+  },
+  {
+    "name": "pos",
+    "viewport": [
+      1440,
+      900
+    ],
+    "png": "astaenterprise/public/assets/screenshots/pos.png",
+    "sha256": "72ba8b35f5bba9dddee1d5956d2f239a6e4591a1e022325d10761e73f6ec425d",
+    "data": "fictional isolated demo",
+    "capturedOn": "2026-10-19"
+  },
+  {
+    "name": "buyback",
+    "viewport": [
+      1440,
+      900
+    ],
+    "png": "astaenterprise/public/assets/screenshots/buyback.png",
+    "sha256": "114ae697f4fde7daf64e42f93402321276e3070ef4b432049d54019c9d08dba9",
+    "data": "fictional isolated demo",
+    "capturedOn": "2026-10-19"
+  },
+  {
+    "name": "reports",
+    "viewport": [
+      1440,
+      900
+    ],
+    "png": "astaenterprise/public/assets/screenshots/reports.png",
+    "sha256": "4162c977f1a3391d9eecc0f8f52f6d2d408c22e68a2529c0cc5f25def00c8173",
+    "data": "fictional isolated demo",
+    "capturedOn": "2026-10-19"
+  },
+  {
+    "name": "gold-price",
+    "viewport": [
+      1440,
+      900
+    ],
+    "png": "astaenterprise/public/assets/screenshots/gold-price.png",
+    "sha256": "d7be91109362999c2ac39ffc0c313a162254b8af3286ca740df28952ab26e9e2",
+    "data": "fictional isolated demo",
+    "capturedOn": "2026-10-19"
+  },
+  {
+    "name": "crm",
+    "viewport": [
+      1440,
+      900
+    ],
+    "png": "astaenterprise/public/assets/screenshots/crm.png",
+    "sha256": "37d5760bc8bd2122fa8bb49cb2e5ced44d34844d05b7d89441ec933565d66e0f",
+    "data": "fictional isolated demo",
+    "capturedOn": "2026-10-19"
+  },
+  {
+    "name": "employees",
+    "viewport": [
+      1440,
+      900
+    ],
+    "png": "astaenterprise/public/assets/screenshots/employees.png",
+    "sha256": "950cacd2befad31a203ef178f629cd6c2535ea9e2db5a74672220147141a3170",
+    "data": "fictional isolated demo",
+    "capturedOn": "2026-10-19"
+  },
+  {
+    "name": "settings",
+    "viewport": [
+      1440,
+      900
+    ],
+    "png": "astaenterprise/public/assets/screenshots/settings.png",
+    "sha256": "7e28eebf913d022371c13018b5d2283f4526b738fb60c9fecc7d2d8d9a9dbef0",
+    "data": "fictional isolated demo",
+    "capturedOn": "2026-10-19"
+  },
+  {
+    "name": "multi-branch",
+    "viewport": [
+      1440,
+      900
+    ],
+    "png": "astaenterprise/public/assets/screenshots/multi-branch.png",
+    "sha256": "591018ab63e55649cd81f0513258698b6926bc16c5642c5de6b54e1f47faa12e",
+    "data": "fictional isolated demo",
+    "capturedOn": "2026-10-19"
+  }
+]

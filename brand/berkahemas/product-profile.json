@@ -1,0 +1,20 @@
+{
+  "name": "BerkahEmas",
+  "descriptor": "Software Toko Emas",
+  "producer": "BerkahBekhan",
+  "offer": "Ready-to-use software for Indonesian gold stores",
+  "primaryCta": "Minta Demo BerkahEmas",
+  "videoCta": "Minta demo BerkahEmas lewat WhatsApp.",
+  "whatsapp": "6285183003076",
+  "language": "id",
+  "truthFile": "projects/berkahemas/project-truth.json",
+  "overrides": [
+    "Generic custom-software service CTAs",
+    "Broad UMKM targeting"
+  ],
+  "contentPriority": [
+    "pos-ke-nota",
+    "cari-stok-emas",
+    "catat-buyback"
+  ]
+}

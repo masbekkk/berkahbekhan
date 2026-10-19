@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://berkahbekhan.inc/schemas/video-plan.schema.json",
+  "title": "BerkahBekhan Short-form Video Plan",
+  "type": "object",
+  "required": [
+    "slug",
+    "projectSlug",
+    "baseUrl",
+    "hook",
+    "salesAngle",
+    "cta",
+    "viewport",
+    "shots",
+    "targetBuyer",
+    "buyerDesire",
+    "openingFrame"
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "projectSlug": {
+      "type": "string"
+    },
+    "baseUrl": {
+      "type": "string"
+    },
+    "hook": {
+      "type": "string"
+    },
+    "salesAngle": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "viewport": {
+      "type": "object",
+      "required": [
+        "width",
+        "height"
+      ],
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 320
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 480
+        }
+      },
+      "additionalProperties": false
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "purpose",
+          "path",
+          "proofFeatureId",
+          "expected",
+          "actions",
+          "salesRole",
+          "maxDurationMs"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "proofFeatureId": {
+            "type": "string"
+          },
+          "expected": {
+            "type": "string"
+          },
+          "expectedSelector": {
+            "type": "string"
+          },
+          "holdMs": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 15000
+          },
+          "overlay": {
+            "type": "string"
+          },
+          "actions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "type"
+              ],
+              "properties": {
+                "type": {
+                  "enum": [
+                    "click",
+                    "fill",
+                    "press",
+                    "hover",
+                    "scroll",
+                    "wait",
+                    "goto"
+                  ]
+                },
+                "selector": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": [
+                    "string",
+                    "number"
+                  ]
+                },
+                "path": {
+                  "type": "string"
+                },
+                "ms": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 15000
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "salesRole": {
+            "enum": [
+              "hook",
+              "relevance",
+              "proof",
+              "payoff",
+              "cta"
+            ]
+          },
+          "focusSelector": {
+            "type": "string"
+          },
+          "voiceoverLine": {
+            "type": "string"
+          },
+          "maxDurationMs": {
+            "type": "integer",
+            "minimum": 250,
+            "maximum": 8000
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "targetBuyer": {
+      "type": "string",
+      "minLength": 2
+    },
+    "buyerDesire": {
+      "type": "string",
+      "minLength": 2
+    },
+    "openingFrame": {
+      "type": "string",
+      "minLength": 2
+    },
+    "voiceover": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,71 @@
+{
+  "projectSlug": "berkahemas",
+  "name": "cari-stok-emas",
+  "status": "runtime_verified",
+  "recordingReadiness": "silent_captioned_mp4_draft_ready_for_review",
+  "targetBuyer": "Pemilik toko emas Indonesia",
+  "buyerTask": "Mencari perhiasan dan membaca rincian kadar serta beratnya.",
+  "buyerDesire": "Staf menemukan stok yang relevan dan melihat rincian perhiasan.",
+  "hookVariants": [
+    "Cari stok emas berdasarkan kadar dan gramasi.",
+    "Butuh rincian stok saat melayani pelanggan?",
+    "Cek kadar dan gramasi dari layar inventori."
+  ],
+  "recommendedHook": "Cari stok emas berdasarkan kadar dan gramasi.",
+  "salesAngle": "Kontrol operasional melalui alur produk yang dapat dilihat.",
+  "conversionBridge": "Undang pemilik toko mencoba alur yang sama dalam demo BerkahEmas.",
+  "cta": "Minta demo BerkahEmas lewat WhatsApp.",
+  "whatsappDestination": "https://wa.me/6285183003076",
+  "proofFeatureId": "inventory",
+  "proofFlowId": "inventory-search-filter",
+  "proofScreenshot": "captures/berkahemas/verification/inventory-filter-proof.png",
+  "screen": "/inventori",
+  "beats": [
+    {
+      "startSeconds": 0,
+      "endSeconds": 2,
+      "salesRole": "hook",
+      "shot": "Tampilkan hasil filter Cincin, kategori CC, kadar 18K.",
+      "overlay": "Kadar dan gramasi dalam satu tampilan."
+    },
+    {
+      "startSeconds": 2,
+      "endSeconds": 5,
+      "salesRole": "relevance",
+      "shot": "Kembali ke daftar stok demo sebelum pencarian.",
+      "overlay": "Saat pelanggan mencari pilihan perhiasan."
+    },
+    {
+      "startSeconds": 5,
+      "endSeconds": 12,
+      "salesRole": "proof",
+      "shot": "Ketik Cincin; pilih kategori Cincin dan kadar 18K - 75.5%.",
+      "overlay": "Cari nama. Filter kategori dan kadar."
+    },
+    {
+      "startSeconds": 12,
+      "endSeconds": 18,
+      "salesRole": "payoff",
+      "shot": "Fokus pada baris hasil, kolom kadar dan berat.",
+      "overlay": "Lihat rincian stok yang sesuai."
+    },
+    {
+      "startSeconds": 18,
+      "endSeconds": 21,
+      "salesRole": "cta",
+      "shot": "Pertahankan hasil stok nyata; tampilkan CTA.",
+      "overlay": "Minta demo BerkahEmas lewat WhatsApp."
+    }
+  ],
+  "recordingPrerequisites": [
+    "Sediakan Cincin Anyaman dan Cincin Polos dengan kadar berbeda.",
+    "Filter kadar memakai nilai persis dari opsi aplikasi.",
+    "Gramasi adalah rincian yang dibaca di tabel; jangan menyebutnya sebagai filter berat."
+  ],
+  "notes": [
+    "This is an editorial storyboard, not an executable video-plan.json for the current recorder.",
+    "Authenticate before capture and exclude credentials from footage.",
+    "Keep product proportions truthful; use purposeful crop/zoom without stretching.",
+    "Task-local authenticated capture and FFmpeg editing produced output/tiktok/berkahemas/cari-stok-emas.mp4; generic CLI and compositor remain unchanged."
+  ]
+}
