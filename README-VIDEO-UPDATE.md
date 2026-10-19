@@ -6,6 +6,8 @@ The prepared **BerkahEmas — Software Toko Emas** campaign sells ready-to-use g
 
 Three runtime-backed storyboards live in `content/tiktok/berkahemas/`: `pos-ke-nota`, `cari-stok-emas`, and `catat-buyback`. The static vertical template is in `templates/video/berkahemas/`. Three captioned 1080x1920 MP4 demos are in `output/tiktok/berkahemas/`; their real ERP source captures and proof reports are in `captures/berkahemas/`. They are silent drafts ready for editorial and publication review. The generic recorder/compositor extensions remain deferred; the authenticated capture and edits used task-local scripts.
 
+Frameless landscape comparison cuts are in `output/tiktok/berkahemas/frameless-landscape/`, with suggested TikTok post captions in that directory's README. They show the same verified ERP footage without a surrounding frame or in-video text.
+
 This overlay extends the Instagram-first workspace with a TikTok/Reels client-acquisition pipeline where **the real demo recording itself is directed to sell**.
 
 ## The important distinction
